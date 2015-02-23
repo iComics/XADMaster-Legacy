@@ -65,7 +65,7 @@
 		else
 		{
 			matchlength=length;
-			matchoffset=pos-offset;
+			matchoffset=(int)(pos-offset);
 		}
 	}
 

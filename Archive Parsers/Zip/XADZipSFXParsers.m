@@ -8,7 +8,7 @@
 +(BOOL)recognizeFileWithHandle:(CSHandle *)handle firstBytes:(NSData *)data name:(NSString *)name;
 {
 	const uint8_t *bytes=[data bytes];
-	int length=[data length];
+	int length=(int)[data length];
 
 	if(length<12) return NO;
 	if(bytes[0]!=0x4d||bytes[1]!=0x5a) return NO;
@@ -35,7 +35,7 @@
 +(BOOL)recognizeFileWithHandle:(CSHandle *)handle firstBytes:(NSData *)data name:(NSString *)name;
 {
 	const uint8_t *bytes=[data bytes];
-	int length=[data length];
+	int length=(int)[data length];
 
 	if(length<26) return NO;
 	if(bytes[0]!=0x4d||bytes[1]!=0x5a) return NO;
@@ -61,7 +61,7 @@
 +(BOOL)recognizeFileWithHandle:(CSHandle *)handle firstBytes:(NSData *)data name:(NSString *)name;
 {
 	const uint8_t *bytes=[data bytes];
-	int length=[data length];
+	int length=(int)[data length];
 
 	if(length<4) return NO;
 	if(CSUInt32BE(bytes)=='Joy!') return YES;
@@ -93,7 +93,7 @@
 	off_t end=[handle offsetInFile];
 
 	int numbytes=0x10011;
-	if(numbytes>end) numbytes=end;
+	if(numbytes>end) numbytes=(int)end;
 
 	uint8_t buf[numbytes];
 

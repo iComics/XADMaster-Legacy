@@ -115,6 +115,7 @@ extern NSString *XADFinderFlags;
 -(CSHandle *)resourceHandleForEntry:(int)n;
 -(CSHandle *)resourceHandleForEntry:(int)n error:(XADError *)error;
 -(NSData *)contentsOfEntry:(int)n;
+-(NSData *)contentsOfEntry:(int)n withLength:(NSInteger)length;
 //-(NSData *)resourceContentsOfEntry:(int)n;
 
 -(BOOL)extractTo:(NSString *)destination;
@@ -135,6 +136,9 @@ dataFork:(BOOL)datafork resourceFork:(BOOL)resfork;
 dataFork:(BOOL)datafork resourceFork:(BOOL)resfork;
 
 -(void)updateAttributesForDeferredDirectories;
+
+//Tim Oliver
+- (BOOL)extractContentsOfEntry:(int)n toPath:(NSString *)destination;
 
 // Deprecated
 

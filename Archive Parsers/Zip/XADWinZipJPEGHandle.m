@@ -76,7 +76,7 @@ static size_t ReadFunction(void *context,uint8_t *buffer,size_t length)
 	size_t actual=EncodeWinZipJPEGBlocksToBuffer(decompressor,buffer,sizeof(buffer));
 	[self setBlockPointer:buffer];
 
-	return actual;
+	return (int)actual;
 }
 
 @end

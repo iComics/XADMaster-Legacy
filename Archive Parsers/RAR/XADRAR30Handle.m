@@ -155,7 +155,7 @@
 
 		// Check if we immediately hit a new filter or file edge, and try again.
 		if(actualend==start) return [self produceBlockAtOffset:pos];
-		else return actualend-start;
+		else return (int)(actualend-start);
 	}
 }
 
@@ -520,7 +520,7 @@
 	if(!stack) stack=[NSMutableArray new];
 
 	CSInputBuffer *filterinput=CSInputBufferAllocWithBuffer(bytes,length,0);
-	int numcodes=[filtercode count];
+	int numcodes=(int)[filtercode count];
 
 	int num;
 	BOOL isnew=NO;

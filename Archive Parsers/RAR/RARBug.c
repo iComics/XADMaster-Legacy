@@ -49,8 +49,8 @@ void SHA1_Update_WithRARBug(SHA_CTX *ctx,void *bytes,unsigned long length,int bu
 
 	SHA1_Update(ctx,bytes,firstbytes);
 
-	int numblocks=(length-firstbytes)/64;
-	int lastbytes=(length-firstbytes)%64;
+	int numblocks=(int)((length-firstbytes)/64);
+	int lastbytes=(int)((length-firstbytes)%64);
 
 	for(int i=0;i<numblocks;i++)
 	{

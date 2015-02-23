@@ -8,7 +8,7 @@
 #define UInt16 LzmaUInt16
 #define UInt32 LzmaUInt32
 #define UInt64 LzmaUInt64
-#import "lzma/Bra.h"
+#import "../Other/lzma/Bra.h"
 
 @implementation XAD7ZipBranchHandle
 
@@ -87,30 +87,30 @@
 	x86_Convert_Init(state);
 }
 -(int)decodeBlock:(uint8_t *)block length:(int)length offset:(off_t)pos
-{ return x86_Convert(block,length,pos,(UInt32 *)&state,0); }
+{ return (int)x86_Convert(block,(SizeT)length,(UInt32)pos,(UInt32 *)&state,0); }
 @end
 
 @implementation XAD7ZipPPCHandle
 -(int)decodeBlock:(uint8_t *)block length:(int)length offset:(off_t)pos
-{ return PPC_Convert(block,length,pos,0); }
+{ return (int)PPC_Convert(block,length,(UInt32)pos,0); }
 @end
 
 @implementation XAD7ZipIA64Handle
 -(int)decodeBlock:(uint8_t *)block length:(int)length offset:(off_t)pos
-{ return IA64_Convert(block,length,pos,0); }
+{ return (int)IA64_Convert(block,length,(UInt32)pos,0); }
 @end
 
 @implementation XAD7ZipARMHandle
 -(int)decodeBlock:(uint8_t *)block length:(int)length offset:(off_t)pos
-{ return ARM_Convert(block,length,pos,0); }
+{ return (int)ARM_Convert(block,length,(UInt32)pos,0); }
 @end
 
 @implementation XAD7ZipThumbHandle
 -(int)decodeBlock:(uint8_t *)block length:(int)length offset:(off_t)pos
-{ return ARMT_Convert(block,length,pos,0); }
+{ return (int)ARMT_Convert(block,length,(UInt32)pos,0); }
 @end
 
 @implementation XAD7ZipSPARCHandle
 -(int)decodeBlock:(uint8_t *)block length:(int)length offset:(off_t)pos
-{ return SPARC_Convert(block,length,pos,0); }
+{ return (int)SPARC_Convert(block,length,(UInt32)pos,0); }
 @end

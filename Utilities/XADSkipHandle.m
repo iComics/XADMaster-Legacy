@@ -197,14 +197,14 @@ static off_t ActualOffsetToSkip(XADSkipHandle *self,off_t pos)
 
 		if(num-total<gap-pos)
 		{
-			total+=[parent readAtMost:num-total toBuffer:buffer+total];
-			return total;
+			total+=[parent readAtMost:(int)(num-total) toBuffer:buffer+total];
+			return (int)total;
 		}
 
-		int actual=[parent readAtMost:gap-pos toBuffer:buffer+total];
+		int actual=[parent readAtMost:(int)(gap-pos) toBuffer:buffer+total];
 		total+=actual;
 
-		if(actual!=gap-pos) return total;
+		if(actual!=gap-pos) return (int)total;
 
 		[parent seekToFileOffset:pos=ActualStart(self,++index)];
 	}

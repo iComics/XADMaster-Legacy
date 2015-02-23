@@ -33,7 +33,7 @@
 //#import "XADRPMParser.h"
 //#import "XADLZXParser.h"
 //#import "XADPowerPackerParser.h"
-//#import "XADLZHParser.h"
+#import "XADLZHParser.h"
 //#import "XADLZHSFXParsers.h"
 //#import "XADARJParser.h"
 //#import "XADARCParser.h"
@@ -163,9 +163,9 @@ static int maxheader=0;
 		[XADALZipParser class],
 		[XADCABParser class],
 		[XADCFBFParser class],
-		[XADCABSFXParser class],
+		[XADCABSFXParser class],*/
 		[XADLZHParser class],
-		[XADLZHAmigaSFXParser class],
+		/*[XADLZHAmigaSFXParser class],
 		[XADLZHCommodore64SFXParser class],
 		[XADLZHSFXParser class],
 		[XADZooParser class],
@@ -865,7 +865,7 @@ regex:(XADRegex *)regex firstFileExtension:(NSString *)firstext
 	if([sourcehandle respondsToSelector:@selector(handles)])
 	{
 		NSArray *handles=[(id)sourcehandle handles];
-		int count=[handles count];
+		int count=(int)[handles count];
 		for(int i=0;i<count&&i<disk;i++) offset+=[(CSHandle *)[handles objectAtIndex:i] fileSize];
 	}
 

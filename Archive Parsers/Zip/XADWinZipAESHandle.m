@@ -39,10 +39,10 @@ static void DeriveKey(NSData *password,NSData *salt,int iterations,uint8_t *keyb
 		uint8_t buffer[20];
 
 		HMAC_SHA1_Init(&hmac);
-		HMAC_SHA1_UpdateKey(&hmac,[password bytes],[password length]);
+		HMAC_SHA1_UpdateKey(&hmac,[password bytes],(unsigned int)[password length]);
 		HMAC_SHA1_EndKey(&hmac);
 		HMAC_SHA1_StartMessage(&hmac);
-		HMAC_SHA1_UpdateMessage(&hmac,[salt bytes],[salt length]);
+		HMAC_SHA1_UpdateMessage(&hmac,[salt bytes],(unsigned int)[salt length]);
 		HMAC_SHA1_UpdateMessage(&hmac,counter,4);
 		HMAC_SHA1_EndMessage(buffer,&hmac);
 
@@ -53,7 +53,7 @@ static void DeriveKey(NSData *password,NSData *salt,int iterations,uint8_t *keyb
 		for(int j=1;j<iterations;j++)
 		{
 			HMAC_SHA1_Init(&hmac);
-			HMAC_SHA1_UpdateKey(&hmac,[password bytes],[password length]);
+			HMAC_SHA1_UpdateKey(&hmac,[password bytes],(unsigned int)[password length]);
 			HMAC_SHA1_EndKey(&hmac);
 			HMAC_SHA1_StartMessage(&hmac);
 			HMAC_SHA1_UpdateMessage(&hmac,buffer,20);
@@ -71,7 +71,7 @@ static void DeriveKey(NSData *password,NSData *salt,int iterations,uint8_t *keyb
 	[parent seekToFileOffset:startoffs];
 
 	uint8_t keybuf[2*keybytes+2];
-	DeriveKey(password,[parent readDataOfLength:keybytes/2],1000,keybuf,sizeof(keybuf));
+	DeriveKey(password,[parent readDataOfLength:keybytes/2],1000,keybuf,(int)sizeof(keybuf));
 
 	if([parent readUInt16LE]!=keybuf[2*keybytes]+(keybuf[2*keybytes+1]<<8)) [XADException raisePasswordException];
 

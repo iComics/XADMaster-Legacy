@@ -162,7 +162,7 @@ extendedAttributes:(NSDictionary *)extattrs
 		if([key isEqual:@"com.apple.FinderInfo"]) continue;
 
  		NSData *data=[extattrs objectForKey:key];
-		int namelen=[key lengthOfBytesUsingEncoding:NSUTF8StringEncoding]+1;
+		int namelen=(int)[key lengthOfBytesUsingEncoding:NSUTF8StringEncoding]+1;
 		if(namelen>128) continue; // Skip entries with too long names.
 
 		numattributes++;
@@ -237,7 +237,7 @@ extendedAttributes:(NSDictionary *)extattrs
 			if([key isEqual:@"com.apple.FinderInfo"]) continue;
 
 			NSData *data=[extattrs objectForKey:key];
-			int namelen=[key lengthOfBytesUsingEncoding:NSUTF8StringEncoding]+1;
+			int namelen=(int)[key lengthOfBytesUsingEncoding:NSUTF8StringEncoding]+1;
 			if(namelen>128) continue; // Skip entries with too long names.
 
 			// Attribute entry header template.
@@ -250,7 +250,7 @@ extendedAttributes:(NSDictionary *)extattrs
 
 			// Set entry header fields.
 			CSSetUInt32BE(&entryheader[0],currdataoffset); // offset
-			CSSetUInt32BE(&entryheader[4],[data length]); // length
+			CSSetUInt32BE(&entryheader[4],(uint32_t)[data length]); // length
 
 			// Write entry header.
 			[fh writeBytes:sizeof(entryheader) fromBuffer:entryheader];
@@ -277,7 +277,7 @@ extendedAttributes:(NSDictionary *)extattrs
 			if([key isEqual:@"com.apple.FinderInfo"]) continue;
 
 			NSData *data=[extattrs objectForKey:key];
-			int namelen=[key lengthOfBytesUsingEncoding:NSUTF8StringEncoding]+1;
+			int namelen=(int)[key lengthOfBytesUsingEncoding:NSUTF8StringEncoding]+1;
 			if(namelen>128) continue; // Skip entries with too long names.
 
 			[fh writeData:data];

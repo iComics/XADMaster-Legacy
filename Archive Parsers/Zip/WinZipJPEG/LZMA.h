@@ -6,7 +6,7 @@
 #endif
 
 #define Byte LzmaByte
-#include "../lzma/LzmaDec.h"
+#include "../../Other/lzma/LzmaDec.h"
 #undef Byte
 
 #endif

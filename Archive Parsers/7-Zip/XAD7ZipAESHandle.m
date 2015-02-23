@@ -1,12 +1,12 @@
 #import "XAD7ZipAESHandle.h"
 
-#import "Crypto/sha.h"
+#import "../../Crypto/sha.h"
 
 @implementation XAD7ZipAESHandle
 
 +(int)logRoundsForPropertyData:(NSData *)propertydata
 {
-	int length=[propertydata length];
+	int length=(int)[propertydata length];
 	const uint8_t *bytes=[propertydata bytes];
 
 	if(length<1) return -1;
@@ -16,7 +16,7 @@
 
 +(NSData *)saltForPropertyData:(NSData *)propertydata
 {
-	int length=[propertydata length];
+	int length=(int)[propertydata length];
 	const uint8_t *bytes=[propertydata bytes];
 
 	if(length<1) return nil;
@@ -39,7 +39,7 @@
 
 +(NSData *)IVForPropertyData:(NSData *)propertydata
 {
-	int length=[propertydata length];
+	int length=(int)[propertydata length];
 	const uint8_t *bytes=[propertydata bytes];
 
 	if(length<1) return nil;
@@ -68,7 +68,7 @@
 {
 	uint8_t key[32];
 
-	int passchars=[password length];
+	int passchars=(int)[password length];
 	int passlength=passchars*2;
 	uint8_t passbytes[passlength];
 	for(int i=0;i<passchars;i++)
@@ -78,7 +78,7 @@
 		passbytes[2*i+1]=c>>8;
 	}
 
-	int saltlength=[salt length];
+	int saltlength=(int)[salt length];
 	const uint8_t *saltbytes=[salt bytes];
 
 	if(logrounds==0x3f)
@@ -120,7 +120,7 @@
 		parent=[handle retain];
 		startoffs=[handle offsetInFile];
 
-		int ivlength=[ivdata length];
+		int ivlength=(int)[ivdata length];
 		const uint8_t *ivbytes=[ivdata bytes];
 		memset(iv,0,sizeof(iv));
 		memcpy(iv,ivbytes,ivlength);

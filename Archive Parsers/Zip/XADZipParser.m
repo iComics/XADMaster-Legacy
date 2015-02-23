@@ -29,7 +29,7 @@ static inline int imin(int a,int b) { return a<b?a:b; }
 +(BOOL)recognizeFileWithHandle:(CSHandle *)handle firstBytes:(NSData *)data name:(NSString *)name
 {
 	const uint8_t *bytes=[data bytes];
-	int length=[data length];
+	int length=(int)[data length];
 
 	if(length<8) return NO;
 
@@ -96,7 +96,7 @@ static inline int imin(int a,int b) { return a<b?a:b; }
 	off_t end=[fh offsetInFile];
 
 	int numbytes=0x10011;
-	if(numbytes>end) numbytes=end;
+	if(numbytes>end) numbytes=(int)end;
 
 	uint8_t buf[numbytes];
 
@@ -670,7 +670,7 @@ uncompressedSizePointer:(off_t *)uncompsizeptr compressedSizePointer:(off_t *)co
 				uint32_t crc=[fh readUInt32LE];
 				NSData *unicodedata=[fh readDataOfLength:size-5];
 
-				if((XADCalculateCRC(0xffffffff,[namedata bytes],[namedata length],
+				if((XADCalculateCRC(0xffffffff,[namedata bytes],(int)[namedata length],
 				XADCRCTable_edb88320)^0xffffffff)==crc)
 				{
 					XADPath *oldname=[dict objectForKey:XADFileNameKey];
@@ -791,7 +791,7 @@ isLastEntry:(BOOL)islastentry
 	if(namedata)
 	{
 		const uint8_t *namebytes=[namedata bytes];
-		int namelength=[namedata length];
+		int namelength=(int)[namedata length];
 
 		char *separators;
 		if(system==0)
@@ -819,7 +819,7 @@ isLastEntry:(BOOL)islastentry
 		if(prevdict)
 		{
 			const char *prevbytes=[prevname bytes];
-			int prevlength=[prevname length];
+			int prevlength=(int)[prevname length];
 			if(prevlength<namelength)
 			{
 				int i=0;

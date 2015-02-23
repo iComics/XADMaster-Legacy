@@ -260,7 +260,7 @@ value:(uint32_t *)valueptr byteMode:(BOOL)bytemode isRelativeJump:(BOOL)isrel cu
 
 -(RAROpcode *)opcodes { return [opcodes mutableBytes]; }
 
--(int)numberOfOpcodes { return [opcodes length]/sizeof(RAROpcode); }
+-(int)numberOfOpcodes { return (int)[opcodes length]/sizeof(RAROpcode); }
 
 -(NSData *)staticData { return staticdata; }
 
@@ -356,14 +356,14 @@ value:(uint32_t *)valueptr byteMode:(BOOL)bytemode isRelativeJump:(BOOL)isrel cu
 
 -(BOOL)executeOnVitualMachine:(XADRARVirtualMachine *)vm
 {
-	int globallength=[globaldata length];
+	int globallength=(int)[globaldata length];
 	if(globallength>RARProgramGlobalSize) globallength=RARProgramGlobalSize;
 	[vm writeMemoryAtAddress:RARProgramGlobalAddress length:globallength fromData:globaldata];
 
 	NSData *staticdata=[programcode staticData];
 	if(staticdata)
 	{
-		int staticlength=[staticdata length];
+		int staticlength=(int)[staticdata length];
 		if(staticlength>RARProgramGlobalSize-globallength) staticlength=RARProgramGlobalSize-globallength;
 		[vm writeMemoryAtAddress:RARProgramGlobalAddress length:staticlength fromData:staticdata];
 	}

@@ -71,7 +71,7 @@ static const uint8_t InitSubstTable[256]=
 	key[3]=0xa4e7f123;
 
 	const uint8_t *passbytes=[password bytes];
-	int passlength=[password length];
+	int passlength=(int)[password length];
 	if(passlength>127) passlength=127;
 
 	memset(passbuf,0,sizeof(passbuf));

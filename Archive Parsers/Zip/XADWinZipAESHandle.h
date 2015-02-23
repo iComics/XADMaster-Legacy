@@ -1,6 +1,6 @@
 #import "CSStreamHandle.h"
-#import "Crypto/aes.h"
-#import "Crypto/hmac_sha1.h"
+#import "../../Crypto/aes.h"
+#import "../../Crypto/hmac_sha1.h"
 
 @interface XADWinZipAESHandle:CSStreamHandle
 {

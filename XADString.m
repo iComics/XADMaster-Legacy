@@ -1,6 +1,6 @@
 #import "XADString.h"
 
-#import "../UniversalDetector/UniversalDetector.h"
+#import "UniversalDetector/UniversalDetector.h"
 
 
 
@@ -116,7 +116,7 @@ encodingName:(NSString *)encoding
 
 +(NSData *)escapedASCIIDataForString:(NSString *)string
 {
-	int length=[string length];
+	int length=(int)[string length];
 	NSMutableData *encdata=[NSMutableData dataWithCapacity:length];
 
 	for(int i=0;i<length;i++)
@@ -230,7 +230,7 @@ encodingName:(NSString *)encoding
 	if(string) return [string hasPrefix:asciiprefix];
 	else
 	{
-		int length=[asciiprefix length];
+		int length=(int)[asciiprefix length];
 		if([data length]<length) return NO;
 
 		const uint8_t *bytes=[data bytes];
@@ -426,7 +426,7 @@ encodingName:(NSString *)encoding
 static BOOL IsDataASCII(NSData *data)
 {
 	const char *bytes=[data bytes];
-	int length=[data length];
+	int length=(int)[data length];
 	for(int i=0;i<length;i++) if(bytes[i]&0x80) return NO;
 	return YES;
 }

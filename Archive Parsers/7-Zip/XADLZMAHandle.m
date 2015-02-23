@@ -20,7 +20,7 @@ static ISzAlloc allocator={Alloc,Free};
 		startoffs=[parent offsetInFile];
 
 		LzmaDec_Construct(&lzma);
-		if(LzmaDec_Allocate(&lzma,[propertydata bytes],[propertydata length],&allocator)==SZ_OK)
+		if(LzmaDec_Allocate(&lzma,[propertydata bytes],(unsigned)[propertydata length],&allocator)==SZ_OK)
 		{
 			return self;
 		}

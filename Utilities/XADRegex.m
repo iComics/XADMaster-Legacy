@@ -23,7 +23,7 @@ static BOOL IsRegexSpecialCharacter(unichar c)
 
 +(NSString *)patternForLiteralString:(NSString *)string
 {
-	int len=[string length];
+	int len=(int)[string length];
 	NSMutableString *escaped=[NSMutableString stringWithCapacity:len];
 
 	for(int i=0;i<len;i++)
@@ -37,7 +37,7 @@ static BOOL IsRegexSpecialCharacter(unichar c)
 
 +(NSString *)patternForGlob:(NSString *)glob
 {
-	int len=[glob length];
+	int len=(int)[glob length];
 	NSMutableString *pattern=[NSMutableString stringWithCapacity:len+2];
 
 	[pattern appendString:@"^"];

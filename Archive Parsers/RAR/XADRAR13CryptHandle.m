@@ -25,7 +25,7 @@ static inline uint16_t rol8(uint16_t val,int n) { return (val<<n)|(val>>(8-n)); 
 
 -(void)resetByteStream
 {
-	int passlength=[password length];
+	int passlength=(int)[password length];
 	const uint8_t *passbytes=[password bytes];
 
 	key1=key2=key3=0;

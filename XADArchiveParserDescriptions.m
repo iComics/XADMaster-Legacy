@@ -440,7 +440,7 @@ NSString *XADHumanReadableList(NSArray *labels,NSArray *values)
 	for(int i=0;i<count;i++)
 	{
 		NSString *label=[labels objectAtIndex:i];
-		int len=[label length];
+		int len=(int)[label length];
 
 		if(len>maxlen) maxlen=len;
 	}
@@ -450,7 +450,7 @@ NSString *XADHumanReadableList(NSArray *labels,NSArray *values)
 	{
 		NSString *label=[labels objectAtIndex:i];
 		NSString *value=[values objectAtIndex:i];
-		int len=[label length];
+		int len=(int)[label length];
 
 		[string appendString:label];
 		[string appendString:@": "];
@@ -470,7 +470,7 @@ NSString *XADIndentTextWithSpaces(NSString *text,int spaces)
 	if([text rangeOfString:@"\n"].location==NSNotFound) return text;
 
 	NSMutableString *res=[NSMutableString string];
-	int length=[text length];
+	int length=(int)[text length];
 	for(int i=0;i<length;i++)
 	{
 		unichar c=[text characterAtIndex:i];

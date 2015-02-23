@@ -98,7 +98,7 @@ static const uint8_t *FindSignature(const uint8_t *ptr,int length)
 +(BOOL)recognizeFileWithHandle:(CSHandle *)handle firstBytes:(NSData *)data name:(NSString *)name
 {
 	const uint8_t *bytes=[data bytes];
-	int length=[data length];
+	int length=(int)[data length];
 
 	if(length<7) return NO; // TODO: fix to use correct min size
 
@@ -132,12 +132,12 @@ static const uint8_t *FindSignature(const uint8_t *ptr,int length)
 		firstFileExtension:@"rar"];
 	}
 
-	// Old naming scheme. Just look for rar/r01/s01 files.
+	// Old naming scheme. Just look for rar/r01/s01/... files.
 	NSArray *matches;
-	if((matches=[name substringsCapturedByPattern:@"^(.*)\\.(rar|r[0-9]{2}|s[0-9]{2})$" options:REG_ICASE]))
+	if((matches=[name substringsCapturedByPattern:@"^(.*)\\.(rar|[r-z][0-9]{2})$" options:REG_ICASE]))
 	{
 		return [self scanForVolumesWithFilename:name
-		regex:[XADRegex regexWithPattern:[NSString stringWithFormat:@"^%@\\.(rar|r[0-9]{2}|s[0-9]{2})$",
+		regex:[XADRegex regexWithPattern:[NSString stringWithFormat:@"^%@\\.(rar|[r-z][0-9]{2})$",
 			[[matches objectAtIndex:1] escapedPattern]] options:REG_ICASE]
 		firstFileExtension:@"rar"];
 	}
@@ -546,7 +546,7 @@ isCorrupted:(BOOL)iscorrupted
 		[NSNumber numberWithUnsignedInt:header->crc],@"RARCRC32",
 		[NSNumber numberWithInt:header->os],@"RAROS",
 		[NSNumber numberWithUnsignedInt:header->attrs],@"RARAttributes",
-		[NSNumber numberWithInt:[files count]-1],@"RARSolidIndex",
+		[NSNumber numberWithInt:(int)[files count]-1],@"RARSolidIndex",
 	nil];
 
 	if(iscorrupted) [dict setObject:[NSNumber numberWithBool:YES] forKey:XADIsCorruptedKey];
@@ -591,7 +591,7 @@ isCorrupted:(BOOL)iscorrupted
 {
 	if(flags&LHD_UNICODE)
 	{
-		int length=[data length];
+		int length=(int)[data length];
 		const uint8_t *bytes=[data bytes];
 
 		int n=0;
@@ -807,7 +807,7 @@ cryptoVersion:(int)version salt:(NSData *)salt
 name:(NSString *)name propertiesToAdd:(NSMutableDictionary *)props
 {
 	const uint8_t *bytes=[data bytes];
-	int length=[data length];
+	int length=(int)[data length];
 
 	const uint8_t *header=FindSignature(bytes,length);
 	if(header)
@@ -822,7 +822,7 @@ name:(NSString *)name propertiesToAdd:(NSMutableDictionary *)props
 +(NSArray *)volumesForHandle:(CSHandle *)handle firstBytes:(NSData *)data name:(NSString *)name
 {
 	const uint8_t *bytes=[data bytes];
-	int length=[data length];
+	int length=(int)[data length];
 
 	const uint8_t *header=FindSignature(bytes,length);
 	if(!header) return nil; // Shouldn't happen

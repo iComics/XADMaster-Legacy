@@ -312,11 +312,11 @@ NSString *XADFinderFlags=@"XADFinderFlags";
 		[resourceentries addObject:[NSNull null]];
 	}
 
-	[namedict setObject:[NSNumber numberWithInt:[dataentries count]-1] forKey:name];
+	[namedict setObject:[NSNumber numberWithInt:(int)[dataentries count]-1] forKey:name];
 
 	if(immediatedestination)
 	{
-		int n=[dataentries count]-1;
+		int n=(int)[dataentries count]-1;
 		if(immediatesubarchives&&[self entryIsArchive:n])
 		{
 			// Try to extract as archive, if the format is unknown, extract as regular file
@@ -388,7 +388,7 @@ NSString *XADFinderFlags=@"XADFinderFlags";
 	return [iscorrupted boolValue];
 }
 
--(int)numberOfEntries { return [dataentries count]; }
+-(int)numberOfEntries { return (int)[dataentries count]; }
 
 -(BOOL)immediateExtractionFailed { return immediatefailed; }
 
@@ -451,7 +451,6 @@ NSString *XADFinderFlags=@"XADFinderFlags";
 {
 	return [NSString stringWithFormat:@"XADArchive: %@ (%@, %d entries)",[self filename],[self formatName],[self numberOfEntries]];
 }
-
 
 
 -(NSDictionary *)dataForkParserDictionaryForEntry:(int)n
@@ -726,8 +725,33 @@ NSString *XADFinderFlags=@"XADFinderFlags";
 	return nil;
 }
 
+-(NSData *)contentsOfEntry:(int)n withLength:(NSInteger)length
+{
+    NSDictionary *dict=[self dataForkParserDictionaryForEntry:n];
+	if(!dict) return [NSData data]; // Special case for files with only a resource fork
+    
+	@try
+	{
+        unsigned char *buffer = malloc((size_t)length);
+        
+		CSHandle *handle=[parser handleForEntryWithDictionary:dict wantChecksum:YES];
+		if(!handle) [XADException raiseDecrunchException];
+		NSInteger result = [handle readAtMost:(int)length toBuffer:buffer];
+		if (result<=0) return nil;
+        
+        NSData *data = [NSData dataWithBytes:buffer length:result];
+        
+        free(buffer);
+        
+		return data;
+	}
+	@catch(id e)
+	{
+		lasterror=[XADException parseException:e];
+	}
+	return nil;
 
-
+}
 
 // Extraction functions
 
@@ -752,9 +776,9 @@ NSString *XADFinderFlags=@"XADFinderFlags";
 	totalsize=0;
 
 	for(NSUInteger i=[entryset firstIndex];i!=NSNotFound;i=[entryset indexGreaterThanIndex:i])
-	totalsize+=[self representativeSizeOfEntry:i];
+	totalsize+=(off_t)[self representativeSizeOfEntry:(int)i];
 
-	int numentries=[entryset count];
+	int numentries=(int)[entryset count];
 	[delegate archive:self extractionProgressFiles:0 of:numentries];
 	[delegate archive:self extractionProgressBytes:0 of:totalsize];
 
@@ -762,17 +786,17 @@ NSString *XADFinderFlags=@"XADFinderFlags";
 	{
 		BOOL res;
 
-		if(sub&&[self entryIsArchive:i])
+		if(sub&&[self entryIsArchive:(int)i])
 		{
-			@try { res=[self extractArchiveEntry:i to:destination]; }
+			@try { res=[self extractArchiveEntry:(int)i to:destination]; }
 			@catch(id e) { res=NO; }
 
 			if(!res&&lasterror==XADDataFormatError) // Retry as regular file if the archive format was not known
 			{
-				res=[self extractEntry:i to:destination deferDirectories:YES];
+				res=[self extractEntry:(int)i to:destination deferDirectories:YES];
 			}
 		}
-		else res=[self extractEntry:i to:destination deferDirectories:YES];
+		else res=[self extractEntry:(int)i to:destination deferDirectories:YES];
 
 		if(!res)
 		{
@@ -780,9 +804,9 @@ NSString *XADFinderFlags=@"XADFinderFlags";
 			return NO;
 		}
 
-		extractsize+=[self representativeSizeOfEntry:i];
+		extractsize+=[self representativeSizeOfEntry:(int)i];
 
-		[delegate archive:self extractionProgressFiles:i+1 of:numentries];
+		[delegate archive:self extractionProgressFiles:(int)i+1 of:numentries];
 		[delegate archive:self extractionProgressBytes:extractsize of:totalsize];
 	}
 
@@ -830,13 +854,13 @@ resourceFork:(BOOL)resfork
 
 	if(![name length]) return YES; // Silently ignore unnamed files (or more likely, directories).
 
-    //Tim Oliver: Changed so it writes directly to the file specified in the method arguments
-	//NSString *destfile=[destination stringByAppendingPathComponent:name];
-	while(![self _extractEntry:n as:destination deferDirectories:defer dataFork:datafork resourceFork:resfork])
+	NSString *destfile=[destination stringByAppendingPathComponent:name];
+	
+    while(![self _extractEntry:n as:destfile deferDirectories:defer dataFork:datafork resourceFork:resfork])
 	{
 		if(lasterror==XADBreakError) return NO;
 		else if(delegate&&datafork)
-		{
+		{ 
 			XADAction action=[delegate archive:self extractionOfEntryDidFail:n error:lasterror];
 
 			if(action==XADSkipAction) return YES;
@@ -848,6 +872,28 @@ resourceFork:(BOOL)resfork
 	if(datafork) [delegate archive:self extractionOfEntryDidSucceed:n];
 
 	return YES;
+}
+
+- (BOOL)extractContentsOfEntry:(int)n toPath:(NSString *)destination
+{
+    [delegate archive:self extractionOfEntryWillStart:n];
+    
+    while(![self _extractEntry:n as:destination deferDirectories:NO dataFork:YES resourceFork:YES])
+	{
+		if(lasterror==XADBreakError) return NO;
+		else if(delegate)
+		{
+			XADAction action=[delegate archive:self extractionOfEntryDidFail:n error:lasterror];
+            
+			if(action==XADSkipAction) return YES;
+			else if(action!=XADRetryAction) return NO;
+		}
+		else return NO;
+	}
+    
+    [delegate archive:self extractionOfEntryDidSucceed:n];
+    
+    return YES;
 }
 
 -(BOOL)extractArchiveEntry:(int)n to:(NSString *)destination

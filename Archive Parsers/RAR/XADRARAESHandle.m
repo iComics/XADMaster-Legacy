@@ -1,7 +1,7 @@
 #import "XADRARAESHandle.h"
 #import "RARBug.h"
 
-#import "Crypto/sha.h"
+#import "../../Crypto/sha.h"
 
 @implementation XADRARAESHandle
 
@@ -9,7 +9,7 @@
 {
 	uint8_t keybuf[2*16];
 
-	int length=[password length];
+	int length=(int)[password length];
 	if(length>126) length=126;
 
 	uint8_t passbuf[length*2+8];

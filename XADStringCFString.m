@@ -61,7 +61,7 @@
 
 +(NSData *)dataForString:(NSString *)string encodingName:(NSString *)encoding
 {
-	int numchars=[string length];
+	int numchars=(int)[string length];
 
 	CFIndex numbytes;
 	if(CFStringGetBytes((CFStringRef)string,CFRangeMake(0,numchars),
