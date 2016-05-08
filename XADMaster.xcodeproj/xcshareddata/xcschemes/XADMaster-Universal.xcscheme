@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "22B560A01CDFDFC400DCECF6"
-               BuildableName = "XADMaster.framework"
-               BlueprintName = "XADMaster"
+               BlueprintIdentifier = "22B5633A1CDFF44300DCECF6"
+               BuildableName = "XADMaster-Universal"
+               BlueprintName = "XADMaster-Universal"
                ReferencedContainer = "container:XADMaster.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,31 +28,12 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "22B560AA1CDFDFC400DCECF6"
-               BuildableName = "XADMasterTests.xctest"
-               BlueprintName = "XADMasterTests"
-               ReferencedContainer = "container:XADMaster.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22B560A01CDFDFC400DCECF6"
-            BuildableName = "XADMaster.framework"
-            BlueprintName = "XADMaster"
-            ReferencedContainer = "container:XADMaster.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22B560A01CDFDFC400DCECF6"
-            BuildableName = "XADMaster.framework"
-            BlueprintName = "XADMaster"
+            BlueprintIdentifier = "22B5633A1CDFF44300DCECF6"
+            BuildableName = "XADMaster-Universal"
+            BlueprintName = "XADMaster-Universal"
             ReferencedContainer = "container:XADMaster.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22B560A01CDFDFC400DCECF6"
-            BuildableName = "XADMaster.framework"
-            BlueprintName = "XADMaster"
+            BlueprintIdentifier = "22B5633A1CDFF44300DCECF6"
+            BuildableName = "XADMaster-Universal"
+            BlueprintName = "XADMaster-Universal"
             ReferencedContainer = "container:XADMaster.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
