@@ -43,29 +43,6 @@
 		22B562081CDFE12E00DCECF6 /* LzmaDec.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560DF1CDFE12D00DCECF6 /* LzmaDec.c */; };
 		22B562091CDFE12E00DCECF6 /* LzmaDec.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560E01CDFE12D00DCECF6 /* LzmaDec.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		22B5620A1CDFE12E00DCECF6 /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560E11CDFE12D00DCECF6 /* Types.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		22B5620B1CDFE12E00DCECF6 /* Context.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560E41CDFE12D00DCECF6 /* Context.c */; };
-		22B5620C1CDFE12E00DCECF6 /* Context.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560E51CDFE12D00DCECF6 /* Context.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		22B5620D1CDFE12E00DCECF6 /* RangeCoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560E61CDFE12D00DCECF6 /* RangeCoder.c */; };
-		22B5620E1CDFE12E00DCECF6 /* RangeCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560E71CDFE12D00DCECF6 /* RangeCoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		22B5620F1CDFE12E00DCECF6 /* SubAllocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560E81CDFE12D00DCECF6 /* SubAllocator.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		22B562101CDFE12E00DCECF6 /* SubAllocatorBrimstone.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560E91CDFE12D00DCECF6 /* SubAllocatorBrimstone.c */; };
-		22B562111CDFE12E00DCECF6 /* SubAllocatorBrimstone.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560EA1CDFE12D00DCECF6 /* SubAllocatorBrimstone.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		22B562121CDFE12E00DCECF6 /* SubAllocatorVariantG.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560EB1CDFE12D00DCECF6 /* SubAllocatorVariantG.c */; };
-		22B562131CDFE12E00DCECF6 /* SubAllocatorVariantG.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560EC1CDFE12D00DCECF6 /* SubAllocatorVariantG.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		22B562141CDFE12E00DCECF6 /* SubAllocatorVariantH.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560ED1CDFE12D00DCECF6 /* SubAllocatorVariantH.c */; };
-		22B562151CDFE12E00DCECF6 /* SubAllocatorVariantH.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560EE1CDFE12D00DCECF6 /* SubAllocatorVariantH.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		22B562161CDFE12E00DCECF6 /* SubAllocatorVariantI.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560EF1CDFE12D00DCECF6 /* SubAllocatorVariantI.c */; };
-		22B562171CDFE12E00DCECF6 /* SubAllocatorVariantI.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F01CDFE12D00DCECF6 /* SubAllocatorVariantI.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		22B562181CDFE12E00DCECF6 /* VariantG.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560F11CDFE12D00DCECF6 /* VariantG.c */; };
-		22B562191CDFE12E00DCECF6 /* VariantG.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F21CDFE12D00DCECF6 /* VariantG.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		22B5621A1CDFE12E00DCECF6 /* VariantH.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560F31CDFE12D00DCECF6 /* VariantH.c */; };
-		22B5621B1CDFE12E00DCECF6 /* VariantH.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F41CDFE12D00DCECF6 /* VariantH.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		22B5621C1CDFE12E00DCECF6 /* VariantI.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560F51CDFE12D00DCECF6 /* VariantI.c */; };
-		22B5621D1CDFE12E00DCECF6 /* VariantI.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F61CDFE12D00DCECF6 /* VariantI.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		22B5621E1CDFE12E00DCECF6 /* XADPPMdHandles.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F71CDFE12D00DCECF6 /* XADPPMdHandles.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22B5621F1CDFE12E00DCECF6 /* XADPPMdHandles.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560F81CDFE12D00DCECF6 /* XADPPMdHandles.m */; };
-		22B562201CDFE12E00DCECF6 /* XADPPMdParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F91CDFE12D00DCECF6 /* XADPPMdParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22B562211CDFE12E00DCECF6 /* XADPPMdParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560FA1CDFE12D00DCECF6 /* XADPPMdParser.m */; };
 		22B562221CDFE12E00DCECF6 /* RARAudioDecoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560FC1CDFE12D00DCECF6 /* RARAudioDecoder.c */; };
 		22B562231CDFE12E00DCECF6 /* RARAudioDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560FD1CDFE12D00DCECF6 /* RARAudioDecoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		22B562241CDFE12E00DCECF6 /* RARBug.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560FE1CDFE12D00DCECF6 /* RARBug.c */; };
@@ -294,6 +271,29 @@
 		22B563041CDFE15B00DCECF6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B563031CDFE15B00DCECF6 /* libz.tbd */; };
 		22B563061CDFE1BA00DCECF6 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B563051CDFE1BA00DCECF6 /* libbz2.tbd */; };
 		22B563091CDFE27300DCECF6 /* Test.zip in Resources */ = {isa = PBXBuildFile; fileRef = 22B563081CDFE27300DCECF6 /* Test.zip */; };
+		22B563231CDFE7C600DCECF6 /* Context.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5630C1CDFE7C600DCECF6 /* Context.c */; };
+		22B563241CDFE7C600DCECF6 /* Context.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5630D1CDFE7C600DCECF6 /* Context.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B563251CDFE7C600DCECF6 /* RangeCoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5630E1CDFE7C600DCECF6 /* RangeCoder.c */; };
+		22B563261CDFE7C600DCECF6 /* RangeCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5630F1CDFE7C600DCECF6 /* RangeCoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B563271CDFE7C600DCECF6 /* SubAllocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B563101CDFE7C600DCECF6 /* SubAllocator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B563281CDFE7C600DCECF6 /* SubAllocatorBrimstone.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B563111CDFE7C600DCECF6 /* SubAllocatorBrimstone.c */; };
+		22B563291CDFE7C600DCECF6 /* SubAllocatorBrimstone.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B563121CDFE7C600DCECF6 /* SubAllocatorBrimstone.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5632A1CDFE7C600DCECF6 /* SubAllocatorVariantG.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B563131CDFE7C600DCECF6 /* SubAllocatorVariantG.c */; };
+		22B5632B1CDFE7C600DCECF6 /* SubAllocatorVariantG.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B563141CDFE7C600DCECF6 /* SubAllocatorVariantG.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5632C1CDFE7C600DCECF6 /* SubAllocatorVariantH.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B563151CDFE7C600DCECF6 /* SubAllocatorVariantH.c */; };
+		22B5632D1CDFE7C600DCECF6 /* SubAllocatorVariantH.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B563161CDFE7C600DCECF6 /* SubAllocatorVariantH.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5632E1CDFE7C600DCECF6 /* SubAllocatorVariantI.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B563171CDFE7C600DCECF6 /* SubAllocatorVariantI.c */; };
+		22B5632F1CDFE7C600DCECF6 /* SubAllocatorVariantI.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B563181CDFE7C600DCECF6 /* SubAllocatorVariantI.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B563301CDFE7C600DCECF6 /* VariantG.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B563191CDFE7C600DCECF6 /* VariantG.c */; };
+		22B563311CDFE7C600DCECF6 /* VariantG.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5631A1CDFE7C600DCECF6 /* VariantG.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B563321CDFE7C600DCECF6 /* VariantH.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5631B1CDFE7C600DCECF6 /* VariantH.c */; };
+		22B563331CDFE7C600DCECF6 /* VariantH.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5631C1CDFE7C600DCECF6 /* VariantH.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B563341CDFE7C600DCECF6 /* VariantI.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5631D1CDFE7C600DCECF6 /* VariantI.c */; };
+		22B563351CDFE7C600DCECF6 /* VariantI.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5631E1CDFE7C600DCECF6 /* VariantI.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B563361CDFE7C600DCECF6 /* XADPPMdHandles.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5631F1CDFE7C600DCECF6 /* XADPPMdHandles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B563371CDFE7C600DCECF6 /* XADPPMdHandles.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B563201CDFE7C600DCECF6 /* XADPPMdHandles.m */; };
+		22B563381CDFE7C600DCECF6 /* XADPPMdParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B563211CDFE7C600DCECF6 /* XADPPMdParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B563391CDFE7C600DCECF6 /* XADPPMdParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B563221CDFE7C600DCECF6 /* XADPPMdParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -346,29 +346,6 @@
 		22B560DF1CDFE12D00DCECF6 /* LzmaDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LzmaDec.c; sourceTree = "<group>"; };
 		22B560E01CDFE12D00DCECF6 /* LzmaDec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzmaDec.h; sourceTree = "<group>"; };
 		22B560E11CDFE12D00DCECF6 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
-		22B560E41CDFE12D00DCECF6 /* Context.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Context.c; sourceTree = "<group>"; };
-		22B560E51CDFE12D00DCECF6 /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
-		22B560E61CDFE12D00DCECF6 /* RangeCoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RangeCoder.c; sourceTree = "<group>"; };
-		22B560E71CDFE12D00DCECF6 /* RangeCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RangeCoder.h; sourceTree = "<group>"; };
-		22B560E81CDFE12D00DCECF6 /* SubAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocator.h; sourceTree = "<group>"; };
-		22B560E91CDFE12D00DCECF6 /* SubAllocatorBrimstone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorBrimstone.c; sourceTree = "<group>"; };
-		22B560EA1CDFE12D00DCECF6 /* SubAllocatorBrimstone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorBrimstone.h; sourceTree = "<group>"; };
-		22B560EB1CDFE12D00DCECF6 /* SubAllocatorVariantG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorVariantG.c; sourceTree = "<group>"; };
-		22B560EC1CDFE12D00DCECF6 /* SubAllocatorVariantG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorVariantG.h; sourceTree = "<group>"; };
-		22B560ED1CDFE12D00DCECF6 /* SubAllocatorVariantH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorVariantH.c; sourceTree = "<group>"; };
-		22B560EE1CDFE12D00DCECF6 /* SubAllocatorVariantH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorVariantH.h; sourceTree = "<group>"; };
-		22B560EF1CDFE12D00DCECF6 /* SubAllocatorVariantI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorVariantI.c; sourceTree = "<group>"; };
-		22B560F01CDFE12D00DCECF6 /* SubAllocatorVariantI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorVariantI.h; sourceTree = "<group>"; };
-		22B560F11CDFE12D00DCECF6 /* VariantG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VariantG.c; sourceTree = "<group>"; };
-		22B560F21CDFE12D00DCECF6 /* VariantG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantG.h; sourceTree = "<group>"; };
-		22B560F31CDFE12D00DCECF6 /* VariantH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VariantH.c; sourceTree = "<group>"; };
-		22B560F41CDFE12D00DCECF6 /* VariantH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantH.h; sourceTree = "<group>"; };
-		22B560F51CDFE12D00DCECF6 /* VariantI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VariantI.c; sourceTree = "<group>"; };
-		22B560F61CDFE12D00DCECF6 /* VariantI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantI.h; sourceTree = "<group>"; };
-		22B560F71CDFE12D00DCECF6 /* XADPPMdHandles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADPPMdHandles.h; sourceTree = "<group>"; };
-		22B560F81CDFE12D00DCECF6 /* XADPPMdHandles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADPPMdHandles.m; sourceTree = "<group>"; };
-		22B560F91CDFE12D00DCECF6 /* XADPPMdParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADPPMdParser.h; sourceTree = "<group>"; };
-		22B560FA1CDFE12D00DCECF6 /* XADPPMdParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADPPMdParser.m; sourceTree = "<group>"; };
 		22B560FC1CDFE12D00DCECF6 /* RARAudioDecoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RARAudioDecoder.c; sourceTree = "<group>"; };
 		22B560FD1CDFE12D00DCECF6 /* RARAudioDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARAudioDecoder.h; sourceTree = "<group>"; };
 		22B560FE1CDFE12D00DCECF6 /* RARBug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RARBug.c; sourceTree = "<group>"; };
@@ -597,6 +574,29 @@
 		22B563031CDFE15B00DCECF6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		22B563051CDFE1BA00DCECF6 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		22B563081CDFE27300DCECF6 /* Test.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Test.zip; sourceTree = "<group>"; };
+		22B5630C1CDFE7C600DCECF6 /* Context.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Context.c; sourceTree = "<group>"; };
+		22B5630D1CDFE7C600DCECF6 /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		22B5630E1CDFE7C600DCECF6 /* RangeCoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RangeCoder.c; sourceTree = "<group>"; };
+		22B5630F1CDFE7C600DCECF6 /* RangeCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RangeCoder.h; sourceTree = "<group>"; };
+		22B563101CDFE7C600DCECF6 /* SubAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocator.h; sourceTree = "<group>"; };
+		22B563111CDFE7C600DCECF6 /* SubAllocatorBrimstone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorBrimstone.c; sourceTree = "<group>"; };
+		22B563121CDFE7C600DCECF6 /* SubAllocatorBrimstone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorBrimstone.h; sourceTree = "<group>"; };
+		22B563131CDFE7C600DCECF6 /* SubAllocatorVariantG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorVariantG.c; sourceTree = "<group>"; };
+		22B563141CDFE7C600DCECF6 /* SubAllocatorVariantG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorVariantG.h; sourceTree = "<group>"; };
+		22B563151CDFE7C600DCECF6 /* SubAllocatorVariantH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorVariantH.c; sourceTree = "<group>"; };
+		22B563161CDFE7C600DCECF6 /* SubAllocatorVariantH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorVariantH.h; sourceTree = "<group>"; };
+		22B563171CDFE7C600DCECF6 /* SubAllocatorVariantI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorVariantI.c; sourceTree = "<group>"; };
+		22B563181CDFE7C600DCECF6 /* SubAllocatorVariantI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorVariantI.h; sourceTree = "<group>"; };
+		22B563191CDFE7C600DCECF6 /* VariantG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VariantG.c; sourceTree = "<group>"; };
+		22B5631A1CDFE7C600DCECF6 /* VariantG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantG.h; sourceTree = "<group>"; };
+		22B5631B1CDFE7C600DCECF6 /* VariantH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VariantH.c; sourceTree = "<group>"; };
+		22B5631C1CDFE7C600DCECF6 /* VariantH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantH.h; sourceTree = "<group>"; };
+		22B5631D1CDFE7C600DCECF6 /* VariantI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VariantI.c; sourceTree = "<group>"; };
+		22B5631E1CDFE7C600DCECF6 /* VariantI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantI.h; sourceTree = "<group>"; };
+		22B5631F1CDFE7C600DCECF6 /* XADPPMdHandles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADPPMdHandles.h; sourceTree = "<group>"; };
+		22B563201CDFE7C600DCECF6 /* XADPPMdHandles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADPPMdHandles.m; sourceTree = "<group>"; };
+		22B563211CDFE7C600DCECF6 /* XADPPMdParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADPPMdParser.h; sourceTree = "<group>"; };
+		22B563221CDFE7C600DCECF6 /* XADPPMdParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADPPMdParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -748,8 +748,8 @@
 		22B560D71CDFE12D00DCECF6 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				22B5630A1CDFE7C600DCECF6 /* PPMd */,
 				22B560D81CDFE12D00DCECF6 /* lzma */,
-				22B560E21CDFE12D00DCECF6 /* PPMd */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -768,44 +768,6 @@
 				22B560E11CDFE12D00DCECF6 /* Types.h */,
 			);
 			path = lzma;
-			sourceTree = "<group>";
-		};
-		22B560E21CDFE12D00DCECF6 /* PPMd */ = {
-			isa = PBXGroup;
-			children = (
-				22B560E31CDFE12D00DCECF6 /* PPMd */,
-				22B560F71CDFE12D00DCECF6 /* XADPPMdHandles.h */,
-				22B560F81CDFE12D00DCECF6 /* XADPPMdHandles.m */,
-				22B560F91CDFE12D00DCECF6 /* XADPPMdParser.h */,
-				22B560FA1CDFE12D00DCECF6 /* XADPPMdParser.m */,
-			);
-			path = PPMd;
-			sourceTree = "<group>";
-		};
-		22B560E31CDFE12D00DCECF6 /* PPMd */ = {
-			isa = PBXGroup;
-			children = (
-				22B560E41CDFE12D00DCECF6 /* Context.c */,
-				22B560E51CDFE12D00DCECF6 /* Context.h */,
-				22B560E61CDFE12D00DCECF6 /* RangeCoder.c */,
-				22B560E71CDFE12D00DCECF6 /* RangeCoder.h */,
-				22B560E81CDFE12D00DCECF6 /* SubAllocator.h */,
-				22B560E91CDFE12D00DCECF6 /* SubAllocatorBrimstone.c */,
-				22B560EA1CDFE12D00DCECF6 /* SubAllocatorBrimstone.h */,
-				22B560EB1CDFE12D00DCECF6 /* SubAllocatorVariantG.c */,
-				22B560EC1CDFE12D00DCECF6 /* SubAllocatorVariantG.h */,
-				22B560ED1CDFE12D00DCECF6 /* SubAllocatorVariantH.c */,
-				22B560EE1CDFE12D00DCECF6 /* SubAllocatorVariantH.h */,
-				22B560EF1CDFE12D00DCECF6 /* SubAllocatorVariantI.c */,
-				22B560F01CDFE12D00DCECF6 /* SubAllocatorVariantI.h */,
-				22B560F11CDFE12D00DCECF6 /* VariantG.c */,
-				22B560F21CDFE12D00DCECF6 /* VariantG.h */,
-				22B560F31CDFE12D00DCECF6 /* VariantH.c */,
-				22B560F41CDFE12D00DCECF6 /* VariantH.h */,
-				22B560F51CDFE12D00DCECF6 /* VariantI.c */,
-				22B560F61CDFE12D00DCECF6 /* VariantI.h */,
-			);
-			path = PPMd;
 			sourceTree = "<group>";
 		};
 		22B560FB1CDFE12D00DCECF6 /* RAR */ = {
@@ -1124,6 +1086,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		22B5630A1CDFE7C600DCECF6 /* PPMd */ = {
+			isa = PBXGroup;
+			children = (
+				22B5630B1CDFE7C600DCECF6 /* PPMd */,
+				22B5631F1CDFE7C600DCECF6 /* XADPPMdHandles.h */,
+				22B563201CDFE7C600DCECF6 /* XADPPMdHandles.m */,
+				22B563211CDFE7C600DCECF6 /* XADPPMdParser.h */,
+				22B563221CDFE7C600DCECF6 /* XADPPMdParser.m */,
+			);
+			path = PPMd;
+			sourceTree = "<group>";
+		};
+		22B5630B1CDFE7C600DCECF6 /* PPMd */ = {
+			isa = PBXGroup;
+			children = (
+				22B5630C1CDFE7C600DCECF6 /* Context.c */,
+				22B5630D1CDFE7C600DCECF6 /* Context.h */,
+				22B5630E1CDFE7C600DCECF6 /* RangeCoder.c */,
+				22B5630F1CDFE7C600DCECF6 /* RangeCoder.h */,
+				22B563101CDFE7C600DCECF6 /* SubAllocator.h */,
+				22B563111CDFE7C600DCECF6 /* SubAllocatorBrimstone.c */,
+				22B563121CDFE7C600DCECF6 /* SubAllocatorBrimstone.h */,
+				22B563131CDFE7C600DCECF6 /* SubAllocatorVariantG.c */,
+				22B563141CDFE7C600DCECF6 /* SubAllocatorVariantG.h */,
+				22B563151CDFE7C600DCECF6 /* SubAllocatorVariantH.c */,
+				22B563161CDFE7C600DCECF6 /* SubAllocatorVariantH.h */,
+				22B563171CDFE7C600DCECF6 /* SubAllocatorVariantI.c */,
+				22B563181CDFE7C600DCECF6 /* SubAllocatorVariantI.h */,
+				22B563191CDFE7C600DCECF6 /* VariantG.c */,
+				22B5631A1CDFE7C600DCECF6 /* VariantG.h */,
+				22B5631B1CDFE7C600DCECF6 /* VariantH.c */,
+				22B5631C1CDFE7C600DCECF6 /* VariantH.h */,
+				22B5631D1CDFE7C600DCECF6 /* VariantI.c */,
+				22B5631E1CDFE7C600DCECF6 /* VariantI.h */,
+			);
+			path = PPMd;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1146,7 +1146,6 @@
 				22B562E81CDFE12E00DCECF6 /* XADRegex.h in Headers */,
 				22B5625D1CDFE12E00DCECF6 /* XADZipCryptHandle.h in Headers */,
 				22B562571CDFE12E00DCECF6 /* XADWinZipAESHandle.h in Headers */,
-				22B562201CDFE12E00DCECF6 /* XADPPMdParser.h in Headers */,
 				22B5623E1CDFE12E00DCECF6 /* XADTarParser.h in Headers */,
 				22B561EE1CDFE12E00DCECF6 /* XAD7ZipBranchHandles.h in Headers */,
 				22B5625B1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.h in Headers */,
@@ -1180,9 +1179,10 @@
 				22B562321CDFE12E00DCECF6 /* XADRAR30Filter.h in Headers */,
 				22B561F21CDFE12E00DCECF6 /* XADLZMA2Handle.h in Headers */,
 				22B562281CDFE12E00DCECF6 /* XADRAR13CryptHandle.h in Headers */,
-				22B5621E1CDFE12E00DCECF6 /* XADPPMdHandles.h in Headers */,
 				22B562341CDFE12E00DCECF6 /* XADRAR30Handle.h in Headers */,
 				22B562FC1CDFE12E00DCECF6 /* XADResourceFork.h in Headers */,
+				22B563381CDFE7C600DCECF6 /* XADPPMdParser.h in Headers */,
+				22B563361CDFE7C600DCECF6 /* XADPPMdHandles.h in Headers */,
 				22B562361CDFE12E00DCECF6 /* XADRARAESHandle.h in Headers */,
 				22B562FE1CDFE12E00DCECF6 /* XADString.h in Headers */,
 				22B562E41CDFE12E00DCECF6 /* XADCRCHandle.h in Headers */,
@@ -1206,16 +1206,13 @@
 				22B562C51CDFE12E00DCECF6 /* nsLatin1Prober.h in Headers */,
 				22B5628D1CDFE12E00DCECF6 /* CSBzip2Handle.h in Headers */,
 				22B562931CDFE12E00DCECF6 /* CSInputBuffer.h in Headers */,
-				22B562191CDFE12E00DCECF6 /* VariantG.h in Headers */,
 				22B562721CDFE12E00DCECF6 /* LZW.h in Headers */,
-				22B5620F1CDFE12E00DCECF6 /* SubAllocator.h in Headers */,
 				22B562D71CDFE12E00DCECF6 /* prtypes.h in Headers */,
 				22B562BB1CDFE12E00DCECF6 /* nsEUCJPProber.h in Headers */,
 				22B562801CDFE12E00DCECF6 /* brg_endian.h in Headers */,
 				22B562821CDFE12E00DCECF6 /* des.h in Headers */,
 				22B562881CDFE12E00DCECF6 /* sha.h in Headers */,
 				22B562B81CDFE12E00DCECF6 /* nsEscCharsetProber.h in Headers */,
-				22B562171CDFE12E00DCECF6 /* SubAllocatorVariantI.h in Headers */,
 				22B5624A1CDFE12E00DCECF6 /* wavpack_version.h in Headers */,
 				22B562231CDFE12E00DCECF6 /* RARAudioDecoder.h in Headers */,
 				22B562511CDFE12E00DCECF6 /* InputStream.h in Headers */,
@@ -1225,12 +1222,10 @@
 				22B562541CDFE12E00DCECF6 /* LZMA.h in Headers */,
 				22B5626D1CDFE12E00DCECF6 /* Scanning.h in Headers */,
 				22B562DD1CDFE12E00DCECF6 /* CRC.h in Headers */,
-				22B5621B1CDFE12E00DCECF6 /* VariantH.h in Headers */,
 				22B562031CDFE12E00DCECF6 /* Bra.h in Headers */,
 				22B5620A1CDFE12E00DCECF6 /* Types.h in Headers */,
 				22B562791CDFE12E00DCECF6 /* aes.h in Headers */,
 				22B562BF1CDFE12E00DCECF6 /* nsEUCTWProber.h in Headers */,
-				22B5620E1CDFE12E00DCECF6 /* RangeCoder.h in Headers */,
 				22B562B41CDFE12E00DCECF6 /* nsCodingStateMachine.h in Headers */,
 				22B562CB1CDFE12E00DCECF6 /* nsSBCharSetProber.h in Headers */,
 				22B562481CDFE12E00DCECF6 /* wavpack.h in Headers */,
@@ -1239,8 +1234,6 @@
 				22B562071CDFE12E00DCECF6 /* Lzma2Dec.h in Headers */,
 				22B562861CDFE12E00DCECF6 /* md5.h in Headers */,
 				22B562B61CDFE12E00DCECF6 /* nsError.h in Headers */,
-				22B562111CDFE12E00DCECF6 /* SubAllocatorBrimstone.h in Headers */,
-				22B562151CDFE12E00DCECF6 /* SubAllocatorVariantH.h in Headers */,
 				22B562701CDFE12E00DCECF6 /* LZSS.h in Headers */,
 				22B562DC1CDFE12E00DCECF6 /* WrappedUniversalDetector.h in Headers */,
 				22B562CF1CDFE12E00DCECF6 /* nsSJISProber.h in Headers */,
@@ -1251,15 +1244,22 @@
 				22B5624E1CDFE12E00DCECF6 /* ArithmeticDecoder.h in Headers */,
 				22B5628B1CDFE12E00DCECF6 /* CSByteStreamHandle.h in Headers */,
 				22B562C31CDFE12E00DCECF6 /* nsHebrewProber.h in Headers */,
-				22B5621D1CDFE12E00DCECF6 /* VariantI.h in Headers */,
-				22B562131CDFE12E00DCECF6 /* SubAllocatorVariantG.h in Headers */,
 				22B562C71CDFE12E00DCECF6 /* nsMBCSGroupProber.h in Headers */,
-				22B5620C1CDFE12E00DCECF6 /* Context.h in Headers */,
 				22B562491CDFE12E00DCECF6 /* wavpack_local.h in Headers */,
 				22B562531CDFE12E00DCECF6 /* JPEG.h in Headers */,
 				22B562C91CDFE12E00DCECF6 /* nsPkgInt.h in Headers */,
 				22B562A21CDFE12E00DCECF6 /* CharDistribution.h in Headers */,
 				22B562D31CDFE12E00DCECF6 /* nsUTF8Prober.h in Headers */,
+				22B5632D1CDFE7C600DCECF6 /* SubAllocatorVariantH.h in Headers */,
+				22B563351CDFE7C600DCECF6 /* VariantI.h in Headers */,
+				22B5632F1CDFE7C600DCECF6 /* SubAllocatorVariantI.h in Headers */,
+				22B5632B1CDFE7C600DCECF6 /* SubAllocatorVariantG.h in Headers */,
+				22B563311CDFE7C600DCECF6 /* VariantG.h in Headers */,
+				22B563331CDFE7C600DCECF6 /* VariantH.h in Headers */,
+				22B563291CDFE7C600DCECF6 /* SubAllocatorBrimstone.h in Headers */,
+				22B563241CDFE7C600DCECF6 /* Context.h in Headers */,
+				22B563271CDFE7C600DCECF6 /* SubAllocator.h in Headers */,
+				22B563261CDFE7C600DCECF6 /* RangeCoder.h in Headers */,
 				22B5627D1CDFE12E00DCECF6 /* aesopt.h in Headers */,
 				22B562D61CDFE12E00DCECF6 /* protypes.h in Headers */,
 				22B5629D1CDFE12E00DCECF6 /* CSZlibHandle.h in Headers */,
@@ -1378,12 +1378,10 @@
 				22B5625C1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.m in Sources */,
 				22B562E11CDFE12E00DCECF6 /* XADAppleDouble.m in Sources */,
 				22B561ED1CDFE12E00DCECF6 /* XAD7ZipBCJ2Handle.m in Sources */,
-				22B5621C1CDFE12E00DCECF6 /* VariantI.c in Sources */,
 				22B562581CDFE12E00DCECF6 /* XADWinZipAESHandle.m in Sources */,
 				22B562471CDFE12E00DCECF6 /* unpack.c in Sources */,
 				22B562D21CDFE12E00DCECF6 /* nsUTF8Prober.cpp in Sources */,
 				22B562241CDFE12E00DCECF6 /* RARBug.c in Sources */,
-				22B5621F1CDFE12E00DCECF6 /* XADPPMdHandles.m in Sources */,
 				22B562431CDFE12E00DCECF6 /* XADCompressHandle.m in Sources */,
 				22B562451CDFE12E00DCECF6 /* float.c in Sources */,
 				22B5624B1CDFE12E00DCECF6 /* words.c in Sources */,
@@ -1398,11 +1396,13 @@
 				22B5626A1CDFE12E00DCECF6 /* NSDateXAD.m in Sources */,
 				22B562221CDFE12E00DCECF6 /* RARAudioDecoder.c in Sources */,
 				22B5629E1CDFE12E00DCECF6 /* CSZlibHandle.m in Sources */,
+				22B563301CDFE7C600DCECF6 /* VariantG.c in Sources */,
 				22B562311CDFE12E00DCECF6 /* XADRAR20Handle.m in Sources */,
 				22B562AB1CDFE12E00DCECF6 /* LangCyrillicModel.cpp in Sources */,
+				22B563251CDFE7C600DCECF6 /* RangeCoder.c in Sources */,
+				22B563391CDFE7C600DCECF6 /* XADPPMdParser.m in Sources */,
 				22B562871CDFE12E00DCECF6 /* sha.c in Sources */,
 				22B562E31CDFE12E00DCECF6 /* XADBlockHandle.m in Sources */,
-				22B5621A1CDFE12E00DCECF6 /* VariantH.c in Sources */,
 				22B562D01CDFE12E00DCECF6 /* nsUniversalDetector.cpp in Sources */,
 				22B562B91CDFE12E00DCECF6 /* nsEscSM.cpp in Sources */,
 				22B562CE1CDFE12E00DCECF6 /* nsSJISProber.cpp in Sources */,
@@ -1426,6 +1426,7 @@
 				22B562B21CDFE12E00DCECF6 /* nsCharSetProber.cpp in Sources */,
 				22B5625E1CDFE12E00DCECF6 /* XADZipCryptHandle.m in Sources */,
 				22B5624F1CDFE12E00DCECF6 /* Decompressor.c in Sources */,
+				22B5632A1CDFE7C600DCECF6 /* SubAllocatorVariantG.c in Sources */,
 				22B562941CDFE12E00DCECF6 /* CSInputBuffer.m in Sources */,
 				22B561F31CDFE12E00DCECF6 /* XADLZMA2Handle.m in Sources */,
 				22B562CC1CDFE12E00DCECF6 /* nsSBCSGroupProber.cpp in Sources */,
@@ -1434,12 +1435,10 @@
 				22B562A11CDFE12E00DCECF6 /* CharDistribution.cpp in Sources */,
 				22B562051CDFE12E00DCECF6 /* BraIA64.c in Sources */,
 				22B562C21CDFE12E00DCECF6 /* nsHebrewProber.cpp in Sources */,
-				22B5620B1CDFE12E00DCECF6 /* Context.c in Sources */,
-				22B5620D1CDFE12E00DCECF6 /* RangeCoder.c in Sources */,
 				22B562901CDFE12E00DCECF6 /* CSFileHandle.m in Sources */,
 				22B562371CDFE12E00DCECF6 /* XADRARAESHandle.m in Sources */,
-				22B562121CDFE12E00DCECF6 /* SubAllocatorVariantG.c in Sources */,
 				22B562C81CDFE12E00DCECF6 /* nsMBCSSM.cpp in Sources */,
+				22B563321CDFE7C600DCECF6 /* VariantH.c in Sources */,
 				22B562961CDFE12E00DCECF6 /* CSMemoryHandle.m in Sources */,
 				22B562831CDFE12E00DCECF6 /* hmac_sha1.c in Sources */,
 				22B562AD1CDFE12E00DCECF6 /* LangHebrewModel.cpp in Sources */,
@@ -1458,7 +1457,7 @@
 				22B562851CDFE12E00DCECF6 /* md5.c in Sources */,
 				22B562C01CDFE12E00DCECF6 /* nsGB2312Prober.cpp in Sources */,
 				22B562461CDFE12E00DCECF6 /* metadata.c in Sources */,
-				22B562101CDFE12E00DCECF6 /* SubAllocatorBrimstone.c in Sources */,
+				22B563341CDFE7C600DCECF6 /* VariantI.c in Sources */,
 				22B562561CDFE12E00DCECF6 /* XADDeflateHandle.m in Sources */,
 				22B562E51CDFE12E00DCECF6 /* XADCRCHandle.m in Sources */,
 				22B5623F1CDFE12E00DCECF6 /* XADTarParser.m in Sources */,
@@ -1469,19 +1468,18 @@
 				22B562AF1CDFE12E00DCECF6 /* LangThaiModel.cpp in Sources */,
 				22B562AA1CDFE12E00DCECF6 /* LangBulgarianModel.cpp in Sources */,
 				22B562A91CDFE12E00DCECF6 /* kludge.c in Sources */,
+				22B5632E1CDFE7C600DCECF6 /* SubAllocatorVariantI.c in Sources */,
 				22B562011CDFE12E00DCECF6 /* XADLibXADIOHandle.m in Sources */,
 				22B562A71CDFE12E00DCECF6 /* JpCntx.cpp in Sources */,
+				22B563281CDFE7C600DCECF6 /* SubAllocatorBrimstone.c in Sources */,
 				22B563021CDFE12E00DCECF6 /* XADUnarchiver.m in Sources */,
 				22B562621CDFE12E00DCECF6 /* XADZipParser.m in Sources */,
 				22B562641CDFE12E00DCECF6 /* XADZipSFXParsers.m in Sources */,
 				22B561F51CDFE12E00DCECF6 /* XADLZMAHandle.m in Sources */,
 				22B562291CDFE12E00DCECF6 /* XADRAR13CryptHandle.m in Sources */,
-				22B562211CDFE12E00DCECF6 /* XADPPMdParser.m in Sources */,
 				22B561F11CDFE12E00DCECF6 /* XAD7ZipParser.m in Sources */,
-				22B562181CDFE12E00DCECF6 /* VariantG.c in Sources */,
 				22B562601CDFE12E00DCECF6 /* XADZipImplodeHandle.m in Sources */,
 				22B5623B1CDFE12E00DCECF6 /* XADRARParser.m in Sources */,
-				22B562161CDFE12E00DCECF6 /* SubAllocatorVariantI.c in Sources */,
 				22B5625A1CDFE12E00DCECF6 /* XADWinZipJPEGHandle.m in Sources */,
 				22B562441CDFE12E00DCECF6 /* bits.c in Sources */,
 				22B562FD1CDFE12E00DCECF6 /* XADResourceFork.m in Sources */,
@@ -1489,6 +1487,7 @@
 				22B562DE1CDFE12E00DCECF6 /* CRC.m in Sources */,
 				22B562D91CDFE12E00DCECF6 /* UniversalDetector.m in Sources */,
 				22B562EB1CDFE12E00DCECF6 /* XADSkipHandle.m in Sources */,
+				22B5632C1CDFE7C600DCECF6 /* SubAllocatorVariantH.c in Sources */,
 				22B562711CDFE12E00DCECF6 /* LZW.c in Sources */,
 				22B5629A1CDFE12E00DCECF6 /* CSStreamHandle.m in Sources */,
 				22B562C41CDFE12E00DCECF6 /* nsLatin1Prober.cpp in Sources */,
@@ -1508,11 +1507,12 @@
 				22B562921CDFE12E00DCECF6 /* CSHandle.m in Sources */,
 				22B5626F1CDFE12E00DCECF6 /* LZSS.c in Sources */,
 				22B562661CDFE12E00DCECF6 /* XADZipShrinkHandle.m in Sources */,
-				22B562141CDFE12E00DCECF6 /* SubAllocatorVariantH.c in Sources */,
 				22B561EB1CDFE12E00DCECF6 /* XAD7ZipAESHandle.m in Sources */,
 				22B561FD1CDFE12E00DCECF6 /* XADLZHParser.m in Sources */,
 				22B5628A1CDFE12E00DCECF6 /* CSBlockStreamHandle.m in Sources */,
+				22B563371CDFE7C600DCECF6 /* XADPPMdHandles.m in Sources */,
 				22B562981CDFE12E00DCECF6 /* CSMultiHandle.m in Sources */,
+				22B563231CDFE7C600DCECF6 /* Context.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1539,6 +1539,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1587,6 +1588,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1628,6 +1630,7 @@
 		22B560B61CDFDFC400DCECF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1645,6 +1648,7 @@
 		22B560B71CDFDFC400DCECF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
