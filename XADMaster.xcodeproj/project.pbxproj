@@ -1,0 +1,1715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B560A51CDFDFC400DCECF6 /* XADMaster.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560A41CDFDFC400DCECF6 /* XADMaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B560AC1CDFDFC400DCECF6 /* XADMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B560A11CDFDFC400DCECF6 /* XADMaster.framework */; };
+		22B560B11CDFDFC400DCECF6 /* XADMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560B01CDFDFC400DCECF6 /* XADMasterTests.m */; };
+		22B561EA1CDFE12E00DCECF6 /* XAD7ZipAESHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560BD1CDFE12D00DCECF6 /* XAD7ZipAESHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561EB1CDFE12E00DCECF6 /* XAD7ZipAESHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560BE1CDFE12D00DCECF6 /* XAD7ZipAESHandle.m */; };
+		22B561EC1CDFE12E00DCECF6 /* XAD7ZipBCJ2Handle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560BF1CDFE12D00DCECF6 /* XAD7ZipBCJ2Handle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561ED1CDFE12E00DCECF6 /* XAD7ZipBCJ2Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560C01CDFE12D00DCECF6 /* XAD7ZipBCJ2Handle.m */; };
+		22B561EE1CDFE12E00DCECF6 /* XAD7ZipBranchHandles.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560C11CDFE12D00DCECF6 /* XAD7ZipBranchHandles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561EF1CDFE12E00DCECF6 /* XAD7ZipBranchHandles.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560C21CDFE12D00DCECF6 /* XAD7ZipBranchHandles.m */; };
+		22B561F01CDFE12E00DCECF6 /* XAD7ZipParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560C31CDFE12D00DCECF6 /* XAD7ZipParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561F11CDFE12E00DCECF6 /* XAD7ZipParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560C41CDFE12D00DCECF6 /* XAD7ZipParser.m */; };
+		22B561F21CDFE12E00DCECF6 /* XADLZMA2Handle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560C51CDFE12D00DCECF6 /* XADLZMA2Handle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561F31CDFE12E00DCECF6 /* XADLZMA2Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560C61CDFE12D00DCECF6 /* XADLZMA2Handle.m */; };
+		22B561F41CDFE12E00DCECF6 /* XADLZMAHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560C71CDFE12D00DCECF6 /* XADLZMAHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561F51CDFE12E00DCECF6 /* XADLZMAHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560C81CDFE12D00DCECF6 /* XADLZMAHandle.m */; };
+		22B561F61CDFE12E00DCECF6 /* XADLArcHandles.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560CA1CDFE12D00DCECF6 /* XADLArcHandles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561F71CDFE12E00DCECF6 /* XADLArcHandles.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560CB1CDFE12D00DCECF6 /* XADLArcHandles.m */; };
+		22B561F81CDFE12E00DCECF6 /* XADLZHDynamicHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560CC1CDFE12D00DCECF6 /* XADLZHDynamicHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561F91CDFE12E00DCECF6 /* XADLZHDynamicHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560CD1CDFE12D00DCECF6 /* XADLZHDynamicHandle.m */; };
+		22B561FA1CDFE12E00DCECF6 /* XADLZHOldHandles.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560CE1CDFE12D00DCECF6 /* XADLZHOldHandles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561FB1CDFE12E00DCECF6 /* XADLZHOldHandles.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560CF1CDFE12D00DCECF6 /* XADLZHOldHandles.m */; };
+		22B561FC1CDFE12E00DCECF6 /* XADLZHParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560D01CDFE12D00DCECF6 /* XADLZHParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561FD1CDFE12E00DCECF6 /* XADLZHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560D11CDFE12D00DCECF6 /* XADLZHParser.m */; };
+		22B561FE1CDFE12E00DCECF6 /* XADLZHStaticHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560D21CDFE12D00DCECF6 /* XADLZHStaticHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561FF1CDFE12E00DCECF6 /* XADLZHStaticHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560D31CDFE12D00DCECF6 /* XADLZHStaticHandle.m */; };
+		22B562001CDFE12E00DCECF6 /* XADLibXADIOHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560D51CDFE12D00DCECF6 /* XADLibXADIOHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562011CDFE12E00DCECF6 /* XADLibXADIOHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560D61CDFE12D00DCECF6 /* XADLibXADIOHandle.m */; };
+		22B562021CDFE12E00DCECF6 /* Bra.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560D91CDFE12D00DCECF6 /* Bra.c */; };
+		22B562031CDFE12E00DCECF6 /* Bra.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560DA1CDFE12D00DCECF6 /* Bra.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562041CDFE12E00DCECF6 /* Bra86.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560DB1CDFE12D00DCECF6 /* Bra86.c */; };
+		22B562051CDFE12E00DCECF6 /* BraIA64.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560DC1CDFE12D00DCECF6 /* BraIA64.c */; };
+		22B562061CDFE12E00DCECF6 /* Lzma2Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560DD1CDFE12D00DCECF6 /* Lzma2Dec.c */; };
+		22B562071CDFE12E00DCECF6 /* Lzma2Dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560DE1CDFE12D00DCECF6 /* Lzma2Dec.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562081CDFE12E00DCECF6 /* LzmaDec.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560DF1CDFE12D00DCECF6 /* LzmaDec.c */; };
+		22B562091CDFE12E00DCECF6 /* LzmaDec.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560E01CDFE12D00DCECF6 /* LzmaDec.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5620A1CDFE12E00DCECF6 /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560E11CDFE12D00DCECF6 /* Types.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5620B1CDFE12E00DCECF6 /* Context.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560E41CDFE12D00DCECF6 /* Context.c */; };
+		22B5620C1CDFE12E00DCECF6 /* Context.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560E51CDFE12D00DCECF6 /* Context.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5620D1CDFE12E00DCECF6 /* RangeCoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560E61CDFE12D00DCECF6 /* RangeCoder.c */; };
+		22B5620E1CDFE12E00DCECF6 /* RangeCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560E71CDFE12D00DCECF6 /* RangeCoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5620F1CDFE12E00DCECF6 /* SubAllocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560E81CDFE12D00DCECF6 /* SubAllocator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562101CDFE12E00DCECF6 /* SubAllocatorBrimstone.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560E91CDFE12D00DCECF6 /* SubAllocatorBrimstone.c */; };
+		22B562111CDFE12E00DCECF6 /* SubAllocatorBrimstone.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560EA1CDFE12D00DCECF6 /* SubAllocatorBrimstone.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562121CDFE12E00DCECF6 /* SubAllocatorVariantG.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560EB1CDFE12D00DCECF6 /* SubAllocatorVariantG.c */; };
+		22B562131CDFE12E00DCECF6 /* SubAllocatorVariantG.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560EC1CDFE12D00DCECF6 /* SubAllocatorVariantG.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562141CDFE12E00DCECF6 /* SubAllocatorVariantH.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560ED1CDFE12D00DCECF6 /* SubAllocatorVariantH.c */; };
+		22B562151CDFE12E00DCECF6 /* SubAllocatorVariantH.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560EE1CDFE12D00DCECF6 /* SubAllocatorVariantH.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562161CDFE12E00DCECF6 /* SubAllocatorVariantI.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560EF1CDFE12D00DCECF6 /* SubAllocatorVariantI.c */; };
+		22B562171CDFE12E00DCECF6 /* SubAllocatorVariantI.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F01CDFE12D00DCECF6 /* SubAllocatorVariantI.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562181CDFE12E00DCECF6 /* VariantG.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560F11CDFE12D00DCECF6 /* VariantG.c */; };
+		22B562191CDFE12E00DCECF6 /* VariantG.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F21CDFE12D00DCECF6 /* VariantG.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5621A1CDFE12E00DCECF6 /* VariantH.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560F31CDFE12D00DCECF6 /* VariantH.c */; };
+		22B5621B1CDFE12E00DCECF6 /* VariantH.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F41CDFE12D00DCECF6 /* VariantH.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5621C1CDFE12E00DCECF6 /* VariantI.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560F51CDFE12D00DCECF6 /* VariantI.c */; };
+		22B5621D1CDFE12E00DCECF6 /* VariantI.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F61CDFE12D00DCECF6 /* VariantI.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5621E1CDFE12E00DCECF6 /* XADPPMdHandles.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F71CDFE12D00DCECF6 /* XADPPMdHandles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B5621F1CDFE12E00DCECF6 /* XADPPMdHandles.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560F81CDFE12D00DCECF6 /* XADPPMdHandles.m */; };
+		22B562201CDFE12E00DCECF6 /* XADPPMdParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560F91CDFE12D00DCECF6 /* XADPPMdParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562211CDFE12E00DCECF6 /* XADPPMdParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560FA1CDFE12D00DCECF6 /* XADPPMdParser.m */; };
+		22B562221CDFE12E00DCECF6 /* RARAudioDecoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560FC1CDFE12D00DCECF6 /* RARAudioDecoder.c */; };
+		22B562231CDFE12E00DCECF6 /* RARAudioDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560FD1CDFE12D00DCECF6 /* RARAudioDecoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562241CDFE12E00DCECF6 /* RARBug.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B560FE1CDFE12D00DCECF6 /* RARBug.c */; };
+		22B562251CDFE12E00DCECF6 /* RARBug.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560FF1CDFE12D00DCECF6 /* RARBug.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562261CDFE12E00DCECF6 /* RARVirtualMachine.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561001CDFE12D00DCECF6 /* RARVirtualMachine.c */; };
+		22B562271CDFE12E00DCECF6 /* RARVirtualMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561011CDFE12D00DCECF6 /* RARVirtualMachine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562281CDFE12E00DCECF6 /* XADRAR13CryptHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561021CDFE12D00DCECF6 /* XADRAR13CryptHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562291CDFE12E00DCECF6 /* XADRAR13CryptHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561031CDFE12D00DCECF6 /* XADRAR13CryptHandle.m */; };
+		22B5622A1CDFE12E00DCECF6 /* XADRAR15CryptHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561041CDFE12D00DCECF6 /* XADRAR15CryptHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B5622B1CDFE12E00DCECF6 /* XADRAR15CryptHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561051CDFE12D00DCECF6 /* XADRAR15CryptHandle.m */; };
+		22B5622C1CDFE12E00DCECF6 /* XADRAR15Handle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561061CDFE12D00DCECF6 /* XADRAR15Handle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B5622D1CDFE12E00DCECF6 /* XADRAR15Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561071CDFE12D00DCECF6 /* XADRAR15Handle.m */; };
+		22B5622E1CDFE12E00DCECF6 /* XADRAR20CryptHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561081CDFE12D00DCECF6 /* XADRAR20CryptHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B5622F1CDFE12E00DCECF6 /* XADRAR20CryptHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561091CDFE12D00DCECF6 /* XADRAR20CryptHandle.m */; };
+		22B562301CDFE12E00DCECF6 /* XADRAR20Handle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5610A1CDFE12D00DCECF6 /* XADRAR20Handle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562311CDFE12E00DCECF6 /* XADRAR20Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5610B1CDFE12D00DCECF6 /* XADRAR20Handle.m */; };
+		22B562321CDFE12E00DCECF6 /* XADRAR30Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5610C1CDFE12D00DCECF6 /* XADRAR30Filter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562331CDFE12E00DCECF6 /* XADRAR30Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5610D1CDFE12D00DCECF6 /* XADRAR30Filter.m */; };
+		22B562341CDFE12E00DCECF6 /* XADRAR30Handle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5610E1CDFE12D00DCECF6 /* XADRAR30Handle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562351CDFE12E00DCECF6 /* XADRAR30Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5610F1CDFE12D00DCECF6 /* XADRAR30Handle.m */; };
+		22B562361CDFE12E00DCECF6 /* XADRARAESHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561101CDFE12D00DCECF6 /* XADRARAESHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562371CDFE12E00DCECF6 /* XADRARAESHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561111CDFE12D00DCECF6 /* XADRARAESHandle.m */; };
+		22B562381CDFE12E00DCECF6 /* XADRARInputHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561121CDFE12D00DCECF6 /* XADRARInputHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562391CDFE12E00DCECF6 /* XADRARInputHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561131CDFE12D00DCECF6 /* XADRARInputHandle.m */; };
+		22B5623A1CDFE12E00DCECF6 /* XADRARParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561141CDFE12D00DCECF6 /* XADRARParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B5623B1CDFE12E00DCECF6 /* XADRARParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561151CDFE12D00DCECF6 /* XADRARParser.m */; };
+		22B5623C1CDFE12E00DCECF6 /* XADRARVirtualMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561161CDFE12D00DCECF6 /* XADRARVirtualMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B5623D1CDFE12E00DCECF6 /* XADRARVirtualMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561171CDFE12D00DCECF6 /* XADRARVirtualMachine.m */; };
+		22B5623E1CDFE12E00DCECF6 /* XADTarParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5611A1CDFE12D00DCECF6 /* XADTarParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B5623F1CDFE12E00DCECF6 /* XADTarParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5611B1CDFE12D00DCECF6 /* XADTarParser.m */; };
+		22B562401CDFE12E00DCECF6 /* XADTarSparseHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5611C1CDFE12D00DCECF6 /* XADTarSparseHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562411CDFE12E00DCECF6 /* XADTarSparseHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5611D1CDFE12D00DCECF6 /* XADTarSparseHandle.m */; };
+		22B562421CDFE12E00DCECF6 /* XADCompressHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5611F1CDFE12D00DCECF6 /* XADCompressHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562431CDFE12E00DCECF6 /* XADCompressHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561201CDFE12D00DCECF6 /* XADCompressHandle.m */; };
+		22B562441CDFE12E00DCECF6 /* bits.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561231CDFE12D00DCECF6 /* bits.c */; };
+		22B562451CDFE12E00DCECF6 /* float.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561241CDFE12D00DCECF6 /* float.c */; };
+		22B562461CDFE12E00DCECF6 /* metadata.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561251CDFE12D00DCECF6 /* metadata.c */; };
+		22B562471CDFE12E00DCECF6 /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561261CDFE12D00DCECF6 /* unpack.c */; };
+		22B562481CDFE12E00DCECF6 /* wavpack.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561271CDFE12D00DCECF6 /* wavpack.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562491CDFE12E00DCECF6 /* wavpack_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561281CDFE12D00DCECF6 /* wavpack_local.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5624A1CDFE12E00DCECF6 /* wavpack_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561291CDFE12D00DCECF6 /* wavpack_version.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5624B1CDFE12E00DCECF6 /* words.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5612A1CDFE12D00DCECF6 /* words.c */; };
+		22B5624C1CDFE12E00DCECF6 /* wputils.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5612B1CDFE12D00DCECF6 /* wputils.c */; };
+		22B5624D1CDFE12E00DCECF6 /* ArithmeticDecoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5612D1CDFE12E00DCECF6 /* ArithmeticDecoder.c */; };
+		22B5624E1CDFE12E00DCECF6 /* ArithmeticDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5612E1CDFE12E00DCECF6 /* ArithmeticDecoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5624F1CDFE12E00DCECF6 /* Decompressor.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5612F1CDFE12E00DCECF6 /* Decompressor.c */; };
+		22B562501CDFE12E00DCECF6 /* Decompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561301CDFE12E00DCECF6 /* Decompressor.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562511CDFE12E00DCECF6 /* InputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561311CDFE12E00DCECF6 /* InputStream.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562521CDFE12E00DCECF6 /* JPEG.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561321CDFE12E00DCECF6 /* JPEG.c */; };
+		22B562531CDFE12E00DCECF6 /* JPEG.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561331CDFE12E00DCECF6 /* JPEG.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562541CDFE12E00DCECF6 /* LZMA.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561341CDFE12E00DCECF6 /* LZMA.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562551CDFE12E00DCECF6 /* XADDeflateHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561351CDFE12E00DCECF6 /* XADDeflateHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562561CDFE12E00DCECF6 /* XADDeflateHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561361CDFE12E00DCECF6 /* XADDeflateHandle.m */; };
+		22B562571CDFE12E00DCECF6 /* XADWinZipAESHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561371CDFE12E00DCECF6 /* XADWinZipAESHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562581CDFE12E00DCECF6 /* XADWinZipAESHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561381CDFE12E00DCECF6 /* XADWinZipAESHandle.m */; };
+		22B562591CDFE12E00DCECF6 /* XADWinZipJPEGHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561391CDFE12E00DCECF6 /* XADWinZipJPEGHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B5625A1CDFE12E00DCECF6 /* XADWinZipJPEGHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5613A1CDFE12E00DCECF6 /* XADWinZipJPEGHandle.m */; };
+		22B5625B1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5613B1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B5625C1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5613C1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.m */; };
+		22B5625D1CDFE12E00DCECF6 /* XADZipCryptHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5613D1CDFE12E00DCECF6 /* XADZipCryptHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B5625E1CDFE12E00DCECF6 /* XADZipCryptHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5613E1CDFE12E00DCECF6 /* XADZipCryptHandle.m */; };
+		22B5625F1CDFE12E00DCECF6 /* XADZipImplodeHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5613F1CDFE12E00DCECF6 /* XADZipImplodeHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562601CDFE12E00DCECF6 /* XADZipImplodeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561401CDFE12E00DCECF6 /* XADZipImplodeHandle.m */; };
+		22B562611CDFE12E00DCECF6 /* XADZipParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561411CDFE12E00DCECF6 /* XADZipParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562621CDFE12E00DCECF6 /* XADZipParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561421CDFE12E00DCECF6 /* XADZipParser.m */; };
+		22B562631CDFE12E00DCECF6 /* XADZipSFXParsers.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561431CDFE12E00DCECF6 /* XADZipSFXParsers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562641CDFE12E00DCECF6 /* XADZipSFXParsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561441CDFE12E00DCECF6 /* XADZipSFXParsers.m */; };
+		22B562651CDFE12E00DCECF6 /* XADZipShrinkHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561451CDFE12E00DCECF6 /* XADZipShrinkHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562661CDFE12E00DCECF6 /* XADZipShrinkHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561461CDFE12E00DCECF6 /* XADZipShrinkHandle.m */; };
+		22B562671CDFE12E00DCECF6 /* Checksums.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561481CDFE12E00DCECF6 /* Checksums.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562681CDFE12E00DCECF6 /* Checksums.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561491CDFE12E00DCECF6 /* Checksums.m */; };
+		22B562691CDFE12E00DCECF6 /* NSDateXAD.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5614A1CDFE12E00DCECF6 /* NSDateXAD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B5626A1CDFE12E00DCECF6 /* NSDateXAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5614B1CDFE12E00DCECF6 /* NSDateXAD.m */; };
+		22B5626B1CDFE12E00DCECF6 /* Progress.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5614C1CDFE12E00DCECF6 /* Progress.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5626C1CDFE12E00DCECF6 /* Progress.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5614D1CDFE12E00DCECF6 /* Progress.m */; };
+		22B5626D1CDFE12E00DCECF6 /* Scanning.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5614E1CDFE12E00DCECF6 /* Scanning.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5626E1CDFE12E00DCECF6 /* Scanning.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5614F1CDFE12E00DCECF6 /* Scanning.m */; };
+		22B5626F1CDFE12E00DCECF6 /* LZSS.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561511CDFE12E00DCECF6 /* LZSS.c */; };
+		22B562701CDFE12E00DCECF6 /* LZSS.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561521CDFE12E00DCECF6 /* LZSS.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562711CDFE12E00DCECF6 /* LZW.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561531CDFE12E00DCECF6 /* LZW.c */; };
+		22B562721CDFE12E00DCECF6 /* LZW.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561541CDFE12E00DCECF6 /* LZW.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562731CDFE12E00DCECF6 /* XADFastLZSSHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561551CDFE12E00DCECF6 /* XADFastLZSSHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562741CDFE12E00DCECF6 /* XADFastLZSSHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561561CDFE12E00DCECF6 /* XADFastLZSSHandle.m */; };
+		22B562751CDFE12E00DCECF6 /* XADLZSSHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561571CDFE12E00DCECF6 /* XADLZSSHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562761CDFE12E00DCECF6 /* XADLZSSHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561581CDFE12E00DCECF6 /* XADLZSSHandle.m */; };
+		22B562771CDFE12E00DCECF6 /* XADPrefixCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561591CDFE12E00DCECF6 /* XADPrefixCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562781CDFE12E00DCECF6 /* XADPrefixCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5615A1CDFE12E00DCECF6 /* XADPrefixCode.m */; };
+		22B562791CDFE12E00DCECF6 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5615C1CDFE12E00DCECF6 /* aes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5627A1CDFE12E00DCECF6 /* aes_modes.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5615D1CDFE12E00DCECF6 /* aes_modes.c */; };
+		22B5627B1CDFE12E00DCECF6 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5615E1CDFE12E00DCECF6 /* aescrypt.c */; };
+		22B5627C1CDFE12E00DCECF6 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5615F1CDFE12E00DCECF6 /* aeskey.c */; };
+		22B5627D1CDFE12E00DCECF6 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561601CDFE12E00DCECF6 /* aesopt.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5627E1CDFE12E00DCECF6 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561611CDFE12E00DCECF6 /* aestab.c */; };
+		22B5627F1CDFE12E00DCECF6 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561621CDFE12E00DCECF6 /* aestab.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562801CDFE12E00DCECF6 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561631CDFE12E00DCECF6 /* brg_endian.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562811CDFE12E00DCECF6 /* des.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561641CDFE12E00DCECF6 /* des.c */; };
+		22B562821CDFE12E00DCECF6 /* des.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561651CDFE12E00DCECF6 /* des.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562831CDFE12E00DCECF6 /* hmac_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561661CDFE12E00DCECF6 /* hmac_sha1.c */; };
+		22B562841CDFE12E00DCECF6 /* hmac_sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561671CDFE12E00DCECF6 /* hmac_sha1.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562851CDFE12E00DCECF6 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B561681CDFE12E00DCECF6 /* md5.c */; };
+		22B562861CDFE12E00DCECF6 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561691CDFE12E00DCECF6 /* md5.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562871CDFE12E00DCECF6 /* sha.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5616A1CDFE12E00DCECF6 /* sha.c */; };
+		22B562881CDFE12E00DCECF6 /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5616B1CDFE12E00DCECF6 /* sha.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562891CDFE12E00DCECF6 /* CSBlockStreamHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5616D1CDFE12E00DCECF6 /* CSBlockStreamHandle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5628A1CDFE12E00DCECF6 /* CSBlockStreamHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5616E1CDFE12E00DCECF6 /* CSBlockStreamHandle.m */; };
+		22B5628B1CDFE12E00DCECF6 /* CSByteStreamHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5616F1CDFE12E00DCECF6 /* CSByteStreamHandle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5628C1CDFE12E00DCECF6 /* CSByteStreamHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561701CDFE12E00DCECF6 /* CSByteStreamHandle.m */; };
+		22B5628D1CDFE12E00DCECF6 /* CSBzip2Handle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561711CDFE12E00DCECF6 /* CSBzip2Handle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5628E1CDFE12E00DCECF6 /* CSBzip2Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561721CDFE12E00DCECF6 /* CSBzip2Handle.m */; };
+		22B5628F1CDFE12E00DCECF6 /* CSFileHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561731CDFE12E00DCECF6 /* CSFileHandle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562901CDFE12E00DCECF6 /* CSFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561741CDFE12E00DCECF6 /* CSFileHandle.m */; };
+		22B562911CDFE12E00DCECF6 /* CSHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561751CDFE12E00DCECF6 /* CSHandle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562921CDFE12E00DCECF6 /* CSHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561761CDFE12E00DCECF6 /* CSHandle.m */; };
+		22B562931CDFE12E00DCECF6 /* CSInputBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561771CDFE12E00DCECF6 /* CSInputBuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562941CDFE12E00DCECF6 /* CSInputBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561781CDFE12E00DCECF6 /* CSInputBuffer.m */; };
+		22B562951CDFE12E00DCECF6 /* CSMemoryHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561791CDFE12E00DCECF6 /* CSMemoryHandle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562961CDFE12E00DCECF6 /* CSMemoryHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5617A1CDFE12E00DCECF6 /* CSMemoryHandle.m */; };
+		22B562971CDFE12E00DCECF6 /* CSMultiHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5617B1CDFE12E00DCECF6 /* CSMultiHandle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562981CDFE12E00DCECF6 /* CSMultiHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5617C1CDFE12E00DCECF6 /* CSMultiHandle.m */; };
+		22B562991CDFE12E00DCECF6 /* CSStreamHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5617D1CDFE12E00DCECF6 /* CSStreamHandle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5629A1CDFE12E00DCECF6 /* CSStreamHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5617E1CDFE12E00DCECF6 /* CSStreamHandle.m */; };
+		22B5629B1CDFE12E00DCECF6 /* CSSubHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5617F1CDFE12E00DCECF6 /* CSSubHandle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5629C1CDFE12E00DCECF6 /* CSSubHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561801CDFE12E00DCECF6 /* CSSubHandle.m */; };
+		22B5629D1CDFE12E00DCECF6 /* CSZlibHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561811CDFE12E00DCECF6 /* CSZlibHandle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B5629E1CDFE12E00DCECF6 /* CSZlibHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561821CDFE12E00DCECF6 /* CSZlibHandle.m */; };
+		22B5629F1CDFE12E00DCECF6 /* .cvsignore in Resources */ = {isa = PBXBuildFile; fileRef = 22B561851CDFE12E00DCECF6 /* .cvsignore */; };
+		22B562A01CDFE12E00DCECF6 /* Big5Freq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 22B561861CDFE12E00DCECF6 /* Big5Freq.tab */; };
+		22B562A11CDFE12E00DCECF6 /* CharDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561871CDFE12E00DCECF6 /* CharDistribution.cpp */; };
+		22B562A21CDFE12E00DCECF6 /* CharDistribution.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561881CDFE12E00DCECF6 /* CharDistribution.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562A31CDFE12E00DCECF6 /* EUCKRFreq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 22B561891CDFE12E00DCECF6 /* EUCKRFreq.tab */; };
+		22B562A41CDFE12E00DCECF6 /* EUCTWFreq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 22B5618A1CDFE12E00DCECF6 /* EUCTWFreq.tab */; };
+		22B562A51CDFE12E00DCECF6 /* GB2312Freq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 22B5618B1CDFE12E00DCECF6 /* GB2312Freq.tab */; };
+		22B562A61CDFE12E00DCECF6 /* JISFreq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 22B5618C1CDFE12E00DCECF6 /* JISFreq.tab */; };
+		22B562A71CDFE12E00DCECF6 /* JpCntx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B5618D1CDFE12E00DCECF6 /* JpCntx.cpp */; };
+		22B562A81CDFE12E00DCECF6 /* JpCntx.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5618E1CDFE12E00DCECF6 /* JpCntx.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562A91CDFE12E00DCECF6 /* kludge.c in Sources */ = {isa = PBXBuildFile; fileRef = 22B5618F1CDFE12E00DCECF6 /* kludge.c */; };
+		22B562AA1CDFE12E00DCECF6 /* LangBulgarianModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561901CDFE12E00DCECF6 /* LangBulgarianModel.cpp */; };
+		22B562AB1CDFE12E00DCECF6 /* LangCyrillicModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561911CDFE12E00DCECF6 /* LangCyrillicModel.cpp */; };
+		22B562AC1CDFE12E00DCECF6 /* LangGreekModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561921CDFE12E00DCECF6 /* LangGreekModel.cpp */; };
+		22B562AD1CDFE12E00DCECF6 /* LangHebrewModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561931CDFE12E00DCECF6 /* LangHebrewModel.cpp */; };
+		22B562AE1CDFE12E00DCECF6 /* LangHungarianModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561941CDFE12E00DCECF6 /* LangHungarianModel.cpp */; };
+		22B562AF1CDFE12E00DCECF6 /* LangThaiModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561951CDFE12E00DCECF6 /* LangThaiModel.cpp */; };
+		22B562B01CDFE12E00DCECF6 /* nsBig5Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561961CDFE12E00DCECF6 /* nsBig5Prober.cpp */; };
+		22B562B11CDFE12E00DCECF6 /* nsBig5Prober.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561971CDFE12E00DCECF6 /* nsBig5Prober.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562B21CDFE12E00DCECF6 /* nsCharSetProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561981CDFE12E00DCECF6 /* nsCharSetProber.cpp */; };
+		22B562B31CDFE12E00DCECF6 /* nsCharSetProber.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561991CDFE12E00DCECF6 /* nsCharSetProber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562B41CDFE12E00DCECF6 /* nsCodingStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5619A1CDFE12E00DCECF6 /* nsCodingStateMachine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562B51CDFE12E00DCECF6 /* nscore.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5619B1CDFE12E00DCECF6 /* nscore.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562B61CDFE12E00DCECF6 /* nsError.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5619C1CDFE12E00DCECF6 /* nsError.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562B71CDFE12E00DCECF6 /* nsEscCharsetProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B5619D1CDFE12E00DCECF6 /* nsEscCharsetProber.cpp */; };
+		22B562B81CDFE12E00DCECF6 /* nsEscCharsetProber.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B5619E1CDFE12E00DCECF6 /* nsEscCharsetProber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562B91CDFE12E00DCECF6 /* nsEscSM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B5619F1CDFE12E00DCECF6 /* nsEscSM.cpp */; };
+		22B562BA1CDFE12E00DCECF6 /* nsEUCJPProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561A01CDFE12E00DCECF6 /* nsEUCJPProber.cpp */; };
+		22B562BB1CDFE12E00DCECF6 /* nsEUCJPProber.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561A11CDFE12E00DCECF6 /* nsEUCJPProber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562BC1CDFE12E00DCECF6 /* nsEUCKRProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561A21CDFE12E00DCECF6 /* nsEUCKRProber.cpp */; };
+		22B562BD1CDFE12E00DCECF6 /* nsEUCKRProber.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561A31CDFE12E00DCECF6 /* nsEUCKRProber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562BE1CDFE12E00DCECF6 /* nsEUCTWProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561A41CDFE12E00DCECF6 /* nsEUCTWProber.cpp */; };
+		22B562BF1CDFE12E00DCECF6 /* nsEUCTWProber.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561A51CDFE12E00DCECF6 /* nsEUCTWProber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562C01CDFE12E00DCECF6 /* nsGB2312Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561A61CDFE12E00DCECF6 /* nsGB2312Prober.cpp */; };
+		22B562C11CDFE12E00DCECF6 /* nsGB2312Prober.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561A71CDFE12E00DCECF6 /* nsGB2312Prober.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562C21CDFE12E00DCECF6 /* nsHebrewProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561A81CDFE12E00DCECF6 /* nsHebrewProber.cpp */; };
+		22B562C31CDFE12E00DCECF6 /* nsHebrewProber.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561A91CDFE12E00DCECF6 /* nsHebrewProber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562C41CDFE12E00DCECF6 /* nsLatin1Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561AA1CDFE12E00DCECF6 /* nsLatin1Prober.cpp */; };
+		22B562C51CDFE12E00DCECF6 /* nsLatin1Prober.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561AB1CDFE12E00DCECF6 /* nsLatin1Prober.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562C61CDFE12E00DCECF6 /* nsMBCSGroupProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561AC1CDFE12E00DCECF6 /* nsMBCSGroupProber.cpp */; };
+		22B562C71CDFE12E00DCECF6 /* nsMBCSGroupProber.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561AD1CDFE12E00DCECF6 /* nsMBCSGroupProber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562C81CDFE12E00DCECF6 /* nsMBCSSM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561AE1CDFE12E00DCECF6 /* nsMBCSSM.cpp */; };
+		22B562C91CDFE12E00DCECF6 /* nsPkgInt.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561AF1CDFE12E00DCECF6 /* nsPkgInt.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562CA1CDFE12E00DCECF6 /* nsSBCharSetProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561B01CDFE12E00DCECF6 /* nsSBCharSetProber.cpp */; };
+		22B562CB1CDFE12E00DCECF6 /* nsSBCharSetProber.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561B11CDFE12E00DCECF6 /* nsSBCharSetProber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562CC1CDFE12E00DCECF6 /* nsSBCSGroupProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561B21CDFE12E00DCECF6 /* nsSBCSGroupProber.cpp */; };
+		22B562CD1CDFE12E00DCECF6 /* nsSBCSGroupProber.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561B31CDFE12E00DCECF6 /* nsSBCSGroupProber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562CE1CDFE12E00DCECF6 /* nsSJISProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561B41CDFE12E00DCECF6 /* nsSJISProber.cpp */; };
+		22B562CF1CDFE12E00DCECF6 /* nsSJISProber.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561B51CDFE12E00DCECF6 /* nsSJISProber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562D01CDFE12E00DCECF6 /* nsUniversalDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561B61CDFE12E00DCECF6 /* nsUniversalDetector.cpp */; };
+		22B562D11CDFE12E00DCECF6 /* nsUniversalDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561B71CDFE12E00DCECF6 /* nsUniversalDetector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562D21CDFE12E00DCECF6 /* nsUTF8Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561B81CDFE12E00DCECF6 /* nsUTF8Prober.cpp */; };
+		22B562D31CDFE12E00DCECF6 /* nsUTF8Prober.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561B91CDFE12E00DCECF6 /* nsUTF8Prober.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562D41CDFE12E00DCECF6 /* prcpucfg.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561BA1CDFE12E00DCECF6 /* prcpucfg.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562D51CDFE12E00DCECF6 /* prmem.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561BB1CDFE12E00DCECF6 /* prmem.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562D61CDFE12E00DCECF6 /* protypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561BC1CDFE12E00DCECF6 /* protypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562D71CDFE12E00DCECF6 /* prtypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561BD1CDFE12E00DCECF6 /* prtypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562D81CDFE12E00DCECF6 /* UniversalDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561BE1CDFE12E00DCECF6 /* UniversalDetector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562D91CDFE12E00DCECF6 /* UniversalDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561BF1CDFE12E00DCECF6 /* UniversalDetector.m */; };
+		22B562DA1CDFE12E00DCECF6 /* UniversalDetector_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 22B561C01CDFE12E00DCECF6 /* UniversalDetector_Prefix.pch */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562DB1CDFE12E00DCECF6 /* WrappedUniversalDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B561C11CDFE12E00DCECF6 /* WrappedUniversalDetector.cpp */; };
+		22B562DC1CDFE12E00DCECF6 /* WrappedUniversalDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561C21CDFE12E00DCECF6 /* WrappedUniversalDetector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562DD1CDFE12E00DCECF6 /* CRC.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561C41CDFE12E00DCECF6 /* CRC.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562DE1CDFE12E00DCECF6 /* CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561C51CDFE12E00DCECF6 /* CRC.m */; };
+		22B562DF1CDFE12E00DCECF6 /* Realloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561C61CDFE12E00DCECF6 /* Realloc.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22B562E01CDFE12E00DCECF6 /* XADAppleDouble.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561C71CDFE12E00DCECF6 /* XADAppleDouble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562E11CDFE12E00DCECF6 /* XADAppleDouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561C81CDFE12E00DCECF6 /* XADAppleDouble.m */; };
+		22B562E21CDFE12E00DCECF6 /* XADBlockHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561C91CDFE12E00DCECF6 /* XADBlockHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562E31CDFE12E00DCECF6 /* XADBlockHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561CA1CDFE12E00DCECF6 /* XADBlockHandle.m */; };
+		22B562E41CDFE12E00DCECF6 /* XADCRCHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561CB1CDFE12E00DCECF6 /* XADCRCHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562E51CDFE12E00DCECF6 /* XADCRCHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561CC1CDFE12E00DCECF6 /* XADCRCHandle.m */; };
+		22B562E61CDFE12E00DCECF6 /* XADDeltaHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561CD1CDFE12E00DCECF6 /* XADDeltaHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562E71CDFE12E00DCECF6 /* XADDeltaHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561CE1CDFE12E00DCECF6 /* XADDeltaHandle.m */; };
+		22B562E81CDFE12E00DCECF6 /* XADRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561CF1CDFE12E00DCECF6 /* XADRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562E91CDFE12E00DCECF6 /* XADRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561D01CDFE12E00DCECF6 /* XADRegex.m */; };
+		22B562EA1CDFE12E00DCECF6 /* XADSkipHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561D11CDFE12E00DCECF6 /* XADSkipHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562EB1CDFE12E00DCECF6 /* XADSkipHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561D21CDFE12E00DCECF6 /* XADSkipHandle.m */; };
+		22B562EC1CDFE12E00DCECF6 /* XADXORHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561D31CDFE12E00DCECF6 /* XADXORHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562ED1CDFE12E00DCECF6 /* XADXORHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561D41CDFE12E00DCECF6 /* XADXORHandle.m */; };
+		22B562EE1CDFE12E00DCECF6 /* XADArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561D51CDFE12E00DCECF6 /* XADArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562EF1CDFE12E00DCECF6 /* XADArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561D61CDFE12E00DCECF6 /* XADArchive.m */; };
+		22B562F01CDFE12E00DCECF6 /* XADArchiveParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561D71CDFE12E00DCECF6 /* XADArchiveParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562F11CDFE12E00DCECF6 /* XADArchiveParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561D81CDFE12E00DCECF6 /* XADArchiveParser.m */; };
+		22B562F21CDFE12E00DCECF6 /* XADArchiveParserDescriptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561D91CDFE12E00DCECF6 /* XADArchiveParserDescriptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562F31CDFE12E00DCECF6 /* XADArchiveParserDescriptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561DA1CDFE12E00DCECF6 /* XADArchiveParserDescriptions.m */; };
+		22B562F41CDFE12E00DCECF6 /* XADException.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561DB1CDFE12E00DCECF6 /* XADException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562F51CDFE12E00DCECF6 /* XADException.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561DC1CDFE12E00DCECF6 /* XADException.m */; };
+		22B562F61CDFE12E00DCECF6 /* XADMacArchiveParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561DD1CDFE12E00DCECF6 /* XADMacArchiveParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562F71CDFE12E00DCECF6 /* XADMacArchiveParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561DE1CDFE12E00DCECF6 /* XADMacArchiveParser.m */; };
+		22B562F81CDFE12E00DCECF6 /* XADPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561DF1CDFE12E00DCECF6 /* XADPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562F91CDFE12E00DCECF6 /* XADPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561E01CDFE12E00DCECF6 /* XADPath.m */; };
+		22B562FA1CDFE12E00DCECF6 /* XADPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561E11CDFE12E00DCECF6 /* XADPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562FB1CDFE12E00DCECF6 /* XADPlatformiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561E21CDFE12E00DCECF6 /* XADPlatformiOS.m */; };
+		22B562FC1CDFE12E00DCECF6 /* XADResourceFork.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561E31CDFE12E00DCECF6 /* XADResourceFork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562FD1CDFE12E00DCECF6 /* XADResourceFork.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561E41CDFE12E00DCECF6 /* XADResourceFork.m */; };
+		22B562FE1CDFE12E00DCECF6 /* XADString.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561E51CDFE12E00DCECF6 /* XADString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B562FF1CDFE12E00DCECF6 /* XADString.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561E61CDFE12E00DCECF6 /* XADString.m */; };
+		22B563001CDFE12E00DCECF6 /* XADStringCFString.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561E71CDFE12E00DCECF6 /* XADStringCFString.m */; };
+		22B563011CDFE12E00DCECF6 /* XADUnarchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B561E81CDFE12E00DCECF6 /* XADUnarchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B563021CDFE12E00DCECF6 /* XADUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B561E91CDFE12E00DCECF6 /* XADUnarchiver.m */; };
+		22B563041CDFE15B00DCECF6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B563031CDFE15B00DCECF6 /* libz.tbd */; };
+		22B563061CDFE1BA00DCECF6 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B563051CDFE1BA00DCECF6 /* libbz2.tbd */; };
+		22B563091CDFE27300DCECF6 /* Test.zip in Resources */ = {isa = PBXBuildFile; fileRef = 22B563081CDFE27300DCECF6 /* Test.zip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22B560AD1CDFDFC400DCECF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B560981CDFDFC400DCECF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B560A01CDFDFC400DCECF6;
+			remoteInfo = XADMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22B560A11CDFDFC400DCECF6 /* XADMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XADMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B560A41CDFDFC400DCECF6 /* XADMaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XADMaster.h; sourceTree = "<group>"; };
+		22B560A61CDFDFC400DCECF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B560AB1CDFDFC400DCECF6 /* XADMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XADMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B560B01CDFDFC400DCECF6 /* XADMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XADMasterTests.m; sourceTree = "<group>"; };
+		22B560B21CDFDFC400DCECF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B560BD1CDFE12D00DCECF6 /* XAD7ZipAESHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAD7ZipAESHandle.h; sourceTree = "<group>"; };
+		22B560BE1CDFE12D00DCECF6 /* XAD7ZipAESHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAD7ZipAESHandle.m; sourceTree = "<group>"; };
+		22B560BF1CDFE12D00DCECF6 /* XAD7ZipBCJ2Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAD7ZipBCJ2Handle.h; sourceTree = "<group>"; };
+		22B560C01CDFE12D00DCECF6 /* XAD7ZipBCJ2Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAD7ZipBCJ2Handle.m; sourceTree = "<group>"; };
+		22B560C11CDFE12D00DCECF6 /* XAD7ZipBranchHandles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAD7ZipBranchHandles.h; sourceTree = "<group>"; };
+		22B560C21CDFE12D00DCECF6 /* XAD7ZipBranchHandles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAD7ZipBranchHandles.m; sourceTree = "<group>"; };
+		22B560C31CDFE12D00DCECF6 /* XAD7ZipParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAD7ZipParser.h; sourceTree = "<group>"; };
+		22B560C41CDFE12D00DCECF6 /* XAD7ZipParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAD7ZipParser.m; sourceTree = "<group>"; };
+		22B560C51CDFE12D00DCECF6 /* XADLZMA2Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADLZMA2Handle.h; sourceTree = "<group>"; };
+		22B560C61CDFE12D00DCECF6 /* XADLZMA2Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADLZMA2Handle.m; sourceTree = "<group>"; };
+		22B560C71CDFE12D00DCECF6 /* XADLZMAHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADLZMAHandle.h; sourceTree = "<group>"; };
+		22B560C81CDFE12D00DCECF6 /* XADLZMAHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADLZMAHandle.m; sourceTree = "<group>"; };
+		22B560CA1CDFE12D00DCECF6 /* XADLArcHandles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADLArcHandles.h; sourceTree = "<group>"; };
+		22B560CB1CDFE12D00DCECF6 /* XADLArcHandles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADLArcHandles.m; sourceTree = "<group>"; };
+		22B560CC1CDFE12D00DCECF6 /* XADLZHDynamicHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADLZHDynamicHandle.h; sourceTree = "<group>"; };
+		22B560CD1CDFE12D00DCECF6 /* XADLZHDynamicHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADLZHDynamicHandle.m; sourceTree = "<group>"; };
+		22B560CE1CDFE12D00DCECF6 /* XADLZHOldHandles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADLZHOldHandles.h; sourceTree = "<group>"; };
+		22B560CF1CDFE12D00DCECF6 /* XADLZHOldHandles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADLZHOldHandles.m; sourceTree = "<group>"; };
+		22B560D01CDFE12D00DCECF6 /* XADLZHParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADLZHParser.h; sourceTree = "<group>"; };
+		22B560D11CDFE12D00DCECF6 /* XADLZHParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADLZHParser.m; sourceTree = "<group>"; };
+		22B560D21CDFE12D00DCECF6 /* XADLZHStaticHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADLZHStaticHandle.h; sourceTree = "<group>"; };
+		22B560D31CDFE12D00DCECF6 /* XADLZHStaticHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADLZHStaticHandle.m; sourceTree = "<group>"; };
+		22B560D51CDFE12D00DCECF6 /* XADLibXADIOHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADLibXADIOHandle.h; sourceTree = "<group>"; };
+		22B560D61CDFE12D00DCECF6 /* XADLibXADIOHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADLibXADIOHandle.m; sourceTree = "<group>"; };
+		22B560D91CDFE12D00DCECF6 /* Bra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Bra.c; sourceTree = "<group>"; };
+		22B560DA1CDFE12D00DCECF6 /* Bra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bra.h; sourceTree = "<group>"; };
+		22B560DB1CDFE12D00DCECF6 /* Bra86.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Bra86.c; sourceTree = "<group>"; };
+		22B560DC1CDFE12D00DCECF6 /* BraIA64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BraIA64.c; sourceTree = "<group>"; };
+		22B560DD1CDFE12D00DCECF6 /* Lzma2Dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Lzma2Dec.c; sourceTree = "<group>"; };
+		22B560DE1CDFE12D00DCECF6 /* Lzma2Dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lzma2Dec.h; sourceTree = "<group>"; };
+		22B560DF1CDFE12D00DCECF6 /* LzmaDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LzmaDec.c; sourceTree = "<group>"; };
+		22B560E01CDFE12D00DCECF6 /* LzmaDec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzmaDec.h; sourceTree = "<group>"; };
+		22B560E11CDFE12D00DCECF6 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		22B560E41CDFE12D00DCECF6 /* Context.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Context.c; sourceTree = "<group>"; };
+		22B560E51CDFE12D00DCECF6 /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		22B560E61CDFE12D00DCECF6 /* RangeCoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RangeCoder.c; sourceTree = "<group>"; };
+		22B560E71CDFE12D00DCECF6 /* RangeCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RangeCoder.h; sourceTree = "<group>"; };
+		22B560E81CDFE12D00DCECF6 /* SubAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocator.h; sourceTree = "<group>"; };
+		22B560E91CDFE12D00DCECF6 /* SubAllocatorBrimstone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorBrimstone.c; sourceTree = "<group>"; };
+		22B560EA1CDFE12D00DCECF6 /* SubAllocatorBrimstone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorBrimstone.h; sourceTree = "<group>"; };
+		22B560EB1CDFE12D00DCECF6 /* SubAllocatorVariantG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorVariantG.c; sourceTree = "<group>"; };
+		22B560EC1CDFE12D00DCECF6 /* SubAllocatorVariantG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorVariantG.h; sourceTree = "<group>"; };
+		22B560ED1CDFE12D00DCECF6 /* SubAllocatorVariantH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorVariantH.c; sourceTree = "<group>"; };
+		22B560EE1CDFE12D00DCECF6 /* SubAllocatorVariantH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorVariantH.h; sourceTree = "<group>"; };
+		22B560EF1CDFE12D00DCECF6 /* SubAllocatorVariantI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SubAllocatorVariantI.c; sourceTree = "<group>"; };
+		22B560F01CDFE12D00DCECF6 /* SubAllocatorVariantI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAllocatorVariantI.h; sourceTree = "<group>"; };
+		22B560F11CDFE12D00DCECF6 /* VariantG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VariantG.c; sourceTree = "<group>"; };
+		22B560F21CDFE12D00DCECF6 /* VariantG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantG.h; sourceTree = "<group>"; };
+		22B560F31CDFE12D00DCECF6 /* VariantH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VariantH.c; sourceTree = "<group>"; };
+		22B560F41CDFE12D00DCECF6 /* VariantH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantH.h; sourceTree = "<group>"; };
+		22B560F51CDFE12D00DCECF6 /* VariantI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VariantI.c; sourceTree = "<group>"; };
+		22B560F61CDFE12D00DCECF6 /* VariantI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariantI.h; sourceTree = "<group>"; };
+		22B560F71CDFE12D00DCECF6 /* XADPPMdHandles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADPPMdHandles.h; sourceTree = "<group>"; };
+		22B560F81CDFE12D00DCECF6 /* XADPPMdHandles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADPPMdHandles.m; sourceTree = "<group>"; };
+		22B560F91CDFE12D00DCECF6 /* XADPPMdParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADPPMdParser.h; sourceTree = "<group>"; };
+		22B560FA1CDFE12D00DCECF6 /* XADPPMdParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADPPMdParser.m; sourceTree = "<group>"; };
+		22B560FC1CDFE12D00DCECF6 /* RARAudioDecoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RARAudioDecoder.c; sourceTree = "<group>"; };
+		22B560FD1CDFE12D00DCECF6 /* RARAudioDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARAudioDecoder.h; sourceTree = "<group>"; };
+		22B560FE1CDFE12D00DCECF6 /* RARBug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RARBug.c; sourceTree = "<group>"; };
+		22B560FF1CDFE12D00DCECF6 /* RARBug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARBug.h; sourceTree = "<group>"; };
+		22B561001CDFE12D00DCECF6 /* RARVirtualMachine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RARVirtualMachine.c; sourceTree = "<group>"; };
+		22B561011CDFE12D00DCECF6 /* RARVirtualMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARVirtualMachine.h; sourceTree = "<group>"; };
+		22B561021CDFE12D00DCECF6 /* XADRAR13CryptHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRAR13CryptHandle.h; sourceTree = "<group>"; };
+		22B561031CDFE12D00DCECF6 /* XADRAR13CryptHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRAR13CryptHandle.m; sourceTree = "<group>"; };
+		22B561041CDFE12D00DCECF6 /* XADRAR15CryptHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRAR15CryptHandle.h; sourceTree = "<group>"; };
+		22B561051CDFE12D00DCECF6 /* XADRAR15CryptHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRAR15CryptHandle.m; sourceTree = "<group>"; };
+		22B561061CDFE12D00DCECF6 /* XADRAR15Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRAR15Handle.h; sourceTree = "<group>"; };
+		22B561071CDFE12D00DCECF6 /* XADRAR15Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRAR15Handle.m; sourceTree = "<group>"; };
+		22B561081CDFE12D00DCECF6 /* XADRAR20CryptHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRAR20CryptHandle.h; sourceTree = "<group>"; };
+		22B561091CDFE12D00DCECF6 /* XADRAR20CryptHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRAR20CryptHandle.m; sourceTree = "<group>"; };
+		22B5610A1CDFE12D00DCECF6 /* XADRAR20Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRAR20Handle.h; sourceTree = "<group>"; };
+		22B5610B1CDFE12D00DCECF6 /* XADRAR20Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRAR20Handle.m; sourceTree = "<group>"; };
+		22B5610C1CDFE12D00DCECF6 /* XADRAR30Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRAR30Filter.h; sourceTree = "<group>"; };
+		22B5610D1CDFE12D00DCECF6 /* XADRAR30Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRAR30Filter.m; sourceTree = "<group>"; };
+		22B5610E1CDFE12D00DCECF6 /* XADRAR30Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRAR30Handle.h; sourceTree = "<group>"; };
+		22B5610F1CDFE12D00DCECF6 /* XADRAR30Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRAR30Handle.m; sourceTree = "<group>"; };
+		22B561101CDFE12D00DCECF6 /* XADRARAESHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRARAESHandle.h; sourceTree = "<group>"; };
+		22B561111CDFE12D00DCECF6 /* XADRARAESHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRARAESHandle.m; sourceTree = "<group>"; };
+		22B561121CDFE12D00DCECF6 /* XADRARInputHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRARInputHandle.h; sourceTree = "<group>"; };
+		22B561131CDFE12D00DCECF6 /* XADRARInputHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRARInputHandle.m; sourceTree = "<group>"; };
+		22B561141CDFE12D00DCECF6 /* XADRARParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRARParser.h; sourceTree = "<group>"; };
+		22B561151CDFE12D00DCECF6 /* XADRARParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRARParser.m; sourceTree = "<group>"; };
+		22B561161CDFE12D00DCECF6 /* XADRARVirtualMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRARVirtualMachine.h; sourceTree = "<group>"; };
+		22B561171CDFE12D00DCECF6 /* XADRARVirtualMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRARVirtualMachine.m; sourceTree = "<group>"; };
+		22B5611A1CDFE12D00DCECF6 /* XADTarParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADTarParser.h; sourceTree = "<group>"; };
+		22B5611B1CDFE12D00DCECF6 /* XADTarParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADTarParser.m; sourceTree = "<group>"; };
+		22B5611C1CDFE12D00DCECF6 /* XADTarSparseHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADTarSparseHandle.h; sourceTree = "<group>"; };
+		22B5611D1CDFE12D00DCECF6 /* XADTarSparseHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADTarSparseHandle.m; sourceTree = "<group>"; };
+		22B5611F1CDFE12D00DCECF6 /* XADCompressHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADCompressHandle.h; sourceTree = "<group>"; };
+		22B561201CDFE12D00DCECF6 /* XADCompressHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADCompressHandle.m; sourceTree = "<group>"; };
+		22B561231CDFE12D00DCECF6 /* bits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bits.c; sourceTree = "<group>"; };
+		22B561241CDFE12D00DCECF6 /* float.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = float.c; sourceTree = "<group>"; };
+		22B561251CDFE12D00DCECF6 /* metadata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = metadata.c; sourceTree = "<group>"; };
+		22B561261CDFE12D00DCECF6 /* unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unpack.c; sourceTree = "<group>"; };
+		22B561271CDFE12D00DCECF6 /* wavpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavpack.h; sourceTree = "<group>"; };
+		22B561281CDFE12D00DCECF6 /* wavpack_local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavpack_local.h; sourceTree = "<group>"; };
+		22B561291CDFE12D00DCECF6 /* wavpack_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavpack_version.h; sourceTree = "<group>"; };
+		22B5612A1CDFE12D00DCECF6 /* words.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = words.c; sourceTree = "<group>"; };
+		22B5612B1CDFE12D00DCECF6 /* wputils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wputils.c; sourceTree = "<group>"; };
+		22B5612D1CDFE12E00DCECF6 /* ArithmeticDecoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ArithmeticDecoder.c; sourceTree = "<group>"; };
+		22B5612E1CDFE12E00DCECF6 /* ArithmeticDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArithmeticDecoder.h; sourceTree = "<group>"; };
+		22B5612F1CDFE12E00DCECF6 /* Decompressor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Decompressor.c; sourceTree = "<group>"; };
+		22B561301CDFE12E00DCECF6 /* Decompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decompressor.h; sourceTree = "<group>"; };
+		22B561311CDFE12E00DCECF6 /* InputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputStream.h; sourceTree = "<group>"; };
+		22B561321CDFE12E00DCECF6 /* JPEG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JPEG.c; sourceTree = "<group>"; };
+		22B561331CDFE12E00DCECF6 /* JPEG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEG.h; sourceTree = "<group>"; };
+		22B561341CDFE12E00DCECF6 /* LZMA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMA.h; sourceTree = "<group>"; };
+		22B561351CDFE12E00DCECF6 /* XADDeflateHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADDeflateHandle.h; sourceTree = "<group>"; };
+		22B561361CDFE12E00DCECF6 /* XADDeflateHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADDeflateHandle.m; sourceTree = "<group>"; };
+		22B561371CDFE12E00DCECF6 /* XADWinZipAESHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADWinZipAESHandle.h; sourceTree = "<group>"; };
+		22B561381CDFE12E00DCECF6 /* XADWinZipAESHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADWinZipAESHandle.m; sourceTree = "<group>"; };
+		22B561391CDFE12E00DCECF6 /* XADWinZipJPEGHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADWinZipJPEGHandle.h; sourceTree = "<group>"; };
+		22B5613A1CDFE12E00DCECF6 /* XADWinZipJPEGHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADWinZipJPEGHandle.m; sourceTree = "<group>"; };
+		22B5613B1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADWinZipWavPackHandle.h; sourceTree = "<group>"; };
+		22B5613C1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADWinZipWavPackHandle.m; sourceTree = "<group>"; };
+		22B5613D1CDFE12E00DCECF6 /* XADZipCryptHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADZipCryptHandle.h; sourceTree = "<group>"; };
+		22B5613E1CDFE12E00DCECF6 /* XADZipCryptHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADZipCryptHandle.m; sourceTree = "<group>"; };
+		22B5613F1CDFE12E00DCECF6 /* XADZipImplodeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADZipImplodeHandle.h; sourceTree = "<group>"; };
+		22B561401CDFE12E00DCECF6 /* XADZipImplodeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADZipImplodeHandle.m; sourceTree = "<group>"; };
+		22B561411CDFE12E00DCECF6 /* XADZipParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADZipParser.h; sourceTree = "<group>"; };
+		22B561421CDFE12E00DCECF6 /* XADZipParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADZipParser.m; sourceTree = "<group>"; };
+		22B561431CDFE12E00DCECF6 /* XADZipSFXParsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADZipSFXParsers.h; sourceTree = "<group>"; };
+		22B561441CDFE12E00DCECF6 /* XADZipSFXParsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADZipSFXParsers.m; sourceTree = "<group>"; };
+		22B561451CDFE12E00DCECF6 /* XADZipShrinkHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADZipShrinkHandle.h; sourceTree = "<group>"; };
+		22B561461CDFE12E00DCECF6 /* XADZipShrinkHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADZipShrinkHandle.m; sourceTree = "<group>"; };
+		22B561481CDFE12E00DCECF6 /* Checksums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checksums.h; sourceTree = "<group>"; };
+		22B561491CDFE12E00DCECF6 /* Checksums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checksums.m; sourceTree = "<group>"; };
+		22B5614A1CDFE12E00DCECF6 /* NSDateXAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateXAD.h; sourceTree = "<group>"; };
+		22B5614B1CDFE12E00DCECF6 /* NSDateXAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateXAD.m; sourceTree = "<group>"; };
+		22B5614C1CDFE12E00DCECF6 /* Progress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Progress.h; sourceTree = "<group>"; };
+		22B5614D1CDFE12E00DCECF6 /* Progress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Progress.m; sourceTree = "<group>"; };
+		22B5614E1CDFE12E00DCECF6 /* Scanning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanning.h; sourceTree = "<group>"; };
+		22B5614F1CDFE12E00DCECF6 /* Scanning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scanning.m; sourceTree = "<group>"; };
+		22B561511CDFE12E00DCECF6 /* LZSS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LZSS.c; sourceTree = "<group>"; };
+		22B561521CDFE12E00DCECF6 /* LZSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSS.h; sourceTree = "<group>"; };
+		22B561531CDFE12E00DCECF6 /* LZW.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LZW.c; sourceTree = "<group>"; };
+		22B561541CDFE12E00DCECF6 /* LZW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZW.h; sourceTree = "<group>"; };
+		22B561551CDFE12E00DCECF6 /* XADFastLZSSHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADFastLZSSHandle.h; sourceTree = "<group>"; };
+		22B561561CDFE12E00DCECF6 /* XADFastLZSSHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADFastLZSSHandle.m; sourceTree = "<group>"; };
+		22B561571CDFE12E00DCECF6 /* XADLZSSHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADLZSSHandle.h; sourceTree = "<group>"; };
+		22B561581CDFE12E00DCECF6 /* XADLZSSHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADLZSSHandle.m; sourceTree = "<group>"; };
+		22B561591CDFE12E00DCECF6 /* XADPrefixCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADPrefixCode.h; sourceTree = "<group>"; };
+		22B5615A1CDFE12E00DCECF6 /* XADPrefixCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADPrefixCode.m; sourceTree = "<group>"; };
+		22B5615C1CDFE12E00DCECF6 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		22B5615D1CDFE12E00DCECF6 /* aes_modes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes_modes.c; sourceTree = "<group>"; };
+		22B5615E1CDFE12E00DCECF6 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		22B5615F1CDFE12E00DCECF6 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		22B561601CDFE12E00DCECF6 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		22B561611CDFE12E00DCECF6 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		22B561621CDFE12E00DCECF6 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		22B561631CDFE12E00DCECF6 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		22B561641CDFE12E00DCECF6 /* des.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = des.c; sourceTree = "<group>"; };
+		22B561651CDFE12E00DCECF6 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		22B561661CDFE12E00DCECF6 /* hmac_sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac_sha1.c; sourceTree = "<group>"; };
+		22B561671CDFE12E00DCECF6 /* hmac_sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac_sha1.h; sourceTree = "<group>"; };
+		22B561681CDFE12E00DCECF6 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		22B561691CDFE12E00DCECF6 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		22B5616A1CDFE12E00DCECF6 /* sha.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha.c; sourceTree = "<group>"; };
+		22B5616B1CDFE12E00DCECF6 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		22B5616D1CDFE12E00DCECF6 /* CSBlockStreamHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSBlockStreamHandle.h; sourceTree = "<group>"; };
+		22B5616E1CDFE12E00DCECF6 /* CSBlockStreamHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSBlockStreamHandle.m; sourceTree = "<group>"; };
+		22B5616F1CDFE12E00DCECF6 /* CSByteStreamHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSByteStreamHandle.h; sourceTree = "<group>"; };
+		22B561701CDFE12E00DCECF6 /* CSByteStreamHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSByteStreamHandle.m; sourceTree = "<group>"; };
+		22B561711CDFE12E00DCECF6 /* CSBzip2Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSBzip2Handle.h; sourceTree = "<group>"; };
+		22B561721CDFE12E00DCECF6 /* CSBzip2Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSBzip2Handle.m; sourceTree = "<group>"; };
+		22B561731CDFE12E00DCECF6 /* CSFileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSFileHandle.h; sourceTree = "<group>"; };
+		22B561741CDFE12E00DCECF6 /* CSFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFileHandle.m; sourceTree = "<group>"; };
+		22B561751CDFE12E00DCECF6 /* CSHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHandle.h; sourceTree = "<group>"; };
+		22B561761CDFE12E00DCECF6 /* CSHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHandle.m; sourceTree = "<group>"; };
+		22B561771CDFE12E00DCECF6 /* CSInputBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSInputBuffer.h; sourceTree = "<group>"; };
+		22B561781CDFE12E00DCECF6 /* CSInputBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSInputBuffer.m; sourceTree = "<group>"; };
+		22B561791CDFE12E00DCECF6 /* CSMemoryHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMemoryHandle.h; sourceTree = "<group>"; };
+		22B5617A1CDFE12E00DCECF6 /* CSMemoryHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMemoryHandle.m; sourceTree = "<group>"; };
+		22B5617B1CDFE12E00DCECF6 /* CSMultiHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMultiHandle.h; sourceTree = "<group>"; };
+		22B5617C1CDFE12E00DCECF6 /* CSMultiHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMultiHandle.m; sourceTree = "<group>"; };
+		22B5617D1CDFE12E00DCECF6 /* CSStreamHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStreamHandle.h; sourceTree = "<group>"; };
+		22B5617E1CDFE12E00DCECF6 /* CSStreamHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSStreamHandle.m; sourceTree = "<group>"; };
+		22B5617F1CDFE12E00DCECF6 /* CSSubHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSubHandle.h; sourceTree = "<group>"; };
+		22B561801CDFE12E00DCECF6 /* CSSubHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSubHandle.m; sourceTree = "<group>"; };
+		22B561811CDFE12E00DCECF6 /* CSZlibHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSZlibHandle.h; sourceTree = "<group>"; };
+		22B561821CDFE12E00DCECF6 /* CSZlibHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSZlibHandle.m; sourceTree = "<group>"; };
+		22B561851CDFE12E00DCECF6 /* .cvsignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .cvsignore; sourceTree = "<group>"; };
+		22B561861CDFE12E00DCECF6 /* Big5Freq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Big5Freq.tab; sourceTree = "<group>"; };
+		22B561871CDFE12E00DCECF6 /* CharDistribution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharDistribution.cpp; sourceTree = "<group>"; };
+		22B561881CDFE12E00DCECF6 /* CharDistribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharDistribution.h; sourceTree = "<group>"; };
+		22B561891CDFE12E00DCECF6 /* EUCKRFreq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EUCKRFreq.tab; sourceTree = "<group>"; };
+		22B5618A1CDFE12E00DCECF6 /* EUCTWFreq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EUCTWFreq.tab; sourceTree = "<group>"; };
+		22B5618B1CDFE12E00DCECF6 /* GB2312Freq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GB2312Freq.tab; sourceTree = "<group>"; };
+		22B5618C1CDFE12E00DCECF6 /* JISFreq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JISFreq.tab; sourceTree = "<group>"; };
+		22B5618D1CDFE12E00DCECF6 /* JpCntx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JpCntx.cpp; sourceTree = "<group>"; };
+		22B5618E1CDFE12E00DCECF6 /* JpCntx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpCntx.h; sourceTree = "<group>"; };
+		22B5618F1CDFE12E00DCECF6 /* kludge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kludge.c; sourceTree = "<group>"; };
+		22B561901CDFE12E00DCECF6 /* LangBulgarianModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangBulgarianModel.cpp; sourceTree = "<group>"; };
+		22B561911CDFE12E00DCECF6 /* LangCyrillicModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangCyrillicModel.cpp; sourceTree = "<group>"; };
+		22B561921CDFE12E00DCECF6 /* LangGreekModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangGreekModel.cpp; sourceTree = "<group>"; };
+		22B561931CDFE12E00DCECF6 /* LangHebrewModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangHebrewModel.cpp; sourceTree = "<group>"; };
+		22B561941CDFE12E00DCECF6 /* LangHungarianModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangHungarianModel.cpp; sourceTree = "<group>"; };
+		22B561951CDFE12E00DCECF6 /* LangThaiModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangThaiModel.cpp; sourceTree = "<group>"; };
+		22B561961CDFE12E00DCECF6 /* nsBig5Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsBig5Prober.cpp; sourceTree = "<group>"; };
+		22B561971CDFE12E00DCECF6 /* nsBig5Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsBig5Prober.h; sourceTree = "<group>"; };
+		22B561981CDFE12E00DCECF6 /* nsCharSetProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsCharSetProber.cpp; sourceTree = "<group>"; };
+		22B561991CDFE12E00DCECF6 /* nsCharSetProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsCharSetProber.h; sourceTree = "<group>"; };
+		22B5619A1CDFE12E00DCECF6 /* nsCodingStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsCodingStateMachine.h; sourceTree = "<group>"; };
+		22B5619B1CDFE12E00DCECF6 /* nscore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nscore.h; sourceTree = "<group>"; };
+		22B5619C1CDFE12E00DCECF6 /* nsError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsError.h; sourceTree = "<group>"; };
+		22B5619D1CDFE12E00DCECF6 /* nsEscCharsetProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEscCharsetProber.cpp; sourceTree = "<group>"; };
+		22B5619E1CDFE12E00DCECF6 /* nsEscCharsetProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEscCharsetProber.h; sourceTree = "<group>"; };
+		22B5619F1CDFE12E00DCECF6 /* nsEscSM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEscSM.cpp; sourceTree = "<group>"; };
+		22B561A01CDFE12E00DCECF6 /* nsEUCJPProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEUCJPProber.cpp; sourceTree = "<group>"; };
+		22B561A11CDFE12E00DCECF6 /* nsEUCJPProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEUCJPProber.h; sourceTree = "<group>"; };
+		22B561A21CDFE12E00DCECF6 /* nsEUCKRProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEUCKRProber.cpp; sourceTree = "<group>"; };
+		22B561A31CDFE12E00DCECF6 /* nsEUCKRProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEUCKRProber.h; sourceTree = "<group>"; };
+		22B561A41CDFE12E00DCECF6 /* nsEUCTWProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEUCTWProber.cpp; sourceTree = "<group>"; };
+		22B561A51CDFE12E00DCECF6 /* nsEUCTWProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEUCTWProber.h; sourceTree = "<group>"; };
+		22B561A61CDFE12E00DCECF6 /* nsGB2312Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsGB2312Prober.cpp; sourceTree = "<group>"; };
+		22B561A71CDFE12E00DCECF6 /* nsGB2312Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsGB2312Prober.h; sourceTree = "<group>"; };
+		22B561A81CDFE12E00DCECF6 /* nsHebrewProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsHebrewProber.cpp; sourceTree = "<group>"; };
+		22B561A91CDFE12E00DCECF6 /* nsHebrewProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsHebrewProber.h; sourceTree = "<group>"; };
+		22B561AA1CDFE12E00DCECF6 /* nsLatin1Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsLatin1Prober.cpp; sourceTree = "<group>"; };
+		22B561AB1CDFE12E00DCECF6 /* nsLatin1Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsLatin1Prober.h; sourceTree = "<group>"; };
+		22B561AC1CDFE12E00DCECF6 /* nsMBCSGroupProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsMBCSGroupProber.cpp; sourceTree = "<group>"; };
+		22B561AD1CDFE12E00DCECF6 /* nsMBCSGroupProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsMBCSGroupProber.h; sourceTree = "<group>"; };
+		22B561AE1CDFE12E00DCECF6 /* nsMBCSSM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsMBCSSM.cpp; sourceTree = "<group>"; };
+		22B561AF1CDFE12E00DCECF6 /* nsPkgInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsPkgInt.h; sourceTree = "<group>"; };
+		22B561B01CDFE12E00DCECF6 /* nsSBCharSetProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsSBCharSetProber.cpp; sourceTree = "<group>"; };
+		22B561B11CDFE12E00DCECF6 /* nsSBCharSetProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsSBCharSetProber.h; sourceTree = "<group>"; };
+		22B561B21CDFE12E00DCECF6 /* nsSBCSGroupProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsSBCSGroupProber.cpp; sourceTree = "<group>"; };
+		22B561B31CDFE12E00DCECF6 /* nsSBCSGroupProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsSBCSGroupProber.h; sourceTree = "<group>"; };
+		22B561B41CDFE12E00DCECF6 /* nsSJISProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsSJISProber.cpp; sourceTree = "<group>"; };
+		22B561B51CDFE12E00DCECF6 /* nsSJISProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsSJISProber.h; sourceTree = "<group>"; };
+		22B561B61CDFE12E00DCECF6 /* nsUniversalDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsUniversalDetector.cpp; sourceTree = "<group>"; };
+		22B561B71CDFE12E00DCECF6 /* nsUniversalDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsUniversalDetector.h; sourceTree = "<group>"; };
+		22B561B81CDFE12E00DCECF6 /* nsUTF8Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsUTF8Prober.cpp; sourceTree = "<group>"; };
+		22B561B91CDFE12E00DCECF6 /* nsUTF8Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsUTF8Prober.h; sourceTree = "<group>"; };
+		22B561BA1CDFE12E00DCECF6 /* prcpucfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prcpucfg.h; sourceTree = "<group>"; };
+		22B561BB1CDFE12E00DCECF6 /* prmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prmem.h; sourceTree = "<group>"; };
+		22B561BC1CDFE12E00DCECF6 /* protypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protypes.h; sourceTree = "<group>"; };
+		22B561BD1CDFE12E00DCECF6 /* prtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prtypes.h; sourceTree = "<group>"; };
+		22B561BE1CDFE12E00DCECF6 /* UniversalDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversalDetector.h; sourceTree = "<group>"; };
+		22B561BF1CDFE12E00DCECF6 /* UniversalDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversalDetector.m; sourceTree = "<group>"; };
+		22B561C01CDFE12E00DCECF6 /* UniversalDetector_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversalDetector_Prefix.pch; sourceTree = "<group>"; };
+		22B561C11CDFE12E00DCECF6 /* WrappedUniversalDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WrappedUniversalDetector.cpp; sourceTree = "<group>"; };
+		22B561C21CDFE12E00DCECF6 /* WrappedUniversalDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrappedUniversalDetector.h; sourceTree = "<group>"; };
+		22B561C41CDFE12E00DCECF6 /* CRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRC.h; sourceTree = "<group>"; };
+		22B561C51CDFE12E00DCECF6 /* CRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRC.m; sourceTree = "<group>"; };
+		22B561C61CDFE12E00DCECF6 /* Realloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Realloc.h; sourceTree = "<group>"; };
+		22B561C71CDFE12E00DCECF6 /* XADAppleDouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADAppleDouble.h; sourceTree = "<group>"; };
+		22B561C81CDFE12E00DCECF6 /* XADAppleDouble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADAppleDouble.m; sourceTree = "<group>"; };
+		22B561C91CDFE12E00DCECF6 /* XADBlockHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADBlockHandle.h; sourceTree = "<group>"; };
+		22B561CA1CDFE12E00DCECF6 /* XADBlockHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADBlockHandle.m; sourceTree = "<group>"; };
+		22B561CB1CDFE12E00DCECF6 /* XADCRCHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADCRCHandle.h; sourceTree = "<group>"; };
+		22B561CC1CDFE12E00DCECF6 /* XADCRCHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADCRCHandle.m; sourceTree = "<group>"; };
+		22B561CD1CDFE12E00DCECF6 /* XADDeltaHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADDeltaHandle.h; sourceTree = "<group>"; };
+		22B561CE1CDFE12E00DCECF6 /* XADDeltaHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADDeltaHandle.m; sourceTree = "<group>"; };
+		22B561CF1CDFE12E00DCECF6 /* XADRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADRegex.h; sourceTree = "<group>"; };
+		22B561D01CDFE12E00DCECF6 /* XADRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADRegex.m; sourceTree = "<group>"; };
+		22B561D11CDFE12E00DCECF6 /* XADSkipHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADSkipHandle.h; sourceTree = "<group>"; };
+		22B561D21CDFE12E00DCECF6 /* XADSkipHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADSkipHandle.m; sourceTree = "<group>"; };
+		22B561D31CDFE12E00DCECF6 /* XADXORHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADXORHandle.h; sourceTree = "<group>"; };
+		22B561D41CDFE12E00DCECF6 /* XADXORHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADXORHandle.m; sourceTree = "<group>"; };
+		22B561D51CDFE12E00DCECF6 /* XADArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADArchive.h; sourceTree = "<group>"; };
+		22B561D61CDFE12E00DCECF6 /* XADArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADArchive.m; sourceTree = "<group>"; };
+		22B561D71CDFE12E00DCECF6 /* XADArchiveParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADArchiveParser.h; sourceTree = "<group>"; };
+		22B561D81CDFE12E00DCECF6 /* XADArchiveParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADArchiveParser.m; sourceTree = "<group>"; };
+		22B561D91CDFE12E00DCECF6 /* XADArchiveParserDescriptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADArchiveParserDescriptions.h; sourceTree = "<group>"; };
+		22B561DA1CDFE12E00DCECF6 /* XADArchiveParserDescriptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADArchiveParserDescriptions.m; sourceTree = "<group>"; };
+		22B561DB1CDFE12E00DCECF6 /* XADException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADException.h; sourceTree = "<group>"; };
+		22B561DC1CDFE12E00DCECF6 /* XADException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADException.m; sourceTree = "<group>"; };
+		22B561DD1CDFE12E00DCECF6 /* XADMacArchiveParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADMacArchiveParser.h; sourceTree = "<group>"; };
+		22B561DE1CDFE12E00DCECF6 /* XADMacArchiveParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADMacArchiveParser.m; sourceTree = "<group>"; };
+		22B561DF1CDFE12E00DCECF6 /* XADPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADPath.h; sourceTree = "<group>"; };
+		22B561E01CDFE12E00DCECF6 /* XADPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADPath.m; sourceTree = "<group>"; };
+		22B561E11CDFE12E00DCECF6 /* XADPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADPlatform.h; sourceTree = "<group>"; };
+		22B561E21CDFE12E00DCECF6 /* XADPlatformiOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADPlatformiOS.m; sourceTree = "<group>"; };
+		22B561E31CDFE12E00DCECF6 /* XADResourceFork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADResourceFork.h; sourceTree = "<group>"; };
+		22B561E41CDFE12E00DCECF6 /* XADResourceFork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADResourceFork.m; sourceTree = "<group>"; };
+		22B561E51CDFE12E00DCECF6 /* XADString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADString.h; sourceTree = "<group>"; };
+		22B561E61CDFE12E00DCECF6 /* XADString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADString.m; sourceTree = "<group>"; };
+		22B561E71CDFE12E00DCECF6 /* XADStringCFString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADStringCFString.m; sourceTree = "<group>"; };
+		22B561E81CDFE12E00DCECF6 /* XADUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADUnarchiver.h; sourceTree = "<group>"; };
+		22B561E91CDFE12E00DCECF6 /* XADUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADUnarchiver.m; sourceTree = "<group>"; };
+		22B563031CDFE15B00DCECF6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		22B563051CDFE1BA00DCECF6 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		22B563081CDFE27300DCECF6 /* Test.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Test.zip; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B5609D1CDFDFC400DCECF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B563061CDFE1BA00DCECF6 /* libbz2.tbd in Frameworks */,
+				22B563041CDFE15B00DCECF6 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B560A81CDFDFC400DCECF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B560AC1CDFDFC400DCECF6 /* XADMaster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B560971CDFDFC400DCECF6 = {
+			isa = PBXGroup;
+			children = (
+				22B560A31CDFDFC400DCECF6 /* XADMaster */,
+				22B560AF1CDFDFC400DCECF6 /* XADMasterTests */,
+				22B560A21CDFDFC400DCECF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B560A21CDFDFC400DCECF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B560A11CDFDFC400DCECF6 /* XADMaster.framework */,
+				22B560AB1CDFDFC400DCECF6 /* XADMasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B560A31CDFDFC400DCECF6 /* XADMaster */ = {
+			isa = PBXGroup;
+			children = (
+				22B560BB1CDFE12D00DCECF6 /* Archive Parsers */,
+				22B561471CDFE12E00DCECF6 /* Categories */,
+				22B561501CDFE12E00DCECF6 /* Compression Utilities */,
+				22B5615B1CDFE12E00DCECF6 /* Crypto */,
+				22B5616C1CDFE12E00DCECF6 /* CSHandle */,
+				22B563071CDFE1CC00DCECF6 /* Frameworks */,
+				22B561831CDFE12E00DCECF6 /* UniversalDetector */,
+				22B561C31CDFE12E00DCECF6 /* Utilities */,
+				22B561D51CDFE12E00DCECF6 /* XADArchive.h */,
+				22B561D61CDFE12E00DCECF6 /* XADArchive.m */,
+				22B561D71CDFE12E00DCECF6 /* XADArchiveParser.h */,
+				22B561D81CDFE12E00DCECF6 /* XADArchiveParser.m */,
+				22B561D91CDFE12E00DCECF6 /* XADArchiveParserDescriptions.h */,
+				22B561DA1CDFE12E00DCECF6 /* XADArchiveParserDescriptions.m */,
+				22B561DB1CDFE12E00DCECF6 /* XADException.h */,
+				22B561DC1CDFE12E00DCECF6 /* XADException.m */,
+				22B561DD1CDFE12E00DCECF6 /* XADMacArchiveParser.h */,
+				22B561DE1CDFE12E00DCECF6 /* XADMacArchiveParser.m */,
+				22B561DF1CDFE12E00DCECF6 /* XADPath.h */,
+				22B561E01CDFE12E00DCECF6 /* XADPath.m */,
+				22B561E11CDFE12E00DCECF6 /* XADPlatform.h */,
+				22B561E21CDFE12E00DCECF6 /* XADPlatformiOS.m */,
+				22B561E31CDFE12E00DCECF6 /* XADResourceFork.h */,
+				22B561E41CDFE12E00DCECF6 /* XADResourceFork.m */,
+				22B561E51CDFE12E00DCECF6 /* XADString.h */,
+				22B561E61CDFE12E00DCECF6 /* XADString.m */,
+				22B561E71CDFE12E00DCECF6 /* XADStringCFString.m */,
+				22B561E81CDFE12E00DCECF6 /* XADUnarchiver.h */,
+				22B561E91CDFE12E00DCECF6 /* XADUnarchiver.m */,
+				22B560A41CDFDFC400DCECF6 /* XADMaster.h */,
+				22B560A61CDFDFC400DCECF6 /* Info.plist */,
+			);
+			path = XADMaster;
+			sourceTree = "<group>";
+		};
+		22B560AF1CDFDFC400DCECF6 /* XADMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				22B563081CDFE27300DCECF6 /* Test.zip */,
+				22B560B01CDFDFC400DCECF6 /* XADMasterTests.m */,
+				22B560B21CDFDFC400DCECF6 /* Info.plist */,
+			);
+			path = XADMasterTests;
+			sourceTree = "<group>";
+		};
+		22B560BB1CDFE12D00DCECF6 /* Archive Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				22B560BC1CDFE12D00DCECF6 /* 7-Zip */,
+				22B560C91CDFE12D00DCECF6 /* LHA */,
+				22B560D41CDFE12D00DCECF6 /* LibXAD */,
+				22B560D71CDFE12D00DCECF6 /* Other */,
+				22B560FB1CDFE12D00DCECF6 /* RAR */,
+				22B561181CDFE12D00DCECF6 /* Unix */,
+				22B561211CDFE12D00DCECF6 /* Zip */,
+			);
+			path = "Archive Parsers";
+			sourceTree = "<group>";
+		};
+		22B560BC1CDFE12D00DCECF6 /* 7-Zip */ = {
+			isa = PBXGroup;
+			children = (
+				22B560BD1CDFE12D00DCECF6 /* XAD7ZipAESHandle.h */,
+				22B560BE1CDFE12D00DCECF6 /* XAD7ZipAESHandle.m */,
+				22B560BF1CDFE12D00DCECF6 /* XAD7ZipBCJ2Handle.h */,
+				22B560C01CDFE12D00DCECF6 /* XAD7ZipBCJ2Handle.m */,
+				22B560C11CDFE12D00DCECF6 /* XAD7ZipBranchHandles.h */,
+				22B560C21CDFE12D00DCECF6 /* XAD7ZipBranchHandles.m */,
+				22B560C31CDFE12D00DCECF6 /* XAD7ZipParser.h */,
+				22B560C41CDFE12D00DCECF6 /* XAD7ZipParser.m */,
+				22B560C51CDFE12D00DCECF6 /* XADLZMA2Handle.h */,
+				22B560C61CDFE12D00DCECF6 /* XADLZMA2Handle.m */,
+				22B560C71CDFE12D00DCECF6 /* XADLZMAHandle.h */,
+				22B560C81CDFE12D00DCECF6 /* XADLZMAHandle.m */,
+			);
+			path = "7-Zip";
+			sourceTree = "<group>";
+		};
+		22B560C91CDFE12D00DCECF6 /* LHA */ = {
+			isa = PBXGroup;
+			children = (
+				22B560CA1CDFE12D00DCECF6 /* XADLArcHandles.h */,
+				22B560CB1CDFE12D00DCECF6 /* XADLArcHandles.m */,
+				22B560CC1CDFE12D00DCECF6 /* XADLZHDynamicHandle.h */,
+				22B560CD1CDFE12D00DCECF6 /* XADLZHDynamicHandle.m */,
+				22B560CE1CDFE12D00DCECF6 /* XADLZHOldHandles.h */,
+				22B560CF1CDFE12D00DCECF6 /* XADLZHOldHandles.m */,
+				22B560D01CDFE12D00DCECF6 /* XADLZHParser.h */,
+				22B560D11CDFE12D00DCECF6 /* XADLZHParser.m */,
+				22B560D21CDFE12D00DCECF6 /* XADLZHStaticHandle.h */,
+				22B560D31CDFE12D00DCECF6 /* XADLZHStaticHandle.m */,
+			);
+			path = LHA;
+			sourceTree = "<group>";
+		};
+		22B560D41CDFE12D00DCECF6 /* LibXAD */ = {
+			isa = PBXGroup;
+			children = (
+				22B560D51CDFE12D00DCECF6 /* XADLibXADIOHandle.h */,
+				22B560D61CDFE12D00DCECF6 /* XADLibXADIOHandle.m */,
+			);
+			path = LibXAD;
+			sourceTree = "<group>";
+		};
+		22B560D71CDFE12D00DCECF6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				22B560D81CDFE12D00DCECF6 /* lzma */,
+				22B560E21CDFE12D00DCECF6 /* PPMd */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		22B560D81CDFE12D00DCECF6 /* lzma */ = {
+			isa = PBXGroup;
+			children = (
+				22B560D91CDFE12D00DCECF6 /* Bra.c */,
+				22B560DA1CDFE12D00DCECF6 /* Bra.h */,
+				22B560DB1CDFE12D00DCECF6 /* Bra86.c */,
+				22B560DC1CDFE12D00DCECF6 /* BraIA64.c */,
+				22B560DD1CDFE12D00DCECF6 /* Lzma2Dec.c */,
+				22B560DE1CDFE12D00DCECF6 /* Lzma2Dec.h */,
+				22B560DF1CDFE12D00DCECF6 /* LzmaDec.c */,
+				22B560E01CDFE12D00DCECF6 /* LzmaDec.h */,
+				22B560E11CDFE12D00DCECF6 /* Types.h */,
+			);
+			path = lzma;
+			sourceTree = "<group>";
+		};
+		22B560E21CDFE12D00DCECF6 /* PPMd */ = {
+			isa = PBXGroup;
+			children = (
+				22B560E31CDFE12D00DCECF6 /* PPMd */,
+				22B560F71CDFE12D00DCECF6 /* XADPPMdHandles.h */,
+				22B560F81CDFE12D00DCECF6 /* XADPPMdHandles.m */,
+				22B560F91CDFE12D00DCECF6 /* XADPPMdParser.h */,
+				22B560FA1CDFE12D00DCECF6 /* XADPPMdParser.m */,
+			);
+			path = PPMd;
+			sourceTree = "<group>";
+		};
+		22B560E31CDFE12D00DCECF6 /* PPMd */ = {
+			isa = PBXGroup;
+			children = (
+				22B560E41CDFE12D00DCECF6 /* Context.c */,
+				22B560E51CDFE12D00DCECF6 /* Context.h */,
+				22B560E61CDFE12D00DCECF6 /* RangeCoder.c */,
+				22B560E71CDFE12D00DCECF6 /* RangeCoder.h */,
+				22B560E81CDFE12D00DCECF6 /* SubAllocator.h */,
+				22B560E91CDFE12D00DCECF6 /* SubAllocatorBrimstone.c */,
+				22B560EA1CDFE12D00DCECF6 /* SubAllocatorBrimstone.h */,
+				22B560EB1CDFE12D00DCECF6 /* SubAllocatorVariantG.c */,
+				22B560EC1CDFE12D00DCECF6 /* SubAllocatorVariantG.h */,
+				22B560ED1CDFE12D00DCECF6 /* SubAllocatorVariantH.c */,
+				22B560EE1CDFE12D00DCECF6 /* SubAllocatorVariantH.h */,
+				22B560EF1CDFE12D00DCECF6 /* SubAllocatorVariantI.c */,
+				22B560F01CDFE12D00DCECF6 /* SubAllocatorVariantI.h */,
+				22B560F11CDFE12D00DCECF6 /* VariantG.c */,
+				22B560F21CDFE12D00DCECF6 /* VariantG.h */,
+				22B560F31CDFE12D00DCECF6 /* VariantH.c */,
+				22B560F41CDFE12D00DCECF6 /* VariantH.h */,
+				22B560F51CDFE12D00DCECF6 /* VariantI.c */,
+				22B560F61CDFE12D00DCECF6 /* VariantI.h */,
+			);
+			path = PPMd;
+			sourceTree = "<group>";
+		};
+		22B560FB1CDFE12D00DCECF6 /* RAR */ = {
+			isa = PBXGroup;
+			children = (
+				22B560FC1CDFE12D00DCECF6 /* RARAudioDecoder.c */,
+				22B560FD1CDFE12D00DCECF6 /* RARAudioDecoder.h */,
+				22B560FE1CDFE12D00DCECF6 /* RARBug.c */,
+				22B560FF1CDFE12D00DCECF6 /* RARBug.h */,
+				22B561001CDFE12D00DCECF6 /* RARVirtualMachine.c */,
+				22B561011CDFE12D00DCECF6 /* RARVirtualMachine.h */,
+				22B561021CDFE12D00DCECF6 /* XADRAR13CryptHandle.h */,
+				22B561031CDFE12D00DCECF6 /* XADRAR13CryptHandle.m */,
+				22B561041CDFE12D00DCECF6 /* XADRAR15CryptHandle.h */,
+				22B561051CDFE12D00DCECF6 /* XADRAR15CryptHandle.m */,
+				22B561061CDFE12D00DCECF6 /* XADRAR15Handle.h */,
+				22B561071CDFE12D00DCECF6 /* XADRAR15Handle.m */,
+				22B561081CDFE12D00DCECF6 /* XADRAR20CryptHandle.h */,
+				22B561091CDFE12D00DCECF6 /* XADRAR20CryptHandle.m */,
+				22B5610A1CDFE12D00DCECF6 /* XADRAR20Handle.h */,
+				22B5610B1CDFE12D00DCECF6 /* XADRAR20Handle.m */,
+				22B5610C1CDFE12D00DCECF6 /* XADRAR30Filter.h */,
+				22B5610D1CDFE12D00DCECF6 /* XADRAR30Filter.m */,
+				22B5610E1CDFE12D00DCECF6 /* XADRAR30Handle.h */,
+				22B5610F1CDFE12D00DCECF6 /* XADRAR30Handle.m */,
+				22B561101CDFE12D00DCECF6 /* XADRARAESHandle.h */,
+				22B561111CDFE12D00DCECF6 /* XADRARAESHandle.m */,
+				22B561121CDFE12D00DCECF6 /* XADRARInputHandle.h */,
+				22B561131CDFE12D00DCECF6 /* XADRARInputHandle.m */,
+				22B561141CDFE12D00DCECF6 /* XADRARParser.h */,
+				22B561151CDFE12D00DCECF6 /* XADRARParser.m */,
+				22B561161CDFE12D00DCECF6 /* XADRARVirtualMachine.h */,
+				22B561171CDFE12D00DCECF6 /* XADRARVirtualMachine.m */,
+			);
+			path = RAR;
+			sourceTree = "<group>";
+		};
+		22B561181CDFE12D00DCECF6 /* Unix */ = {
+			isa = PBXGroup;
+			children = (
+				22B561191CDFE12D00DCECF6 /* Archivers */,
+				22B5611E1CDFE12D00DCECF6 /* Compressors */,
+			);
+			path = Unix;
+			sourceTree = "<group>";
+		};
+		22B561191CDFE12D00DCECF6 /* Archivers */ = {
+			isa = PBXGroup;
+			children = (
+				22B5611A1CDFE12D00DCECF6 /* XADTarParser.h */,
+				22B5611B1CDFE12D00DCECF6 /* XADTarParser.m */,
+				22B5611C1CDFE12D00DCECF6 /* XADTarSparseHandle.h */,
+				22B5611D1CDFE12D00DCECF6 /* XADTarSparseHandle.m */,
+			);
+			path = Archivers;
+			sourceTree = "<group>";
+		};
+		22B5611E1CDFE12D00DCECF6 /* Compressors */ = {
+			isa = PBXGroup;
+			children = (
+				22B5611F1CDFE12D00DCECF6 /* XADCompressHandle.h */,
+				22B561201CDFE12D00DCECF6 /* XADCompressHandle.m */,
+			);
+			path = Compressors;
+			sourceTree = "<group>";
+		};
+		22B561211CDFE12D00DCECF6 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				22B561221CDFE12D00DCECF6 /* wavpack */,
+				22B5612C1CDFE12E00DCECF6 /* WinZipJPEG */,
+				22B561351CDFE12E00DCECF6 /* XADDeflateHandle.h */,
+				22B561361CDFE12E00DCECF6 /* XADDeflateHandle.m */,
+				22B561371CDFE12E00DCECF6 /* XADWinZipAESHandle.h */,
+				22B561381CDFE12E00DCECF6 /* XADWinZipAESHandle.m */,
+				22B561391CDFE12E00DCECF6 /* XADWinZipJPEGHandle.h */,
+				22B5613A1CDFE12E00DCECF6 /* XADWinZipJPEGHandle.m */,
+				22B5613B1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.h */,
+				22B5613C1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.m */,
+				22B5613D1CDFE12E00DCECF6 /* XADZipCryptHandle.h */,
+				22B5613E1CDFE12E00DCECF6 /* XADZipCryptHandle.m */,
+				22B5613F1CDFE12E00DCECF6 /* XADZipImplodeHandle.h */,
+				22B561401CDFE12E00DCECF6 /* XADZipImplodeHandle.m */,
+				22B561411CDFE12E00DCECF6 /* XADZipParser.h */,
+				22B561421CDFE12E00DCECF6 /* XADZipParser.m */,
+				22B561431CDFE12E00DCECF6 /* XADZipSFXParsers.h */,
+				22B561441CDFE12E00DCECF6 /* XADZipSFXParsers.m */,
+				22B561451CDFE12E00DCECF6 /* XADZipShrinkHandle.h */,
+				22B561461CDFE12E00DCECF6 /* XADZipShrinkHandle.m */,
+			);
+			path = Zip;
+			sourceTree = "<group>";
+		};
+		22B561221CDFE12D00DCECF6 /* wavpack */ = {
+			isa = PBXGroup;
+			children = (
+				22B561231CDFE12D00DCECF6 /* bits.c */,
+				22B561241CDFE12D00DCECF6 /* float.c */,
+				22B561251CDFE12D00DCECF6 /* metadata.c */,
+				22B561261CDFE12D00DCECF6 /* unpack.c */,
+				22B561271CDFE12D00DCECF6 /* wavpack.h */,
+				22B561281CDFE12D00DCECF6 /* wavpack_local.h */,
+				22B561291CDFE12D00DCECF6 /* wavpack_version.h */,
+				22B5612A1CDFE12D00DCECF6 /* words.c */,
+				22B5612B1CDFE12D00DCECF6 /* wputils.c */,
+			);
+			path = wavpack;
+			sourceTree = "<group>";
+		};
+		22B5612C1CDFE12E00DCECF6 /* WinZipJPEG */ = {
+			isa = PBXGroup;
+			children = (
+				22B5612D1CDFE12E00DCECF6 /* ArithmeticDecoder.c */,
+				22B5612E1CDFE12E00DCECF6 /* ArithmeticDecoder.h */,
+				22B5612F1CDFE12E00DCECF6 /* Decompressor.c */,
+				22B561301CDFE12E00DCECF6 /* Decompressor.h */,
+				22B561311CDFE12E00DCECF6 /* InputStream.h */,
+				22B561321CDFE12E00DCECF6 /* JPEG.c */,
+				22B561331CDFE12E00DCECF6 /* JPEG.h */,
+				22B561341CDFE12E00DCECF6 /* LZMA.h */,
+			);
+			path = WinZipJPEG;
+			sourceTree = "<group>";
+		};
+		22B561471CDFE12E00DCECF6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				22B561481CDFE12E00DCECF6 /* Checksums.h */,
+				22B561491CDFE12E00DCECF6 /* Checksums.m */,
+				22B5614A1CDFE12E00DCECF6 /* NSDateXAD.h */,
+				22B5614B1CDFE12E00DCECF6 /* NSDateXAD.m */,
+				22B5614C1CDFE12E00DCECF6 /* Progress.h */,
+				22B5614D1CDFE12E00DCECF6 /* Progress.m */,
+				22B5614E1CDFE12E00DCECF6 /* Scanning.h */,
+				22B5614F1CDFE12E00DCECF6 /* Scanning.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		22B561501CDFE12E00DCECF6 /* Compression Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				22B561511CDFE12E00DCECF6 /* LZSS.c */,
+				22B561521CDFE12E00DCECF6 /* LZSS.h */,
+				22B561531CDFE12E00DCECF6 /* LZW.c */,
+				22B561541CDFE12E00DCECF6 /* LZW.h */,
+				22B561551CDFE12E00DCECF6 /* XADFastLZSSHandle.h */,
+				22B561561CDFE12E00DCECF6 /* XADFastLZSSHandle.m */,
+				22B561571CDFE12E00DCECF6 /* XADLZSSHandle.h */,
+				22B561581CDFE12E00DCECF6 /* XADLZSSHandle.m */,
+				22B561591CDFE12E00DCECF6 /* XADPrefixCode.h */,
+				22B5615A1CDFE12E00DCECF6 /* XADPrefixCode.m */,
+			);
+			path = "Compression Utilities";
+			sourceTree = "<group>";
+		};
+		22B5615B1CDFE12E00DCECF6 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				22B5615C1CDFE12E00DCECF6 /* aes.h */,
+				22B5615D1CDFE12E00DCECF6 /* aes_modes.c */,
+				22B5615E1CDFE12E00DCECF6 /* aescrypt.c */,
+				22B5615F1CDFE12E00DCECF6 /* aeskey.c */,
+				22B561601CDFE12E00DCECF6 /* aesopt.h */,
+				22B561611CDFE12E00DCECF6 /* aestab.c */,
+				22B561621CDFE12E00DCECF6 /* aestab.h */,
+				22B561631CDFE12E00DCECF6 /* brg_endian.h */,
+				22B561641CDFE12E00DCECF6 /* des.c */,
+				22B561651CDFE12E00DCECF6 /* des.h */,
+				22B561661CDFE12E00DCECF6 /* hmac_sha1.c */,
+				22B561671CDFE12E00DCECF6 /* hmac_sha1.h */,
+				22B561681CDFE12E00DCECF6 /* md5.c */,
+				22B561691CDFE12E00DCECF6 /* md5.h */,
+				22B5616A1CDFE12E00DCECF6 /* sha.c */,
+				22B5616B1CDFE12E00DCECF6 /* sha.h */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		22B5616C1CDFE12E00DCECF6 /* CSHandle */ = {
+			isa = PBXGroup;
+			children = (
+				22B5616D1CDFE12E00DCECF6 /* CSBlockStreamHandle.h */,
+				22B5616E1CDFE12E00DCECF6 /* CSBlockStreamHandle.m */,
+				22B5616F1CDFE12E00DCECF6 /* CSByteStreamHandle.h */,
+				22B561701CDFE12E00DCECF6 /* CSByteStreamHandle.m */,
+				22B561711CDFE12E00DCECF6 /* CSBzip2Handle.h */,
+				22B561721CDFE12E00DCECF6 /* CSBzip2Handle.m */,
+				22B561731CDFE12E00DCECF6 /* CSFileHandle.h */,
+				22B561741CDFE12E00DCECF6 /* CSFileHandle.m */,
+				22B561751CDFE12E00DCECF6 /* CSHandle.h */,
+				22B561761CDFE12E00DCECF6 /* CSHandle.m */,
+				22B561771CDFE12E00DCECF6 /* CSInputBuffer.h */,
+				22B561781CDFE12E00DCECF6 /* CSInputBuffer.m */,
+				22B561791CDFE12E00DCECF6 /* CSMemoryHandle.h */,
+				22B5617A1CDFE12E00DCECF6 /* CSMemoryHandle.m */,
+				22B5617B1CDFE12E00DCECF6 /* CSMultiHandle.h */,
+				22B5617C1CDFE12E00DCECF6 /* CSMultiHandle.m */,
+				22B5617D1CDFE12E00DCECF6 /* CSStreamHandle.h */,
+				22B5617E1CDFE12E00DCECF6 /* CSStreamHandle.m */,
+				22B5617F1CDFE12E00DCECF6 /* CSSubHandle.h */,
+				22B561801CDFE12E00DCECF6 /* CSSubHandle.m */,
+				22B561811CDFE12E00DCECF6 /* CSZlibHandle.h */,
+				22B561821CDFE12E00DCECF6 /* CSZlibHandle.m */,
+			);
+			path = CSHandle;
+			sourceTree = "<group>";
+		};
+		22B561831CDFE12E00DCECF6 /* UniversalDetector */ = {
+			isa = PBXGroup;
+			children = (
+				22B561841CDFE12E00DCECF6 /* universalchardet */,
+				22B561BE1CDFE12E00DCECF6 /* UniversalDetector.h */,
+				22B561BF1CDFE12E00DCECF6 /* UniversalDetector.m */,
+				22B561C01CDFE12E00DCECF6 /* UniversalDetector_Prefix.pch */,
+				22B561C11CDFE12E00DCECF6 /* WrappedUniversalDetector.cpp */,
+				22B561C21CDFE12E00DCECF6 /* WrappedUniversalDetector.h */,
+			);
+			path = UniversalDetector;
+			sourceTree = "<group>";
+		};
+		22B561841CDFE12E00DCECF6 /* universalchardet */ = {
+			isa = PBXGroup;
+			children = (
+				22B561851CDFE12E00DCECF6 /* .cvsignore */,
+				22B561861CDFE12E00DCECF6 /* Big5Freq.tab */,
+				22B561871CDFE12E00DCECF6 /* CharDistribution.cpp */,
+				22B561881CDFE12E00DCECF6 /* CharDistribution.h */,
+				22B561891CDFE12E00DCECF6 /* EUCKRFreq.tab */,
+				22B5618A1CDFE12E00DCECF6 /* EUCTWFreq.tab */,
+				22B5618B1CDFE12E00DCECF6 /* GB2312Freq.tab */,
+				22B5618C1CDFE12E00DCECF6 /* JISFreq.tab */,
+				22B5618D1CDFE12E00DCECF6 /* JpCntx.cpp */,
+				22B5618E1CDFE12E00DCECF6 /* JpCntx.h */,
+				22B5618F1CDFE12E00DCECF6 /* kludge.c */,
+				22B561901CDFE12E00DCECF6 /* LangBulgarianModel.cpp */,
+				22B561911CDFE12E00DCECF6 /* LangCyrillicModel.cpp */,
+				22B561921CDFE12E00DCECF6 /* LangGreekModel.cpp */,
+				22B561931CDFE12E00DCECF6 /* LangHebrewModel.cpp */,
+				22B561941CDFE12E00DCECF6 /* LangHungarianModel.cpp */,
+				22B561951CDFE12E00DCECF6 /* LangThaiModel.cpp */,
+				22B561961CDFE12E00DCECF6 /* nsBig5Prober.cpp */,
+				22B561971CDFE12E00DCECF6 /* nsBig5Prober.h */,
+				22B561981CDFE12E00DCECF6 /* nsCharSetProber.cpp */,
+				22B561991CDFE12E00DCECF6 /* nsCharSetProber.h */,
+				22B5619A1CDFE12E00DCECF6 /* nsCodingStateMachine.h */,
+				22B5619B1CDFE12E00DCECF6 /* nscore.h */,
+				22B5619C1CDFE12E00DCECF6 /* nsError.h */,
+				22B5619D1CDFE12E00DCECF6 /* nsEscCharsetProber.cpp */,
+				22B5619E1CDFE12E00DCECF6 /* nsEscCharsetProber.h */,
+				22B5619F1CDFE12E00DCECF6 /* nsEscSM.cpp */,
+				22B561A01CDFE12E00DCECF6 /* nsEUCJPProber.cpp */,
+				22B561A11CDFE12E00DCECF6 /* nsEUCJPProber.h */,
+				22B561A21CDFE12E00DCECF6 /* nsEUCKRProber.cpp */,
+				22B561A31CDFE12E00DCECF6 /* nsEUCKRProber.h */,
+				22B561A41CDFE12E00DCECF6 /* nsEUCTWProber.cpp */,
+				22B561A51CDFE12E00DCECF6 /* nsEUCTWProber.h */,
+				22B561A61CDFE12E00DCECF6 /* nsGB2312Prober.cpp */,
+				22B561A71CDFE12E00DCECF6 /* nsGB2312Prober.h */,
+				22B561A81CDFE12E00DCECF6 /* nsHebrewProber.cpp */,
+				22B561A91CDFE12E00DCECF6 /* nsHebrewProber.h */,
+				22B561AA1CDFE12E00DCECF6 /* nsLatin1Prober.cpp */,
+				22B561AB1CDFE12E00DCECF6 /* nsLatin1Prober.h */,
+				22B561AC1CDFE12E00DCECF6 /* nsMBCSGroupProber.cpp */,
+				22B561AD1CDFE12E00DCECF6 /* nsMBCSGroupProber.h */,
+				22B561AE1CDFE12E00DCECF6 /* nsMBCSSM.cpp */,
+				22B561AF1CDFE12E00DCECF6 /* nsPkgInt.h */,
+				22B561B01CDFE12E00DCECF6 /* nsSBCharSetProber.cpp */,
+				22B561B11CDFE12E00DCECF6 /* nsSBCharSetProber.h */,
+				22B561B21CDFE12E00DCECF6 /* nsSBCSGroupProber.cpp */,
+				22B561B31CDFE12E00DCECF6 /* nsSBCSGroupProber.h */,
+				22B561B41CDFE12E00DCECF6 /* nsSJISProber.cpp */,
+				22B561B51CDFE12E00DCECF6 /* nsSJISProber.h */,
+				22B561B61CDFE12E00DCECF6 /* nsUniversalDetector.cpp */,
+				22B561B71CDFE12E00DCECF6 /* nsUniversalDetector.h */,
+				22B561B81CDFE12E00DCECF6 /* nsUTF8Prober.cpp */,
+				22B561B91CDFE12E00DCECF6 /* nsUTF8Prober.h */,
+				22B561BA1CDFE12E00DCECF6 /* prcpucfg.h */,
+				22B561BB1CDFE12E00DCECF6 /* prmem.h */,
+				22B561BC1CDFE12E00DCECF6 /* protypes.h */,
+				22B561BD1CDFE12E00DCECF6 /* prtypes.h */,
+			);
+			path = universalchardet;
+			sourceTree = "<group>";
+		};
+		22B561C31CDFE12E00DCECF6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				22B561C41CDFE12E00DCECF6 /* CRC.h */,
+				22B561C51CDFE12E00DCECF6 /* CRC.m */,
+				22B561C61CDFE12E00DCECF6 /* Realloc.h */,
+				22B561C71CDFE12E00DCECF6 /* XADAppleDouble.h */,
+				22B561C81CDFE12E00DCECF6 /* XADAppleDouble.m */,
+				22B561C91CDFE12E00DCECF6 /* XADBlockHandle.h */,
+				22B561CA1CDFE12E00DCECF6 /* XADBlockHandle.m */,
+				22B561CB1CDFE12E00DCECF6 /* XADCRCHandle.h */,
+				22B561CC1CDFE12E00DCECF6 /* XADCRCHandle.m */,
+				22B561CD1CDFE12E00DCECF6 /* XADDeltaHandle.h */,
+				22B561CE1CDFE12E00DCECF6 /* XADDeltaHandle.m */,
+				22B561CF1CDFE12E00DCECF6 /* XADRegex.h */,
+				22B561D01CDFE12E00DCECF6 /* XADRegex.m */,
+				22B561D11CDFE12E00DCECF6 /* XADSkipHandle.h */,
+				22B561D21CDFE12E00DCECF6 /* XADSkipHandle.m */,
+				22B561D31CDFE12E00DCECF6 /* XADXORHandle.h */,
+				22B561D41CDFE12E00DCECF6 /* XADXORHandle.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		22B563071CDFE1CC00DCECF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22B563051CDFE1BA00DCECF6 /* libbz2.tbd */,
+				22B563031CDFE15B00DCECF6 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22B5609E1CDFDFC400DCECF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B562F01CDFE12E00DCECF6 /* XADArchiveParser.h in Headers */,
+				22B562F21CDFE12E00DCECF6 /* XADArchiveParserDescriptions.h in Headers */,
+				22B562F41CDFE12E00DCECF6 /* XADException.h in Headers */,
+				22B562591CDFE12E00DCECF6 /* XADWinZipJPEGHandle.h in Headers */,
+				22B562E61CDFE12E00DCECF6 /* XADDeltaHandle.h in Headers */,
+				22B561F41CDFE12E00DCECF6 /* XADLZMAHandle.h in Headers */,
+				22B562611CDFE12E00DCECF6 /* XADZipParser.h in Headers */,
+				22B5625F1CDFE12E00DCECF6 /* XADZipImplodeHandle.h in Headers */,
+				22B562301CDFE12E00DCECF6 /* XADRAR20Handle.h in Headers */,
+				22B561F81CDFE12E00DCECF6 /* XADLZHDynamicHandle.h in Headers */,
+				22B562731CDFE12E00DCECF6 /* XADFastLZSSHandle.h in Headers */,
+				22B562401CDFE12E00DCECF6 /* XADTarSparseHandle.h in Headers */,
+				22B562E81CDFE12E00DCECF6 /* XADRegex.h in Headers */,
+				22B5625D1CDFE12E00DCECF6 /* XADZipCryptHandle.h in Headers */,
+				22B562571CDFE12E00DCECF6 /* XADWinZipAESHandle.h in Headers */,
+				22B562201CDFE12E00DCECF6 /* XADPPMdParser.h in Headers */,
+				22B5623E1CDFE12E00DCECF6 /* XADTarParser.h in Headers */,
+				22B561EE1CDFE12E00DCECF6 /* XAD7ZipBranchHandles.h in Headers */,
+				22B5625B1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.h in Headers */,
+				22B562FA1CDFE12E00DCECF6 /* XADPlatform.h in Headers */,
+				22B562F81CDFE12E00DCECF6 /* XADPath.h in Headers */,
+				22B561FA1CDFE12E00DCECF6 /* XADLZHOldHandles.h in Headers */,
+				22B562F61CDFE12E00DCECF6 /* XADMacArchiveParser.h in Headers */,
+				22B562771CDFE12E00DCECF6 /* XADPrefixCode.h in Headers */,
+				22B562381CDFE12E00DCECF6 /* XADRARInputHandle.h in Headers */,
+				22B562551CDFE12E00DCECF6 /* XADDeflateHandle.h in Headers */,
+				22B561F01CDFE12E00DCECF6 /* XAD7ZipParser.h in Headers */,
+				22B561FE1CDFE12E00DCECF6 /* XADLZHStaticHandle.h in Headers */,
+				22B563011CDFE12E00DCECF6 /* XADUnarchiver.h in Headers */,
+				22B562421CDFE12E00DCECF6 /* XADCompressHandle.h in Headers */,
+				22B5622C1CDFE12E00DCECF6 /* XADRAR15Handle.h in Headers */,
+				22B561FC1CDFE12E00DCECF6 /* XADLZHParser.h in Headers */,
+				22B5623C1CDFE12E00DCECF6 /* XADRARVirtualMachine.h in Headers */,
+				22B5622A1CDFE12E00DCECF6 /* XADRAR15CryptHandle.h in Headers */,
+				22B562651CDFE12E00DCECF6 /* XADZipShrinkHandle.h in Headers */,
+				22B561EC1CDFE12E00DCECF6 /* XAD7ZipBCJ2Handle.h in Headers */,
+				22B562E01CDFE12E00DCECF6 /* XADAppleDouble.h in Headers */,
+				22B561F61CDFE12E00DCECF6 /* XADLArcHandles.h in Headers */,
+				22B562EC1CDFE12E00DCECF6 /* XADXORHandle.h in Headers */,
+				22B562691CDFE12E00DCECF6 /* NSDateXAD.h in Headers */,
+				22B562001CDFE12E00DCECF6 /* XADLibXADIOHandle.h in Headers */,
+				22B562E21CDFE12E00DCECF6 /* XADBlockHandle.h in Headers */,
+				22B562EA1CDFE12E00DCECF6 /* XADSkipHandle.h in Headers */,
+				22B5622E1CDFE12E00DCECF6 /* XADRAR20CryptHandle.h in Headers */,
+				22B562751CDFE12E00DCECF6 /* XADLZSSHandle.h in Headers */,
+				22B561EA1CDFE12E00DCECF6 /* XAD7ZipAESHandle.h in Headers */,
+				22B562321CDFE12E00DCECF6 /* XADRAR30Filter.h in Headers */,
+				22B561F21CDFE12E00DCECF6 /* XADLZMA2Handle.h in Headers */,
+				22B562281CDFE12E00DCECF6 /* XADRAR13CryptHandle.h in Headers */,
+				22B5621E1CDFE12E00DCECF6 /* XADPPMdHandles.h in Headers */,
+				22B562341CDFE12E00DCECF6 /* XADRAR30Handle.h in Headers */,
+				22B562FC1CDFE12E00DCECF6 /* XADResourceFork.h in Headers */,
+				22B562361CDFE12E00DCECF6 /* XADRARAESHandle.h in Headers */,
+				22B562FE1CDFE12E00DCECF6 /* XADString.h in Headers */,
+				22B562E41CDFE12E00DCECF6 /* XADCRCHandle.h in Headers */,
+				22B562631CDFE12E00DCECF6 /* XADZipSFXParsers.h in Headers */,
+				22B5623A1CDFE12E00DCECF6 /* XADRARParser.h in Headers */,
+				22B562EE1CDFE12E00DCECF6 /* XADArchive.h in Headers */,
+				22B560A51CDFDFC400DCECF6 /* XADMaster.h in Headers */,
+				22B562911CDFE12E00DCECF6 /* CSHandle.h in Headers */,
+				22B562671CDFE12E00DCECF6 /* Checksums.h in Headers */,
+				22B562DF1CDFE12E00DCECF6 /* Realloc.h in Headers */,
+				22B562A81CDFE12E00DCECF6 /* JpCntx.h in Headers */,
+				22B562B31CDFE12E00DCECF6 /* nsCharSetProber.h in Headers */,
+				22B562D51CDFE12E00DCECF6 /* prmem.h in Headers */,
+				22B562B51CDFE12E00DCECF6 /* nscore.h in Headers */,
+				22B562251CDFE12E00DCECF6 /* RARBug.h in Headers */,
+				22B562891CDFE12E00DCECF6 /* CSBlockStreamHandle.h in Headers */,
+				22B562D41CDFE12E00DCECF6 /* prcpucfg.h in Headers */,
+				22B5629B1CDFE12E00DCECF6 /* CSSubHandle.h in Headers */,
+				22B562971CDFE12E00DCECF6 /* CSMultiHandle.h in Headers */,
+				22B5628F1CDFE12E00DCECF6 /* CSFileHandle.h in Headers */,
+				22B562C51CDFE12E00DCECF6 /* nsLatin1Prober.h in Headers */,
+				22B5628D1CDFE12E00DCECF6 /* CSBzip2Handle.h in Headers */,
+				22B562931CDFE12E00DCECF6 /* CSInputBuffer.h in Headers */,
+				22B562191CDFE12E00DCECF6 /* VariantG.h in Headers */,
+				22B562721CDFE12E00DCECF6 /* LZW.h in Headers */,
+				22B5620F1CDFE12E00DCECF6 /* SubAllocator.h in Headers */,
+				22B562D71CDFE12E00DCECF6 /* prtypes.h in Headers */,
+				22B562BB1CDFE12E00DCECF6 /* nsEUCJPProber.h in Headers */,
+				22B562801CDFE12E00DCECF6 /* brg_endian.h in Headers */,
+				22B562821CDFE12E00DCECF6 /* des.h in Headers */,
+				22B562881CDFE12E00DCECF6 /* sha.h in Headers */,
+				22B562B81CDFE12E00DCECF6 /* nsEscCharsetProber.h in Headers */,
+				22B562171CDFE12E00DCECF6 /* SubAllocatorVariantI.h in Headers */,
+				22B5624A1CDFE12E00DCECF6 /* wavpack_version.h in Headers */,
+				22B562231CDFE12E00DCECF6 /* RARAudioDecoder.h in Headers */,
+				22B562511CDFE12E00DCECF6 /* InputStream.h in Headers */,
+				22B562D11CDFE12E00DCECF6 /* nsUniversalDetector.h in Headers */,
+				22B562271CDFE12E00DCECF6 /* RARVirtualMachine.h in Headers */,
+				22B562C11CDFE12E00DCECF6 /* nsGB2312Prober.h in Headers */,
+				22B562541CDFE12E00DCECF6 /* LZMA.h in Headers */,
+				22B5626D1CDFE12E00DCECF6 /* Scanning.h in Headers */,
+				22B562DD1CDFE12E00DCECF6 /* CRC.h in Headers */,
+				22B5621B1CDFE12E00DCECF6 /* VariantH.h in Headers */,
+				22B562031CDFE12E00DCECF6 /* Bra.h in Headers */,
+				22B5620A1CDFE12E00DCECF6 /* Types.h in Headers */,
+				22B562791CDFE12E00DCECF6 /* aes.h in Headers */,
+				22B562BF1CDFE12E00DCECF6 /* nsEUCTWProber.h in Headers */,
+				22B5620E1CDFE12E00DCECF6 /* RangeCoder.h in Headers */,
+				22B562B41CDFE12E00DCECF6 /* nsCodingStateMachine.h in Headers */,
+				22B562CB1CDFE12E00DCECF6 /* nsSBCharSetProber.h in Headers */,
+				22B562481CDFE12E00DCECF6 /* wavpack.h in Headers */,
+				22B562CD1CDFE12E00DCECF6 /* nsSBCSGroupProber.h in Headers */,
+				22B562D81CDFE12E00DCECF6 /* UniversalDetector.h in Headers */,
+				22B562071CDFE12E00DCECF6 /* Lzma2Dec.h in Headers */,
+				22B562861CDFE12E00DCECF6 /* md5.h in Headers */,
+				22B562B61CDFE12E00DCECF6 /* nsError.h in Headers */,
+				22B562111CDFE12E00DCECF6 /* SubAllocatorBrimstone.h in Headers */,
+				22B562151CDFE12E00DCECF6 /* SubAllocatorVariantH.h in Headers */,
+				22B562701CDFE12E00DCECF6 /* LZSS.h in Headers */,
+				22B562DC1CDFE12E00DCECF6 /* WrappedUniversalDetector.h in Headers */,
+				22B562CF1CDFE12E00DCECF6 /* nsSJISProber.h in Headers */,
+				22B562B11CDFE12E00DCECF6 /* nsBig5Prober.h in Headers */,
+				22B562501CDFE12E00DCECF6 /* Decompressor.h in Headers */,
+				22B562841CDFE12E00DCECF6 /* hmac_sha1.h in Headers */,
+				22B562BD1CDFE12E00DCECF6 /* nsEUCKRProber.h in Headers */,
+				22B5624E1CDFE12E00DCECF6 /* ArithmeticDecoder.h in Headers */,
+				22B5628B1CDFE12E00DCECF6 /* CSByteStreamHandle.h in Headers */,
+				22B562C31CDFE12E00DCECF6 /* nsHebrewProber.h in Headers */,
+				22B5621D1CDFE12E00DCECF6 /* VariantI.h in Headers */,
+				22B562131CDFE12E00DCECF6 /* SubAllocatorVariantG.h in Headers */,
+				22B562C71CDFE12E00DCECF6 /* nsMBCSGroupProber.h in Headers */,
+				22B5620C1CDFE12E00DCECF6 /* Context.h in Headers */,
+				22B562491CDFE12E00DCECF6 /* wavpack_local.h in Headers */,
+				22B562531CDFE12E00DCECF6 /* JPEG.h in Headers */,
+				22B562C91CDFE12E00DCECF6 /* nsPkgInt.h in Headers */,
+				22B562A21CDFE12E00DCECF6 /* CharDistribution.h in Headers */,
+				22B562D31CDFE12E00DCECF6 /* nsUTF8Prober.h in Headers */,
+				22B5627D1CDFE12E00DCECF6 /* aesopt.h in Headers */,
+				22B562D61CDFE12E00DCECF6 /* protypes.h in Headers */,
+				22B5629D1CDFE12E00DCECF6 /* CSZlibHandle.h in Headers */,
+				22B5627F1CDFE12E00DCECF6 /* aestab.h in Headers */,
+				22B562991CDFE12E00DCECF6 /* CSStreamHandle.h in Headers */,
+				22B562951CDFE12E00DCECF6 /* CSMemoryHandle.h in Headers */,
+				22B562091CDFE12E00DCECF6 /* LzmaDec.h in Headers */,
+				22B562DA1CDFE12E00DCECF6 /* UniversalDetector_Prefix.pch in Headers */,
+				22B5626B1CDFE12E00DCECF6 /* Progress.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22B560A01CDFDFC400DCECF6 /* XADMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B560B51CDFDFC400DCECF6 /* Build configuration list for PBXNativeTarget "XADMaster" */;
+			buildPhases = (
+				22B5609C1CDFDFC400DCECF6 /* Sources */,
+				22B5609D1CDFDFC400DCECF6 /* Frameworks */,
+				22B5609E1CDFDFC400DCECF6 /* Headers */,
+				22B5609F1CDFDFC400DCECF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XADMaster;
+			productName = XADMaster;
+			productReference = 22B560A11CDFDFC400DCECF6 /* XADMaster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22B560AA1CDFDFC400DCECF6 /* XADMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B560B81CDFDFC400DCECF6 /* Build configuration list for PBXNativeTarget "XADMasterTests" */;
+			buildPhases = (
+				22B560A71CDFDFC400DCECF6 /* Sources */,
+				22B560A81CDFDFC400DCECF6 /* Frameworks */,
+				22B560A91CDFDFC400DCECF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B560AE1CDFDFC400DCECF6 /* PBXTargetDependency */,
+			);
+			name = XADMasterTests;
+			productName = XADMasterTests;
+			productReference = 22B560AB1CDFDFC400DCECF6 /* XADMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B560981CDFDFC400DCECF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tim Oliver";
+				TargetAttributes = {
+					22B560A01CDFDFC400DCECF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					22B560AA1CDFDFC400DCECF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 22B5609B1CDFDFC400DCECF6 /* Build configuration list for PBXProject "XADMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22B560971CDFDFC400DCECF6;
+			productRefGroup = 22B560A21CDFDFC400DCECF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B560A01CDFDFC400DCECF6 /* XADMaster */,
+				22B560AA1CDFDFC400DCECF6 /* XADMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B5609F1CDFDFC400DCECF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B562A51CDFE12E00DCECF6 /* GB2312Freq.tab in Resources */,
+				22B562A41CDFE12E00DCECF6 /* EUCTWFreq.tab in Resources */,
+				22B562A61CDFE12E00DCECF6 /* JISFreq.tab in Resources */,
+				22B562A01CDFE12E00DCECF6 /* Big5Freq.tab in Resources */,
+				22B5629F1CDFE12E00DCECF6 /* .cvsignore in Resources */,
+				22B562A31CDFE12E00DCECF6 /* EUCKRFreq.tab in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B560A91CDFDFC400DCECF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B563091CDFE27300DCECF6 /* Test.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B5609C1CDFDFC400DCECF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B5625C1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.m in Sources */,
+				22B562E11CDFE12E00DCECF6 /* XADAppleDouble.m in Sources */,
+				22B561ED1CDFE12E00DCECF6 /* XAD7ZipBCJ2Handle.m in Sources */,
+				22B5621C1CDFE12E00DCECF6 /* VariantI.c in Sources */,
+				22B562581CDFE12E00DCECF6 /* XADWinZipAESHandle.m in Sources */,
+				22B562471CDFE12E00DCECF6 /* unpack.c in Sources */,
+				22B562D21CDFE12E00DCECF6 /* nsUTF8Prober.cpp in Sources */,
+				22B562241CDFE12E00DCECF6 /* RARBug.c in Sources */,
+				22B5621F1CDFE12E00DCECF6 /* XADPPMdHandles.m in Sources */,
+				22B562431CDFE12E00DCECF6 /* XADCompressHandle.m in Sources */,
+				22B562451CDFE12E00DCECF6 /* float.c in Sources */,
+				22B5624B1CDFE12E00DCECF6 /* words.c in Sources */,
+				22B562391CDFE12E00DCECF6 /* XADRARInputHandle.m in Sources */,
+				22B562811CDFE12E00DCECF6 /* des.c in Sources */,
+				22B561EF1CDFE12E00DCECF6 /* XAD7ZipBranchHandles.m in Sources */,
+				22B562681CDFE12E00DCECF6 /* Checksums.m in Sources */,
+				22B5628E1CDFE12E00DCECF6 /* CSBzip2Handle.m in Sources */,
+				22B5622D1CDFE12E00DCECF6 /* XADRAR15Handle.m in Sources */,
+				22B562E71CDFE12E00DCECF6 /* XADDeltaHandle.m in Sources */,
+				22B562AC1CDFE12E00DCECF6 /* LangGreekModel.cpp in Sources */,
+				22B5626A1CDFE12E00DCECF6 /* NSDateXAD.m in Sources */,
+				22B562221CDFE12E00DCECF6 /* RARAudioDecoder.c in Sources */,
+				22B5629E1CDFE12E00DCECF6 /* CSZlibHandle.m in Sources */,
+				22B562311CDFE12E00DCECF6 /* XADRAR20Handle.m in Sources */,
+				22B562AB1CDFE12E00DCECF6 /* LangCyrillicModel.cpp in Sources */,
+				22B562871CDFE12E00DCECF6 /* sha.c in Sources */,
+				22B562E31CDFE12E00DCECF6 /* XADBlockHandle.m in Sources */,
+				22B5621A1CDFE12E00DCECF6 /* VariantH.c in Sources */,
+				22B562D01CDFE12E00DCECF6 /* nsUniversalDetector.cpp in Sources */,
+				22B562B91CDFE12E00DCECF6 /* nsEscSM.cpp in Sources */,
+				22B562CE1CDFE12E00DCECF6 /* nsSJISProber.cpp in Sources */,
+				22B561F71CDFE12E00DCECF6 /* XADLArcHandles.m in Sources */,
+				22B562331CDFE12E00DCECF6 /* XADRAR30Filter.m in Sources */,
+				22B562F71CDFE12E00DCECF6 /* XADMacArchiveParser.m in Sources */,
+				22B562FF1CDFE12E00DCECF6 /* XADString.m in Sources */,
+				22B562BC1CDFE12E00DCECF6 /* nsEUCKRProber.cpp in Sources */,
+				22B563001CDFE12E00DCECF6 /* XADStringCFString.m in Sources */,
+				22B562F91CDFE12E00DCECF6 /* XADPath.m in Sources */,
+				22B5624D1CDFE12E00DCECF6 /* ArithmeticDecoder.c in Sources */,
+				22B5629C1CDFE12E00DCECF6 /* CSSubHandle.m in Sources */,
+				22B562F11CDFE12E00DCECF6 /* XADArchiveParser.m in Sources */,
+				22B562BA1CDFE12E00DCECF6 /* nsEUCJPProber.cpp in Sources */,
+				22B562741CDFE12E00DCECF6 /* XADFastLZSSHandle.m in Sources */,
+				22B562AE1CDFE12E00DCECF6 /* LangHungarianModel.cpp in Sources */,
+				22B561FF1CDFE12E00DCECF6 /* XADLZHStaticHandle.m in Sources */,
+				22B562ED1CDFE12E00DCECF6 /* XADXORHandle.m in Sources */,
+				22B562411CDFE12E00DCECF6 /* XADTarSparseHandle.m in Sources */,
+				22B561FB1CDFE12E00DCECF6 /* XADLZHOldHandles.m in Sources */,
+				22B562B21CDFE12E00DCECF6 /* nsCharSetProber.cpp in Sources */,
+				22B5625E1CDFE12E00DCECF6 /* XADZipCryptHandle.m in Sources */,
+				22B5624F1CDFE12E00DCECF6 /* Decompressor.c in Sources */,
+				22B562941CDFE12E00DCECF6 /* CSInputBuffer.m in Sources */,
+				22B561F31CDFE12E00DCECF6 /* XADLZMA2Handle.m in Sources */,
+				22B562CC1CDFE12E00DCECF6 /* nsSBCSGroupProber.cpp in Sources */,
+				22B562B71CDFE12E00DCECF6 /* nsEscCharsetProber.cpp in Sources */,
+				22B562761CDFE12E00DCECF6 /* XADLZSSHandle.m in Sources */,
+				22B562A11CDFE12E00DCECF6 /* CharDistribution.cpp in Sources */,
+				22B562051CDFE12E00DCECF6 /* BraIA64.c in Sources */,
+				22B562C21CDFE12E00DCECF6 /* nsHebrewProber.cpp in Sources */,
+				22B5620B1CDFE12E00DCECF6 /* Context.c in Sources */,
+				22B5620D1CDFE12E00DCECF6 /* RangeCoder.c in Sources */,
+				22B562901CDFE12E00DCECF6 /* CSFileHandle.m in Sources */,
+				22B562371CDFE12E00DCECF6 /* XADRARAESHandle.m in Sources */,
+				22B562121CDFE12E00DCECF6 /* SubAllocatorVariantG.c in Sources */,
+				22B562C81CDFE12E00DCECF6 /* nsMBCSSM.cpp in Sources */,
+				22B562961CDFE12E00DCECF6 /* CSMemoryHandle.m in Sources */,
+				22B562831CDFE12E00DCECF6 /* hmac_sha1.c in Sources */,
+				22B562AD1CDFE12E00DCECF6 /* LangHebrewModel.cpp in Sources */,
+				22B5628C1CDFE12E00DCECF6 /* CSByteStreamHandle.m in Sources */,
+				22B5624C1CDFE12E00DCECF6 /* wputils.c in Sources */,
+				22B562DB1CDFE12E00DCECF6 /* WrappedUniversalDetector.cpp in Sources */,
+				22B562351CDFE12E00DCECF6 /* XADRAR30Handle.m in Sources */,
+				22B5622B1CDFE12E00DCECF6 /* XADRAR15CryptHandle.m in Sources */,
+				22B5627E1CDFE12E00DCECF6 /* aestab.c in Sources */,
+				22B562C61CDFE12E00DCECF6 /* nsMBCSGroupProber.cpp in Sources */,
+				22B562EF1CDFE12E00DCECF6 /* XADArchive.m in Sources */,
+				22B562261CDFE12E00DCECF6 /* RARVirtualMachine.c in Sources */,
+				22B5623D1CDFE12E00DCECF6 /* XADRARVirtualMachine.m in Sources */,
+				22B5627C1CDFE12E00DCECF6 /* aeskey.c in Sources */,
+				22B561F91CDFE12E00DCECF6 /* XADLZHDynamicHandle.m in Sources */,
+				22B562851CDFE12E00DCECF6 /* md5.c in Sources */,
+				22B562C01CDFE12E00DCECF6 /* nsGB2312Prober.cpp in Sources */,
+				22B562461CDFE12E00DCECF6 /* metadata.c in Sources */,
+				22B562101CDFE12E00DCECF6 /* SubAllocatorBrimstone.c in Sources */,
+				22B562561CDFE12E00DCECF6 /* XADDeflateHandle.m in Sources */,
+				22B562E51CDFE12E00DCECF6 /* XADCRCHandle.m in Sources */,
+				22B5623F1CDFE12E00DCECF6 /* XADTarParser.m in Sources */,
+				22B5626C1CDFE12E00DCECF6 /* Progress.m in Sources */,
+				22B562F31CDFE12E00DCECF6 /* XADArchiveParserDescriptions.m in Sources */,
+				22B562B01CDFE12E00DCECF6 /* nsBig5Prober.cpp in Sources */,
+				22B562FB1CDFE12E00DCECF6 /* XADPlatformiOS.m in Sources */,
+				22B562AF1CDFE12E00DCECF6 /* LangThaiModel.cpp in Sources */,
+				22B562AA1CDFE12E00DCECF6 /* LangBulgarianModel.cpp in Sources */,
+				22B562A91CDFE12E00DCECF6 /* kludge.c in Sources */,
+				22B562011CDFE12E00DCECF6 /* XADLibXADIOHandle.m in Sources */,
+				22B562A71CDFE12E00DCECF6 /* JpCntx.cpp in Sources */,
+				22B563021CDFE12E00DCECF6 /* XADUnarchiver.m in Sources */,
+				22B562621CDFE12E00DCECF6 /* XADZipParser.m in Sources */,
+				22B562641CDFE12E00DCECF6 /* XADZipSFXParsers.m in Sources */,
+				22B561F51CDFE12E00DCECF6 /* XADLZMAHandle.m in Sources */,
+				22B562291CDFE12E00DCECF6 /* XADRAR13CryptHandle.m in Sources */,
+				22B562211CDFE12E00DCECF6 /* XADPPMdParser.m in Sources */,
+				22B561F11CDFE12E00DCECF6 /* XAD7ZipParser.m in Sources */,
+				22B562181CDFE12E00DCECF6 /* VariantG.c in Sources */,
+				22B562601CDFE12E00DCECF6 /* XADZipImplodeHandle.m in Sources */,
+				22B5623B1CDFE12E00DCECF6 /* XADRARParser.m in Sources */,
+				22B562161CDFE12E00DCECF6 /* SubAllocatorVariantI.c in Sources */,
+				22B5625A1CDFE12E00DCECF6 /* XADWinZipJPEGHandle.m in Sources */,
+				22B562441CDFE12E00DCECF6 /* bits.c in Sources */,
+				22B562FD1CDFE12E00DCECF6 /* XADResourceFork.m in Sources */,
+				22B562021CDFE12E00DCECF6 /* Bra.c in Sources */,
+				22B562DE1CDFE12E00DCECF6 /* CRC.m in Sources */,
+				22B562D91CDFE12E00DCECF6 /* UniversalDetector.m in Sources */,
+				22B562EB1CDFE12E00DCECF6 /* XADSkipHandle.m in Sources */,
+				22B562711CDFE12E00DCECF6 /* LZW.c in Sources */,
+				22B5629A1CDFE12E00DCECF6 /* CSStreamHandle.m in Sources */,
+				22B562C41CDFE12E00DCECF6 /* nsLatin1Prober.cpp in Sources */,
+				22B5627B1CDFE12E00DCECF6 /* aescrypt.c in Sources */,
+				22B562041CDFE12E00DCECF6 /* Bra86.c in Sources */,
+				22B562F51CDFE12E00DCECF6 /* XADException.m in Sources */,
+				22B562521CDFE12E00DCECF6 /* JPEG.c in Sources */,
+				22B562E91CDFE12E00DCECF6 /* XADRegex.m in Sources */,
+				22B5627A1CDFE12E00DCECF6 /* aes_modes.c in Sources */,
+				22B5626E1CDFE12E00DCECF6 /* Scanning.m in Sources */,
+				22B562061CDFE12E00DCECF6 /* Lzma2Dec.c in Sources */,
+				22B562CA1CDFE12E00DCECF6 /* nsSBCharSetProber.cpp in Sources */,
+				22B562781CDFE12E00DCECF6 /* XADPrefixCode.m in Sources */,
+				22B562081CDFE12E00DCECF6 /* LzmaDec.c in Sources */,
+				22B562BE1CDFE12E00DCECF6 /* nsEUCTWProber.cpp in Sources */,
+				22B5622F1CDFE12E00DCECF6 /* XADRAR20CryptHandle.m in Sources */,
+				22B562921CDFE12E00DCECF6 /* CSHandle.m in Sources */,
+				22B5626F1CDFE12E00DCECF6 /* LZSS.c in Sources */,
+				22B562661CDFE12E00DCECF6 /* XADZipShrinkHandle.m in Sources */,
+				22B562141CDFE12E00DCECF6 /* SubAllocatorVariantH.c in Sources */,
+				22B561EB1CDFE12E00DCECF6 /* XAD7ZipAESHandle.m in Sources */,
+				22B561FD1CDFE12E00DCECF6 /* XADLZHParser.m in Sources */,
+				22B5628A1CDFE12E00DCECF6 /* CSBlockStreamHandle.m in Sources */,
+				22B562981CDFE12E00DCECF6 /* CSMultiHandle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B560A71CDFDFC400DCECF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B560B11CDFDFC400DCECF6 /* XADMasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22B560AE1CDFDFC400DCECF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B560A01CDFDFC400DCECF6 /* XADMaster */;
+			targetProxy = 22B560AD1CDFDFC400DCECF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22B560B31CDFDFC400DCECF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22B560B41CDFDFC400DCECF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22B560B61CDFDFC400DCECF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XADMaster/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.timoliver.XADMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		22B560B71CDFDFC400DCECF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XADMaster/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.timoliver.XADMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		22B560B91CDFDFC400DCECF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XADMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.timoliver.XADMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22B560BA1CDFDFC400DCECF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XADMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.timoliver.XADMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B5609B1CDFDFC400DCECF6 /* Build configuration list for PBXProject "XADMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B560B31CDFDFC400DCECF6 /* Debug */,
+				22B560B41CDFDFC400DCECF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B560B51CDFDFC400DCECF6 /* Build configuration list for PBXNativeTarget "XADMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B560B61CDFDFC400DCECF6 /* Debug */,
+				22B560B71CDFDFC400DCECF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B560B81CDFDFC400DCECF6 /* Build configuration list for PBXNativeTarget "XADMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B560B91CDFDFC400DCECF6 /* Debug */,
+				22B560BA1CDFDFC400DCECF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B560981CDFDFC400DCECF6 /* Project object */;
+}
