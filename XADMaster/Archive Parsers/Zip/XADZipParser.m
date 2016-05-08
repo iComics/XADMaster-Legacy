@@ -18,7 +18,7 @@
 
 
 
-static inline int imin(int a,int b) { return a<b?a:b; }
+//static inline int imin(int a,int b) { return a<b?a:b; }
 
 
 
@@ -948,7 +948,7 @@ isLastEntry:(BOOL)islastentry
 			if(vendor!=0x4541) [XADException raiseNotSupportedException];
 			if(keysize<1||keysize>3) [XADException raiseNotSupportedException];
 
-			int keybytes;
+			int keybytes = 0;
 			switch(keysize)
 			{
 				case 1: keybytes=16; break;

@@ -74,7 +74,7 @@
 		nil];
 
 		uint32_t headersize;
-		int os;
+		int os = 0;
 
 		if(level==0||level==1)
 		{

@@ -944,8 +944,7 @@ regex:(XADRegex *)regex firstFileExtension:(NSString *)firstext
 	XADString *actualcomment=[dict objectForKey:XADCommentKey];
 	if(extcomment && !actualcomment)
 	{
-		id plist=[NSPropertyListSerialization propertyListFromData:extcomment
-		mutabilityOption:0 format:NULL errorDescription:NULL];
+        id plist = [NSPropertyListSerialization propertyListWithData:extcomment options:0 format:nil error:NULL];
 
 		if(plist&&[plist isKindOfClass:[NSString class]])
 		[dict setObject:[self XADStringWithString:plist] forKey:XADCommentKey];

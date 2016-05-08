@@ -128,8 +128,8 @@ extern NSString *XADFinderFlags;
 resourceFork:(BOOL)resfork;
 -(BOOL)extractEntry:(int)n to:(NSString *)destination deferDirectories:(BOOL)defer
 dataFork:(BOOL)datafork resourceFork:(BOOL)resfork;
--(BOOL)extractEntry:(int)n to:(NSString *)destination deferDirectories:(BOOL)defer
-dataFork:(BOOL)datafork resourceFork:(BOOL)resfork;
+//-(BOOL)extractEntry:(int)n to:(NSString *)destination deferDirectories:(BOOL)defer
+//dataFork:(BOOL)datafork resourceFork:(BOOL)resfork;
 -(BOOL)extractArchiveEntry:(int)n to:(NSString *)destination;
 
 -(BOOL)_extractEntry:(int)n as:(NSString *)destfile deferDirectories:(BOOL)defer
@@ -191,8 +191,8 @@ dataFork:(BOOL)datafork resourceFork:(BOOL)resfork;
 #define XADOverwrite XADOverwriteAction
 #define XADRename XADRenameAction
 
-typedef XADError xadERROR;
-typedef off_t xadSize;
+//typedef XADError xadERROR;
+//typedef off_t xadSize;
 
 #define XADERR_NO XADNoError
 #if 0

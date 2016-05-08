@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XADMasterTests/XADMasterTests.m"
+            timestampString = "484436973.830914"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "-testZIPParser"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XADMasterTests testZIPParser]"
+                  moduleName = "XADMasterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TiM/Projects/XADMaster/XADMasterTests/XADMasterTests.m"
+                  timestampString = "484436976.426118"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "473">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XADMasterTests testZIPParser]"
+                  moduleName = "XADMasterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TiM/Projects/XADMaster/XADMasterTests/XADMasterTests.m"
+                  timestampString = "484436976.426368"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1461">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XADMasterTests testZIPParser]"
+                  moduleName = "XADMasterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TiM/Projects/XADMaster/XADMasterTests/XADMasterTests.m"
+                  timestampString = "484436976.426734"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1488">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XADMasterTests testZIPParser]"
+                  moduleName = "XADMasterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TiM/Projects/XADMaster/XADMasterTests/XADMasterTests.m"
+                  timestampString = "484436976.426939"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1568">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1024,9 +1024,9 @@ static xadINT32 LhA_Decrunch(struct xadInOut *io, xadUINT32 Method)
 
   if((dd = xadAllocVec(XADM sizeof(struct LhADecrData), XADMEMF_PUBLIC|XADMEMF_CLEAR)))
   {
-    void (*DecodeStart)(struct LhADecrData *);
-    xadUINT16 (*DecodeC)(struct LhADecrData *);
-    xadUINT16 (*DecodeP)(struct LhADecrData *);
+    void (*DecodeStart)(struct LhADecrData *) = NULL;
+    xadUINT16 (*DecodeC)(struct LhADecrData *) = NULL;
+      xadUINT16 (*DecodeP)(struct LhADecrData *) = NULL;
 
     /* most often used stuff */
     dd->io = io;

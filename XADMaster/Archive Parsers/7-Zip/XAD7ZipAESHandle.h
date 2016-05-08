@@ -1,6 +1,6 @@
 #import "CSBlockStreamHandle.h"
 
-#import "../../Crypto/aes.h"
+#import "aes.h"
 
 @interface XAD7ZipAESHandle:CSBlockStreamHandle
 {

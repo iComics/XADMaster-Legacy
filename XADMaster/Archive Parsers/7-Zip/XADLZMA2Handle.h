@@ -8,7 +8,7 @@
 #define UInt16 LzmaUInt16
 #define UInt32 LzmaUInt32
 #define UInt64 LzmaUInt64
-#import "../Other/lzma/Lzma2Dec.h"
+#import "Lzma2Dec.h"
 #undef Byte
 #undef UInt32
 #undef UInt16

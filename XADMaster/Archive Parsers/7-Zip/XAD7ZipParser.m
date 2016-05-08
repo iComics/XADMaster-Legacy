@@ -303,7 +303,7 @@ static void FindAttribute(CSHandle *handle,int attribute)
 {
 	NSNumber *yes=[NSNumber numberWithBool:YES];
 	int num=(int)[array count];
-	int byte;
+	int byte = 0;
 	for(int i=0;i<num;i++)
 	{
 		if(i%8==0) byte=[handle readUInt8];
@@ -316,7 +316,7 @@ static void FindAttribute(CSHandle *handle,int attribute)
 	if([handle readUInt8]) return [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0,num)];
 
 	NSMutableIndexSet *indexes=[NSMutableIndexSet indexSet];
-	int byte;
+	int byte = 0;
 	for(int i=0;i<num;i++)
 	{
 		if(i%8==0) byte=[handle readUInt8];

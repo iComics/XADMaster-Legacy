@@ -117,7 +117,7 @@
 			int c=CSInputNextSymbolUsingCode(input,metacode);
 			if(c<=2)
 			{
-				int zeros;
+				int zeros=0;
 				switch(c)
 				{
 					case 0: zeros=1; break;

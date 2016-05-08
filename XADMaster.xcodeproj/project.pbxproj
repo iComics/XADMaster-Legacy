@@ -26,7 +26,7 @@
 		22B561F71CDFE12E00DCECF6 /* XADLArcHandles.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560CB1CDFE12D00DCECF6 /* XADLArcHandles.m */; };
 		22B561F81CDFE12E00DCECF6 /* XADLZHDynamicHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560CC1CDFE12D00DCECF6 /* XADLZHDynamicHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22B561F91CDFE12E00DCECF6 /* XADLZHDynamicHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560CD1CDFE12D00DCECF6 /* XADLZHDynamicHandle.m */; };
-		22B561FA1CDFE12E00DCECF6 /* XADLZHOldHandles.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560CE1CDFE12D00DCECF6 /* XADLZHOldHandles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B561FA1CDFE12E00DCECF6 /* XADLZHOldHandles.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560CE1CDFE12D00DCECF6 /* XADLZHOldHandles.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		22B561FB1CDFE12E00DCECF6 /* XADLZHOldHandles.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560CF1CDFE12D00DCECF6 /* XADLZHOldHandles.m */; };
 		22B561FC1CDFE12E00DCECF6 /* XADLZHParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B560D01CDFE12D00DCECF6 /* XADLZHParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22B561FD1CDFE12E00DCECF6 /* XADLZHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B560D11CDFE12D00DCECF6 /* XADLZHParser.m */; };
@@ -1151,7 +1151,6 @@
 				22B5625B1CDFE12E00DCECF6 /* XADWinZipWavPackHandle.h in Headers */,
 				22B562FA1CDFE12E00DCECF6 /* XADPlatform.h in Headers */,
 				22B562F81CDFE12E00DCECF6 /* XADPath.h in Headers */,
-				22B561FA1CDFE12E00DCECF6 /* XADLZHOldHandles.h in Headers */,
 				22B562F61CDFE12E00DCECF6 /* XADMacArchiveParser.h in Headers */,
 				22B562771CDFE12E00DCECF6 /* XADPrefixCode.h in Headers */,
 				22B562381CDFE12E00DCECF6 /* XADRARInputHandle.h in Headers */,
@@ -1190,6 +1189,7 @@
 				22B5623A1CDFE12E00DCECF6 /* XADRARParser.h in Headers */,
 				22B562EE1CDFE12E00DCECF6 /* XADArchive.h in Headers */,
 				22B560A51CDFDFC400DCECF6 /* XADMaster.h in Headers */,
+				22B561FA1CDFE12E00DCECF6 /* XADLZHOldHandles.h in Headers */,
 				22B562911CDFE12E00DCECF6 /* CSHandle.h in Headers */,
 				22B562671CDFE12E00DCECF6 /* Checksums.h in Headers */,
 				22B562DF1CDFE12E00DCECF6 /* Realloc.h in Headers */,
@@ -1564,10 +1564,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1611,6 +1608,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
